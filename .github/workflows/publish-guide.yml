@@ -1,0 +1,37 @@
+name: Publish reviewed guide
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'submissions/*.json'
+  workflow_dispatch:
+    inputs:
+      submissionId:
+        description: '需重试发布的投稿 ID'
+        required: true
+        type: string
+permissions:
+  contents: write
+  pull-requests: read
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: guide-publishing
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Revalidate asset, review and publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          GH_SHA: ${{ github.sha }}
+          GH_BEFORE: ${{ github.event.before }}
+          SUBMISSION_ID: ${{ inputs.submissionId }}
+          REVIEWER_LOGINS: ${{ vars.GUIDE_REVIEWER_LOGINS }}
+          APP_VERSION: ${{ vars.GUIDE_APP_VERSION }}
+        run: node scripts/publish-submission.mjs

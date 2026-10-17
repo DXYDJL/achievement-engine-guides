@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://achievement-engine.local/schemas/aeguide-guide.schema.json",
+  "title": "Achievement Engine community guide body v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "categories", "guide"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "categories": {
+      "type": "object", "additionalProperties": false, "required": ["custom", "presets"],
+      "properties": {
+        "custom": { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["key", "label", "color"], "properties": { "key": { "type": "string" }, "label": { "type": "string" }, "color": { "type": "string" } } } },
+        "presets": { "type": "object", "additionalProperties": { "type": "string" } }
+      }
+    },
+    "guide": {
+      "type": "object", "additionalProperties": false, "required": ["game_notes", "timeline"],
+      "properties": {
+        "game_notes": { "type": "object", "additionalProperties": false, "required": ["new_game_plus", "tips", "missable"], "properties": {
+          "new_game_plus": { "type": "string" }, "tips": { "type": "string" },
+          "missable": { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["achievement_id", "chapter", "reason"], "properties": { "achievement_id": { "type": "string" }, "chapter": { "type": "string" }, "reason": { "type": "string" } } } }
+        } },
+        "timeline": { "type": "array", "items": { "$ref": "#/$defs/chapter" } }
+      }
+    }
+  },
+  "$defs": {
+    "chapter": { "type": "object", "additionalProperties": false, "required": ["type", "achievement_id", "chapter", "description", "content", "sub_achievements"], "properties": {
+      "type": { "const": "main_anchor" }, "achievement_id": { "type": "string" },
+      "progress_anchor": { "type": "object", "additionalProperties": false, "required": ["achievement_id", "triggerType"], "properties": { "achievement_id": { "type": "string" }, "triggerType": { "const": "CHAPTER_COMPLETE" } } },
+      "chapter": { "type": "string" }, "description": { "type": "string" }, "content": { "type": "string" },
+      "sub_achievements": { "type": "array", "items": { "$ref": "#/$defs/sub" } }
+    } },
+    "sub": { "type": "object", "additionalProperties": false, "required": ["achievement_id", "type", "note", "content"], "properties": {
+      "achievement_id": { "type": "string" }, "type": { "type": "string" }, "note": { "type": "string" }, "content": { "type": "string" },
+      "items": { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["name", "location", "order", "missable"], "properties": { "name": { "type": "string" }, "location": { "type": "string" }, "order": { "type": "number" }, "missable": { "type": "boolean" } } } }
+    } }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://achievement-engine.local/schemas/aeguide-manifest.schema.json",
+  "title": "Achievement Engine community guide manifest v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["format", "schemaVersion", "guideId", "version", "game", "guide", "compatibility", "author", "license", "contentFile", "contentSha256", "assets"],
+  "properties": {
+    "format": { "const": "aeguide" },
+    "schemaVersion": { "const": 1 },
+    "guideId": { "type": "string", "format": "uuid" },
+    "version": { "$ref": "#/$defs/version" },
+    "game": {
+      "type": "object", "additionalProperties": false,
+      "required": ["platform", "platformGameId", "title"],
+      "properties": {
+        "platform": { "type": "string", "minLength": 1, "maxLength": 32 },
+        "platformGameId": { "type": "string", "minLength": 1, "maxLength": 100 },
+        "title": { "type": "string", "minLength": 1, "maxLength": 200 }
+      }
+    },
+    "guide": {
+      "type": "object", "additionalProperties": false,
+      "required": ["title", "type", "language", "summary"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "type": { "enum": ["workflow", "topic", "region", "hybrid"] },
+        "language": { "type": "string", "minLength": 2, "maxLength": 35 },
+        "summary": { "type": "string", "maxLength": 2000 }
+      }
+    },
+    "compatibility": {
+      "type": "object", "additionalProperties": false,
+      "required": ["minAppVersion"],
+      "properties": { "minAppVersion": { "$ref": "#/$defs/version" } }
+    },
+    "author": {
+      "type": "object", "additionalProperties": false,
+      "required": ["displayName"],
+      "properties": {
+        "displayName": { "type": "string", "minLength": 1, "maxLength": 100 },
+        "githubLogin": { "type": "string", "minLength": 1, "maxLength": 39 }
+      }
+    },
+    "license": { "type": "string", "minLength": 1, "maxLength": 100 },
+    "contentFile": { "const": "guide.json" },
+    "contentSha256": { "$ref": "#/$defs/hash" },
+    "assets": {
+      "type": "array", "maxItems": 117,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["path", "mimeType", "size", "sha256"],
+        "properties": {
+          "path": { "type": "string", "pattern": "^assets/[a-f0-9]{64}\\.(png|webp|jpg)$" },
+          "mimeType": { "enum": ["image/png", "image/webp", "image/jpeg"] },
+          "size": { "type": "integer", "minimum": 1, "maximum": 15728640 },
+          "sha256": { "$ref": "#/$defs/hash" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "version": { "type": "string", "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$" },
+    "hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+  }
+}
