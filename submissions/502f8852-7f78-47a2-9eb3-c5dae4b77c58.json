@@ -1,0 +1,86 @@
+{
+  "submissionId": "502f8852-7f78-47a2-9eb3-c5dae4b77c58",
+  "guideId": "8e43e947-bef1-41f9-b839-a02e58afbb64",
+  "version": "1.0.0",
+  "packageSha256": "0f9e6aab2588fa1fafaa8f6bc2712e9400147d445cdb0bb5697b10f6c9230bfa",
+  "draftReleaseId": 416612744,
+  "assetId": 654123038,
+  "manifest": {
+    "format": "aeguide",
+    "schemaVersion": 1,
+    "guideId": "8e43e947-bef1-41f9-b839-a02e58afbb64",
+    "version": "1.0.0",
+    "game": {
+      "platform": "steam",
+      "platformGameId": "403640",
+      "title": "Dishonored 2"
+    },
+    "guide": {
+      "title": "《耻辱2 Dishonored2全成就攻略》",
+      "type": "workflow",
+      "language": "zh-CN",
+      "summary": ""
+    },
+    "compatibility": {
+      "minAppVersion": "0.8.4"
+    },
+    "author": {
+      "displayName": "dxydjl0521-maker",
+      "githubLogin": "dxydjl0521-maker"
+    },
+    "license": "CC-BY-NC-SA-4.0",
+    "contentFile": "guide.json",
+    "contentSha256": "b4e717c0b64158f7ad9e2009a73ce543eeb92218b0b9e292839d63749387373f",
+    "assets": [
+      {
+        "path": "assets/aec819a857486ba1da1a6d81bd38d2f71be759f9ade86c0cc5bd7da8b13721f2.png",
+        "mimeType": "image/png",
+        "size": 12438,
+        "sha256": "aec819a857486ba1da1a6d81bd38d2f71be759f9ade86c0cc5bd7da8b13721f2"
+      },
+      {
+        "path": "assets/dcfcb4682ca689f7c21f54972c5272b88900c65b29789cd79942db79b79bc546.png",
+        "mimeType": "image/png",
+        "size": 15242,
+        "sha256": "dcfcb4682ca689f7c21f54972c5272b88900c65b29789cd79942db79b79bc546"
+      },
+      {
+        "path": "assets/9f37542e73d74f84f23ecf8f8850ed04acd974802760459be2589814b21c3a6a.png",
+        "mimeType": "image/png",
+        "size": 16911,
+        "sha256": "9f37542e73d74f84f23ecf8f8850ed04acd974802760459be2589814b21c3a6a"
+      },
+      {
+        "path": "assets/8881dcfc831548a1d9a505fd275b6c31c0dcdf0ec5f0a884612541417cbcd2c3.png",
+        "mimeType": "image/png",
+        "size": 13472,
+        "sha256": "8881dcfc831548a1d9a505fd275b6c31c0dcdf0ec5f0a884612541417cbcd2c3"
+      },
+      {
+        "path": "assets/12e9cd55fbee7bc6c5fbd17717fcfa85d9e8049bccabbd8e1fa77445917facaa.png",
+        "mimeType": "image/png",
+        "size": 17838,
+        "sha256": "12e9cd55fbee7bc6c5fbd17717fcfa85d9e8049bccabbd8e1fa77445917facaa"
+      },
+      {
+        "path": "assets/015f82dbbde1f1a6b726b96a7102a26a324222164be28943d4c027adb6cd1554.png",
+        "mimeType": "image/png",
+        "size": 13844,
+        "sha256": "015f82dbbde1f1a6b726b96a7102a26a324222164be28943d4c027adb6cd1554"
+      },
+      {
+        "path": "assets/530b1accc600c272e30f9584ec73b6513a774e9f5feb6a7115d98b337c359aa5.png",
+        "mimeType": "image/png",
+        "size": 17888,
+        "sha256": "530b1accc600c272e30f9584ec73b6513a774e9f5feb6a7115d98b337c359aa5"
+      },
+      {
+        "path": "assets/c8a03bdbd4b09b0ed9be17c895730671dbb66654286204ab1505f6e7e29530a8.png",
+        "mimeType": "image/png",
+        "size": 16182,
+        "sha256": "c8a03bdbd4b09b0ed9be17c895730671dbb66654286204ab1505f6e7e29530a8"
+      }
+    ]
+  },
+  "submittedAt": "2026-10-18T18:05:38.399Z"
+}
