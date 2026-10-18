@@ -25,6 +25,31 @@
       "releaseId": 416005730,
       "assetId": 651332971,
       "publishedAt": "2026-10-17T19:37:27.944Z"
+    },
+    {
+      "guideId": "0abf39ed-b08b-40c6-991b-e5bcbe0c3312",
+      "version": "1.0.0",
+      "game": {
+        "platform": "steam",
+        "platformGameId": "1449560",
+        "title": "Metro Exodus Enhanced Edition"
+      },
+      "guide": {
+        "title": "Metro Exodus Enhanced Edition 测试",
+        "type": "workflow",
+        "language": "zh-CN",
+        "summary": ""
+      },
+      "author": {
+        "displayName": "dxydjl0521-maker",
+        "githubLogin": "dxydjl0521-maker"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "minAppVersion": "0.8.4",
+      "sha256": "b5383758d483626f6746176699644429bb2957602f0512d7ae0fb945889ef0f4",
+      "releaseId": 416608568,
+      "assetId": 654105933,
+      "publishedAt": "2026-10-18T18:03:15.537Z"
     }
   ]
 }
