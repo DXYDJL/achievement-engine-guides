@@ -1,0 +1,37 @@
+{
+  "submissionId": "ff3f068e-d340-4e7a-9a1d-578115316b33",
+  "guideId": "882f01d4-38be-4758-8dde-2bdc33837f39",
+  "version": "1.0.0",
+  "packageSha256": "0317909b6e48a212a8f9cfe06319a399ba33cfc8c9adb0320fe0aa799c51a9dc",
+  "draftReleaseId": 416618887,
+  "assetId": 654149712,
+  "manifest": {
+    "format": "aeguide",
+    "schemaVersion": 1,
+    "guideId": "882f01d4-38be-4758-8dde-2bdc33837f39",
+    "version": "1.0.0",
+    "game": {
+      "platform": "steam",
+      "platformGameId": "870780",
+      "title": "Control Ultimate Edition"
+    },
+    "guide": {
+      "title": "《Control Ultimate Edition》All achievements guide",
+      "type": "workflow",
+      "language": "zh-CN",
+      "summary": ""
+    },
+    "compatibility": {
+      "minAppVersion": "0.8.4"
+    },
+    "author": {
+      "displayName": "dxydjl0521-maker",
+      "githubLogin": "dxydjl0521-maker"
+    },
+    "license": "CC-BY-NC-SA-4.0",
+    "contentFile": "guide.json",
+    "contentSha256": "2663478d5e6f5a74fb72037fb3d073a8b1c7013242069f1f20b7e9ead8967248",
+    "assets": []
+  },
+  "submittedAt": "2026-10-18T18:18:23.551Z"
+}
