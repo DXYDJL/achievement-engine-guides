@@ -75,6 +75,31 @@
       "releaseId": 416612744,
       "assetId": 654123038,
       "publishedAt": "2026-10-18T18:07:09.802Z"
+    },
+    {
+      "guideId": "882f01d4-38be-4758-8dde-2bdc33837f39",
+      "version": "1.0.0",
+      "game": {
+        "platform": "steam",
+        "platformGameId": "870780",
+        "title": "Control Ultimate Edition"
+      },
+      "guide": {
+        "title": "《Control Ultimate Edition》All achievements guide",
+        "type": "workflow",
+        "language": "zh-CN",
+        "summary": ""
+      },
+      "author": {
+        "displayName": "dxydjl0521-maker",
+        "githubLogin": "dxydjl0521-maker"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "minAppVersion": "0.8.4",
+      "sha256": "0317909b6e48a212a8f9cfe06319a399ba33cfc8c9adb0320fe0aa799c51a9dc",
+      "releaseId": 416618887,
+      "assetId": 654149712,
+      "publishedAt": "2026-10-18T19:36:54.243Z"
     }
   ]
 }
