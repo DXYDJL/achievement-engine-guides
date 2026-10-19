@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "forest_child",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "forest_child",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "forest_child"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "forest_child",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "forest_child",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "forest_child",
+      "field": "note",
+      "operation": "add",
+      "after": "全程潜行，不要杀任何人，打晕也不行。普通难度及以下没什么难点，高难度在最后潜入划船的时候非常容易被岸上的敌人发现，一定要有耐心，多用易拉罐来吸引敌人注意。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "forest_child",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}
