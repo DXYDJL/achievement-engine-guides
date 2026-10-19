@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "dlc_02_great_owl",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_great_owl",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_02_great_owl"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_great_owl",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_great_owl",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_great_owl",
+      "field": "note",
+      "operation": "add",
+      "after": "找到山姆的故事章节中黑夜猎手的所有秘密藏匿处。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_great_owl",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}
