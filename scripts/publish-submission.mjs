@@ -62,8 +62,9 @@ for (const { filename, record } of records) {
   const pr = linked?.find((item) => item.merged_at && item.base.ref === 'main' && item.head.ref === `submissions/${record.submissionId}`);
   if (!pr) throw new Error('Submission was not merged from its validated PR');
   const validation = await gh('GET', `/actions/workflows/validate-guide.yml/runs?event=pull_request&branch=${encodeURIComponent(pr.head.ref)}&per_page=100`);
-  if (!validation?.workflow_runs?.some((run) => run.conclusion === 'success'
-    && run.pull_requests?.some((linkedPr) => linkedPr.number === pr.number && linkedPr.head.sha === pr.head.sha)))
+  if (!validation?.workflow_runs?.some((run) => run.name === 'Validate guide submission'
+    && run.event === 'pull_request' && run.conclusion === 'success'
+    && run.head_branch === pr.head.ref && run.head_sha === pr.head.sha))
     throw new Error('Final PR revision has no successful validation run');
   const maintainers = new Set((process.env.GUIDE_MAINTAINERS || '').split(',').map((login) => login.trim().toLowerCase()).filter(Boolean));
   if (!maintainers.size) throw new Error('GUIDE_MAINTAINERS must list authorized reviewers');
