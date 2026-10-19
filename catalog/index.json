@@ -25,6 +25,31 @@
       "releaseId": 417344646,
       "assetId": 656405298,
       "publishedAt": "2026-10-19T14:01:14.010Z"
+    },
+    {
+      "guideId": "5db900d4-89a9-4401-8d3b-e0adf3a50d1f",
+      "version": "1.0.0",
+      "game": {
+        "platform": "steam",
+        "platformGameId": "1449560",
+        "title": "Metro Exodus Enhanced Edition"
+      },
+      "guide": {
+        "title": "Metro Exodus Enhanced Edition-全成就攻略（章节流程）",
+        "type": "workflow",
+        "language": "zh-CN",
+        "summary": ""
+      },
+      "author": {
+        "displayName": "dxydjl0521-maker",
+        "githubLogin": "dxydjl0521-maker"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "minAppVersion": "0.8.5",
+      "sha256": "7f69cd952ad980ca98611f2251cfddcab203603d7cc1c3b80d644d66b0af729a",
+      "releaseId": 417514480,
+      "assetId": 656821009,
+      "publishedAt": "2026-10-19T16:48:19.349Z"
     }
   ]
 }
