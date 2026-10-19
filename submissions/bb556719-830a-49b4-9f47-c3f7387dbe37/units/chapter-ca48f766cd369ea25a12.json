@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umve6n24d19",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d19",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d19",
+      "field": "chapter",
+      "operation": "add",
+      "after": "刷刷（本体）"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d19",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d19",
+      "field": "description",
+      "operation": "add",
+      "after": "这些成就只要在做任务和跑图时候多留意就好，基本都可以在通关前完成。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d19",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
