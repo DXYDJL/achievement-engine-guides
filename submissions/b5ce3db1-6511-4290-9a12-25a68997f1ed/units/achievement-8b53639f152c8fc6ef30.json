@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "d1",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "d1",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "d1"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "d1",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "d1",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "d1",
+      "field": "note",
+      "operation": "add",
+      "after": "杜克留队，如果没达成这个目标杜克会因伤无法与阿囧跳火车，留在怒火冲天的邪教徒大本营只有死路一条。伏尔加河可以获得的道德点：\n1.逃离教堂不伤及无辜不被发现\n2.高塔下从土匪手中救下教徒\n3.杜克藏身处左侧土匪窝救出两个教徒\n4.给小女孩泰迪熊，给斯捷潘吉他\n5.潜入船长室不杀人不被发现\n6.潜入西兰提乌斯房间不杀人不被发现，判断条件较为宽泛，酌情选择。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "d1",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}
