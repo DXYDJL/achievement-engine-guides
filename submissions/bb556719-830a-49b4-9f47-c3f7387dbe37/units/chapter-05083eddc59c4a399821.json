@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umve6n24db",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24db",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24db",
+      "field": "chapter",
+      "operation": "add",
+      "after": "武器（本体）"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24db",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24db",
+      "field": "description",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24db",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
