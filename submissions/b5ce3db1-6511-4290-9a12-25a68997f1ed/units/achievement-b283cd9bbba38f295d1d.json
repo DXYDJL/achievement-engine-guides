@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "crew_friend",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "crew_friend",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "crew_friend"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "crew_friend",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "crew_friend",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "crew_friend",
+      "field": "note",
+      "operation": "add",
+      "after": "吉他在我们去工厂必经之路的一个土匪高塔，塔底救一个本地人可以获得道德点，泰迪熊在去找乘客车厢路上左侧化工储油罐顶部"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "crew_friend",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}
