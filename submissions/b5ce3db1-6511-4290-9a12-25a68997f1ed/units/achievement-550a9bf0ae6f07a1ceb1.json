@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "full_armor_set",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "full_armor_set",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "full_armor_set"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "full_armor_set",
+      "field": "content",
+      "operation": "add",
+      "after": "<img src=\"assets/77cc49b15b9a40f8edaf8d22c0d1fce4c33025569f55b5d8e02a171c7f36cd15.png\" alt=\"\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\">"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "full_armor_set",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "full_armor_set",
+      "field": "note",
+      "operation": "add",
+      "after": "找到阿尔乔姆服装的所有升级配件。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "full_armor_set",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}
