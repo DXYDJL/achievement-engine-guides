@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-ACCEPTANCE_001",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-ACCEPTANCE_001",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACCEPTANCE_001"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-ACCEPTANCE_001",
+      "field": "chapter",
+      "operation": "add",
+      "after": "投稿流程验收"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-ACCEPTANCE_001",
+      "field": "content",
+      "operation": "add",
+      "after": "<figure><img src=\"assets/692d2ae2f30c861ff6b2cd91e28089e502ab37f71da6d7ec1a610d0cd3b6d607.png\" alt=\"合成验收图片\"><figcaption>服务端应净化图片元数据。</figcaption></figure>"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-ACCEPTANCE_001",
+      "field": "description",
+      "operation": "add",
+      "after": "合成内容，不对应真实游戏。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-ACCEPTANCE_001",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
