@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_31",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_31",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_31"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_31",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>在不造成任何伤亡的情况下完成一个章节。</p><p>同样建议在<b>第一章跳火车速通</b>时一并完成。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_31",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_31",
+      "field": "note",
+      "operation": "add",
+      "after": "在不造成任何伤亡的情况下完成一个章节。同样建议第一章跳火车速通。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_31",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}
