@@ -1,0 +1,15 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-putrification",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-putrification",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "guide"
+      ]
+    }
+  ]
+}
