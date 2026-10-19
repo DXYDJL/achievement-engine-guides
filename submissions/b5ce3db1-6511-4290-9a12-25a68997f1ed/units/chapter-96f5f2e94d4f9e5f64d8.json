@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-dlc_02_the_last_hero",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-dlc_02_the_last_hero",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_02_the_last_hero"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-dlc_02_the_last_hero",
+      "field": "chapter",
+      "operation": "add",
+      "after": "DLC：山姆的故事"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-dlc_02_the_last_hero",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-dlc_02_the_last_hero",
+      "field": "description",
+      "operation": "add",
+      "after": "完成山姆的故事章节"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-dlc_02_the_last_hero",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
