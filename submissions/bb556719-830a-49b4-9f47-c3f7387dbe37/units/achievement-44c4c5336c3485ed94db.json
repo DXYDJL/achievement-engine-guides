@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "HILT_OF_CALIBURN_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "HILT_OF_CALIBURN_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "HILT_OF_CALIBURN_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HILT_OF_CALIBURN_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HILT_OF_CALIBURN_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HILT_OF_CALIBURN_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "获得秘力武器"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HILT_OF_CALIBURN_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}
