@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "MASTER_OF_TARTARUS_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "MASTER_OF_TARTARUS_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "MASTER_OF_TARTARUS_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MASTER_OF_TARTARUS_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MASTER_OF_TARTARUS_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MASTER_OF_TARTARUS_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "完成基础中所有任务\n包括DLC的主线任务和支线任务。\n第一个支线：清理完仓库那边的地点后回汇合地找波普。 \n第二个支线：运输通道控制点，处理完一系列谜题后，有一波冲突战。打完后上最高处，看见指示牌Transit Access 下楼梯进电梯（即上一个成就的任务）。\n第三个支线：洞穴系统控制点抬头看有个桥，用制造技能上去，一路走能看见有个能打碎的石柱，触发任务。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MASTER_OF_TARTARUS_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}
