@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umve6n24d1g",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d1g",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d1g",
+      "field": "chapter",
+      "operation": "add",
+      "after": "收集（本体）"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d1g",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d1g",
+      "field": "description",
+      "operation": "add",
+      "after": "这三个成就基本上算是流程杯了，只要不是专注于跑图的话，基本上到任务6左右就会解锁。想要全收集的hy，我这里给一个全收集的流程视频链接（b站），可以作为参考。BV1Bf4y1Y7AE"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d1g",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
