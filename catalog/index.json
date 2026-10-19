@@ -1,4 +1,30 @@
 {
   "schemaVersion": 1,
-  "entries": []
+  "entries": [
+    {
+      "guideId": "8ad84c73-59aa-4eb1-b6da-d2d6726a7022",
+      "version": "1.0.0",
+      "game": {
+        "platform": "steam",
+        "platformGameId": "4094660",
+        "title": "Rivage"
+      },
+      "guide": {
+        "title": "《Rivage 她在时间之外》全成就/谜题攻略",
+        "type": "workflow",
+        "language": "zh-CN",
+        "summary": "1.本攻略适用于完成所有谜题流程的玩家，建议二周目使用\n2.本游戏的所有谜题答案随机，因此，本文给出的谜题答案大多无法直接参考，实际答案需根据攻略中提示的解法，结合你游戏里的文本信息解出。\n3.流程按照01～05关卡划分，本人实测24循环通关，由于攻略是我边玩边制作的，中间存在几次失误（浪费了几次循环），估算容错循环为5次以内。\n4.跟着攻略步骤时，由于电量问题无法到达某些区域时（不包含量子电池误用），可另开新一完整循环后直奔目标。"
+      },
+      "author": {
+        "displayName": "dxydjl0521-maker",
+        "githubLogin": "dxydjl0521-maker"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "minAppVersion": "0.8.4",
+      "sha256": "da560fd34fed2dfa4af3e285c7e24bdd711299fb9e737e58efa126ecd5d95d63",
+      "releaseId": 416943662,
+      "assetId": 655371442,
+      "publishedAt": "2026-10-19T06:20:51.026Z"
+    }
+  ]
 }
