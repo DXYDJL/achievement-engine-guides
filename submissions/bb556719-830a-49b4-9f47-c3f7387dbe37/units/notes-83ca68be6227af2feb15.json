@@ -1,0 +1,27 @@
+{
+  "entityType": "notes",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "missable",
+      "operation": "add",
+      "after": []
+    },
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "new_game_plus",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "tips",
+      "operation": "add",
+      "after": "全成就需要2个DLC.\n因为本游戏没有错过就无法完成的成就，所以本篇指南按照本体和dlc的顺序展开。\n本体成就：（共46个成就）\n\n注：本篇文章中有一些内容是搬运的，并非侵权，如果觉得有相关问题可以私信我。\n小黑盒链接：\nhttps://api.xiaoheihe.cn/v3/bbs/app/api/web/share?h_camp=link&h_src=YXBwX3NoYXJl&link_id=88146fd2eb2e&new_post_share_style=true"
+    }
+  ]
+}
