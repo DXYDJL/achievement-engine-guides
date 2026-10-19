@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "CREATE_DESTROY_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "CREATE_DESTROY_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "CREATE_DESTROY_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CREATE_DESTROY_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CREATE_DESTROY_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CREATE_DESTROY_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "使用形状和断裂总共 100 次\n造石头在汇合处学，拆石头在右边路的最终点学，多用，基本上中期就会跳"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CREATE_DESTROY_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "累计"
+    }
+  ]
+}
