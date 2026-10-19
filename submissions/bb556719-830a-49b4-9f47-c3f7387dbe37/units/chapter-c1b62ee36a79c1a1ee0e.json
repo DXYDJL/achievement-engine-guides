@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umve6n24d1w",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d1w",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d1w",
+      "field": "chapter",
+      "operation": "add",
+      "after": "DLC：地基"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d1w",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d1w",
+      "field": "description",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d1w",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
