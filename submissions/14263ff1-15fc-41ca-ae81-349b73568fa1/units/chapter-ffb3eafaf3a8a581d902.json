@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umukk87nw8o",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8o",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8o",
+      "field": "chapter",
+      "operation": "add",
+      "after": "二周目 · 超能力成就"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8o",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8o",
+      "field": "description",
+      "operation": "add",
+      "after": "这 7 条都需要超能力，一周目走「无超能力」路线拿不到，安排在二周目。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8o",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
