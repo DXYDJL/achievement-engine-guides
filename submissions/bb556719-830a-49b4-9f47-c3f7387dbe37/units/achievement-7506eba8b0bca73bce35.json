@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "FRAMED_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "FRAMED_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "FRAMED_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "FRAMED_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "FRAMED_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "FRAMED_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "击败西杰\n研究区仪式处左边区域共时实验室的镜子测试处，进去就接到任务：自我镜像。完整任务b站链接：BV1614y1T7v4"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "FRAMED_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "boss"
+    }
+  ]
+}
