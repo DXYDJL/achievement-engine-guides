@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACCEPTANCE_002",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACCEPTANCE_002",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACCEPTANCE_002"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACCEPTANCE_002",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>维护者应能在 PR 中审阅这条合成变更。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACCEPTANCE_002",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACCEPTANCE_002",
+      "field": "note",
+      "operation": "add",
+      "after": "验证单元级差异。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACCEPTANCE_002",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}
