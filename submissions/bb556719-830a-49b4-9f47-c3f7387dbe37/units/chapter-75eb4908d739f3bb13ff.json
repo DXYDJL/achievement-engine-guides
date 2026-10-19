@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umve6n24d1k",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d1k",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d1k",
+      "field": "chapter",
+      "operation": "add",
+      "after": "DLC：异世界事件"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d1k",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d1k",
+      "field": "description",
+      "operation": "add",
+      "after": "注：要想进入该dlc，需要完成本体主线剧情第七章（敌人的面目）后，从行政中心去往电梯的路上会接到热线电话，电梯多了一个“调查部”的楼层，开启DLC任务“黑暗之地”。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d1k",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
