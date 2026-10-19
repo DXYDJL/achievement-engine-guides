@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "INSULAR_TELEKINESIS_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "INSULAR_TELEKINESIS_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "INSULAR_TELEKINESIS_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "INSULAR_TELEKINESIS_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "INSULAR_TELEKINESIS_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "INSULAR_TELEKINESIS_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "获得护盾技能\n在去维修部的维修中心，进去直走到入口通道处，地上有标板，任务叫一次不错的防守，接到了往回走就到地方了，完成任务就会解锁"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "INSULAR_TELEKINESIS_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "技能"
+    }
+  ]
+}
