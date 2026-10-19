@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_47",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_47",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_47"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_47",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>在卡纳卡找到三对音乐二重奏，并聆听他们的乐器。</p><p>分布在<b>第二、六、八章</b>。多听几遍，他们手放下后就是一遍完毕。</p><p><b>注意：</b>如果之前抢劫黑市商店次数太多，第八章中他们就不会出现了。想稳拿就少抢几次黑市。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_47",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_47",
+      "field": "note",
+      "operation": "add",
+      "after": "在卡纳卡找到三对音乐二重奏并聆听。分布在第二、六、八章。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_47",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}
