@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umukk87nw91",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw91",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw91",
+      "field": "chapter",
+      "operation": "add",
+      "after": "收集成就"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw91",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw91",
+      "field": "description",
+      "operation": "add",
+      "after": "推荐一周目完成 —— 二周目再补的话，「Art Collector」需要重新全收集，不是补上缺的那一幅就行。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw91",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
