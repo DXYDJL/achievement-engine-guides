@@ -1,0 +1,18 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-exodus",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-exodus",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "martian",
+        "coachman",
+        "aurora",
+        "on_the_air"
+      ]
+    }
+  ]
+}
