@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "MARSHALL_MARSHALL_MARSHALL_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "MARSHALL_MARSHALL_MARSHALL_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "MARSHALL_MARSHALL_MARSHALL_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MARSHALL_MARSHALL_MARSHALL_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MARSHALL_MARSHALL_MARSHALL_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MARSHALL_MARSHALL_MARSHALL_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "完成任务4"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MARSHALL_MARSHALL_MARSHALL_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "主线"
+    }
+  ]
+}
