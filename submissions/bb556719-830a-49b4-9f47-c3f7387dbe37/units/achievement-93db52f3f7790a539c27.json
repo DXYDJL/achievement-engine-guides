@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "TAKING_THE_HISS_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "TAKING_THE_HISS_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "TAKING_THE_HISS_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TAKING_THE_HISS_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TAKING_THE_HISS_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TAKING_THE_HISS_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "对抗哈特曼\n不难打，多留意头顶的灯就好"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TAKING_THE_HISS_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "主线"
+    }
+  ]
+}
