@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "librarian",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "librarian",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "librarian"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "librarian",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "librarian",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "librarian",
+      "field": "note",
+      "operation": "add",
+      "after": "找到全部70页隐藏的日记页。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "librarian",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}

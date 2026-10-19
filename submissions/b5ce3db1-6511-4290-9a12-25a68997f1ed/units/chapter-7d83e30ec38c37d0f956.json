@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-spoiled_dinner",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-spoiled_dinner",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "spoiled_dinner"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-spoiled_dinner",
+      "field": "chapter",
+      "operation": "add",
+      "after": "亚曼托"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-spoiled_dinner",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-spoiled_dinner",
+      "field": "description",
+      "operation": "add",
+      "after": "完成关卡亚曼托"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-spoiled_dinner",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

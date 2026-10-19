@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-mutation_1",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-mutation_1",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "mutation_1"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-mutation_1",
+      "field": "chapter",
+      "operation": "add",
+      "after": "新游戏+"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-mutation_1",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-mutation_1",
+      "field": "description",
+      "operation": "add",
+      "after": "在新游戏+模式，采用任何修改模组并完成游戏"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-mutation_1",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-dlc_02_the_last_hero",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-dlc_02_the_last_hero",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "dlc_02_cinephile",
+        "dlc_02_trapper",
+        "dlc_02_untouchable",
+        "dlc_02_a_man_of_principle",
+        "dlc_02_great_owl",
+        "dlc_02_music_lover",
+        "dlc_02_lord_of_war"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "coachman",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "coachman",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "coachman"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "coachman",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "coachman",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "coachman",
+      "field": "note",
+      "operation": "add",
+      "after": "在关卡莫斯科中最后炸火车时，需分离所有火车车厢。第一次在跳上火车后，从侧面进入车厢，在门左边有阀门可分离；第二次在下一节车厢连接处，同样在门旁操作。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "coachman",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

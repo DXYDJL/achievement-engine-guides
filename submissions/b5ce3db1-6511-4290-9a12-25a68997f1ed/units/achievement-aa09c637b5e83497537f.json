@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "polite_saboteur",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "polite_saboteur",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "polite_saboteur"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "polite_saboteur",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "polite_saboteur",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "polite_saboteur",
+      "field": "note",
+      "operation": "add",
+      "after": "近战击杀或击晕50个敌人。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "polite_saboteur",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}

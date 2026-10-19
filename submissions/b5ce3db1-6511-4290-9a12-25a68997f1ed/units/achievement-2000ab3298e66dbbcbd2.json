@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "on_the_air",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "on_the_air",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "on_the_air"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "on_the_air",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "on_the_air",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "on_the_air",
+      "field": "note",
+      "operation": "add",
+      "after": "关卡冬季中当安娜给你展示地图的时候不进入下一关，坐在收音机旁调试，可以收到两个信号，一个是斯捷潘想听的音乐，一个是基里尔向父亲发出的求救信号，收到一个就行。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "on_the_air",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

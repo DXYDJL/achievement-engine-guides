@@ -1,0 +1,16 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-mutation_1",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-mutation_1",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "iron_man_1",
+        "toy_seller"
+      ]
+    }
+  ]
+}

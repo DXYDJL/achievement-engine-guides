@@ -1,0 +1,26 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umvdv9tvf14",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umvdv9tvf14",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "gunsmith",
+        "polite_saboteur",
+        "constructor",
+        "sniper",
+        "mutant_killer",
+        "professional",
+        "robin_hood",
+        "tidyman",
+        "last_minute_man",
+        "headhunter",
+        "librarian",
+        "old_world_pictures"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-dlc_01_new_year",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-dlc_01_new_year",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_01_new_year"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-dlc_01_new_year",
+      "field": "chapter",
+      "operation": "add",
+      "after": "DLC：两个上校"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-dlc_01_new_year",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-dlc_01_new_year",
+      "field": "description",
+      "operation": "add",
+      "after": "庆祝两个上校章节中的新年"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-dlc_01_new_year",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

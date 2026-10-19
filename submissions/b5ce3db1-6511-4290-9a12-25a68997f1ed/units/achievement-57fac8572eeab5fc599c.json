@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "firebird",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "firebird",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "firebird"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "firebird",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "firebird",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "firebird",
+      "field": "note",
+      "operation": "add",
+      "after": "在关卡伏尔加河中，用燃烧瓶杀死一个恶魔。在泰迪熊支线任务地点上方有一个沉睡的恶魔。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "firebird",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}

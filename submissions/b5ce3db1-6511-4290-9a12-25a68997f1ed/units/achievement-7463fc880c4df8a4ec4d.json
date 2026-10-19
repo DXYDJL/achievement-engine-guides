@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "robin_hood",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "robin_hood",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "robin_hood"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "robin_hood",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "robin_hood",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "robin_hood",
+      "field": "note",
+      "operation": "add",
+      "after": "用十字弓击杀30个敌人。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "robin_hood",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "fisherman",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "fisherman",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "fisherman"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "fisherman",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "fisherman",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "fisherman",
+      "field": "note",
+      "operation": "add",
+      "after": "找火车拖车的时候在工厂里最后拉扳手，先把右手的鱼饵放下，再等沙皇鱼来的时候拉下扳手"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "fisherman",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

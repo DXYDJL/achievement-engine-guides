@@ -1,0 +1,15 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-spoiled_dinner",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-spoiled_dinner",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "righteous_vengeance"
+      ]
+    }
+  ]
+}

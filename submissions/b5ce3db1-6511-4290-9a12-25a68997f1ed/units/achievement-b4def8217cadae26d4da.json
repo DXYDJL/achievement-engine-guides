@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "driver",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "driver",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "driver"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "driver",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "driver",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "driver",
+      "field": "note",
+      "operation": "add",
+      "after": "在关卡里海中驾驶面包车。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "driver",
+      "field": "type",
+      "operation": "add",
+      "after": "流程"
+    }
+  ]
+}

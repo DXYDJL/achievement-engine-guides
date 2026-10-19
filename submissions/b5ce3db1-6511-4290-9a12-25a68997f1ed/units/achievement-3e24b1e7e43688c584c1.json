@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "dlc_02_untouchable",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_untouchable",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_02_untouchable"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_untouchable",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_untouchable",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_untouchable",
+      "field": "note",
+      "operation": "add",
+      "after": "在普通或更高难度的山姆的故事章节中，遭遇巨翼蝠时不死亡。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_untouchable",
+      "field": "type",
+      "operation": "add",
+      "after": "difficulty"
+    }
+  ]
+}

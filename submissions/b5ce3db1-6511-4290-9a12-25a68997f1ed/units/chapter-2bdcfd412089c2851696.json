@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvdv9tvf14",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvdv9tvf14",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvdv9tvf14",
+      "field": "chapter",
+      "operation": "add",
+      "after": "杂项"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvdv9tvf14",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvdv9tvf14",
+      "field": "description",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvdv9tvf14",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

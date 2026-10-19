@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "all_bad",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "all_bad",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "all_bad"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "all_bad",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "all_bad",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "all_bad",
+      "field": "note",
+      "operation": "add",
+      "after": "坏结局：三个人走两个就是坏结局。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "all_bad",
+      "field": "type",
+      "operation": "add",
+      "after": "结局"
+    }
+  ]
+}

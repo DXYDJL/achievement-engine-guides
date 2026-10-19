@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-putrification",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-putrification",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "putrification"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-putrification",
+      "field": "chapter",
+      "operation": "add",
+      "after": "死城"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-putrification",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-putrification",
+      "field": "description",
+      "operation": "add",
+      "after": "通过腐烂隧道"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-putrification",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "all_road_map",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "all_road_map",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "all_road_map"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "all_road_map",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "all_road_map",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "all_road_map",
+      "field": "note",
+      "operation": "add",
+      "after": "在关卡里海的实验室中找到地图。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "all_road_map",
+      "field": "type",
+      "operation": "add",
+      "after": "流程"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "mutant_killer",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "mutant_killer",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "mutant_killer"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "mutant_killer",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "mutant_killer",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "mutant_killer",
+      "field": "note",
+      "operation": "add",
+      "after": "击杀300个变异体。如果不够可以去序章刷，火车车厢哪里只要不开门出去就是无限出怪，阿舍特有50发不到的子弹。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "mutant_killer",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}

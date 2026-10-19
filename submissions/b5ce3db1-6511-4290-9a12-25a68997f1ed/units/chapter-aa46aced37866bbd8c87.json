@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-all_good",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-all_good",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "all_good"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-all_good",
+      "field": "chapter",
+      "operation": "add",
+      "after": "游戏结局"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-all_good",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-all_good",
+      "field": "description",
+      "operation": "add",
+      "after": "担任军团指挥官"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-all_good",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

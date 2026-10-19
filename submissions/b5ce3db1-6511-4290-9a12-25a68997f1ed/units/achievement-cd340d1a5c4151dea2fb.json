@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "professional",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "professional",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "professional"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "professional",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "professional",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "professional",
+      "field": "note",
+      "operation": "add",
+      "after": "用游戏中的每一种远程武器至少完成一次击杀。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "professional",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}

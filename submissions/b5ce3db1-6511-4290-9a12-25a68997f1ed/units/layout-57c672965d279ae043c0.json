@@ -1,0 +1,19 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-new_order",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-new_order",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "driver",
+        "carmaheddon",
+        "all_road_map",
+        "roller_coaster",
+        "d2"
+      ]
+    }
+  ]
+}

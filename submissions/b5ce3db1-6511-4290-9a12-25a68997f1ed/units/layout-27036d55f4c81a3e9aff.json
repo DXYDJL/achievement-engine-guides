@@ -1,0 +1,19 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-sword_of_damocles",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-sword_of_damocles",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "decommunization",
+        "master_of_the_forest",
+        "5oclock",
+        "a3",
+        "forest_child"
+      ]
+    }
+  ]
+}

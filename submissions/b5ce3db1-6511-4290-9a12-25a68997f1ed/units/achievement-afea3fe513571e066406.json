@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "dlc_02_cinephile",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_cinephile",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_02_cinephile"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_cinephile",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_cinephile",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_cinephile",
+      "field": "note",
+      "operation": "add",
+      "after": "在山姆的故事章节中组织放映纪录片。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_cinephile",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

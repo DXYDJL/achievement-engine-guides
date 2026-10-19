@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "carmaheddon",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "carmaheddon",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "carmaheddon"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "carmaheddon",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "carmaheddon",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "carmaheddon",
+      "field": "note",
+      "operation": "add",
+      "after": "在关卡里海中，用面包车完成50次击杀。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "carmaheddon",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}

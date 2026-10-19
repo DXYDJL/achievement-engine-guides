@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "dlc_02_trapper",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_trapper",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_02_trapper"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_trapper",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_trapper",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_trapper",
+      "field": "note",
+      "operation": "add",
+      "after": "在山姆的故事章节中依船长之托，布置好全部5个陷阱。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_trapper",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

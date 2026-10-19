@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-new_order",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-new_order",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "new_order"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-new_order",
+      "field": "chapter",
+      "operation": "add",
+      "after": "里海"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-new_order",
+      "field": "content",
+      "operation": "add",
+      "after": "<img src=\"assets/77cc49b15b9a40f8edaf8d22c0d1fce4c33025569f55b5d8e02a171c7f36cd15.png\" alt=\"\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\" loading=\"lazy\" decoding=\"async\">"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-new_order",
+      "field": "description",
+      "operation": "add",
+      "after": "完成关卡里海"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-new_order",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

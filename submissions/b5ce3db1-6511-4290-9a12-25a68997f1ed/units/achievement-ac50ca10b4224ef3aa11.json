@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "toy_seller",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "toy_seller",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "toy_seller"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "toy_seller",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "toy_seller",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "toy_seller",
+      "field": "note",
+      "operation": "add",
+      "after": "在新游戏+模式中找到3个玩具：泰迪熊、太阳和鱼。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "toy_seller",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}
