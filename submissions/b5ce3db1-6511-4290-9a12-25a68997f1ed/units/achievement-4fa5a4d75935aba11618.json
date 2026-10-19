@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "gunsmith",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "gunsmith",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "gunsmith"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "gunsmith",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "gunsmith",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "gunsmith",
+      "field": "note",
+      "operation": "add",
+      "after": "在一把武器上安装所有类别的改装件。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "gunsmith",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}
