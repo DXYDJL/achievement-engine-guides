@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "RECRUITMENT_OFFICER_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "RECRUITMENT_OFFICER_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "RECRUITMENT_OFFICER_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RECRUITMENT_OFFICER_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RECRUITMENT_OFFICER_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RECRUITMENT_OFFICER_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "让一个部署的特别行动队士兵杀死 5 个敌人\n\n看见电台的地方呼叫一下增员把（一次只来一个士兵伤害又低），故意把敌人打残血让士兵慢慢磨吧。\n电台有4个地点：\n第一个地点在洞穴桥梁附近，3个桥中的一个桥的其中一个可以往下走的口，进口就是一个电台，下面有怪常刷。\n\n第二个地点在仓库塔的下面，进塔之前，初探索时候召唤出一个增援，但该场景并不会在初探索时刷怪。\n\n第三个地点在倒数第二个大区域，有很多层办公室的宽敞大厅，这是个初见就会刷很多怪的地点，把空中的优先清掉，然后用冲锋枪扫几个人，最好是普通的小兵扫成一滴血（迫真），然后躲着就行了，因为增援的眼神不太好，准度也不行，但是好在能抗，慢慢就可以打掉，狙击枪敌人最好能清就清，实在没兵了再留下，一次就可以成功，由于通关后各区域刷怪频率和数量都降低，所以最后初见就搞定，这也算是个流程杯，\n\n第四个地点在最终boss马歇尔之前，召唤他完全就是给你吸引火力的，对这个奖杯没有贡献。\n\n同时上一个dlc也有电台可以呼叫增援，就在异世界事件装卸港门口。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RECRUITMENT_OFFICER_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}
