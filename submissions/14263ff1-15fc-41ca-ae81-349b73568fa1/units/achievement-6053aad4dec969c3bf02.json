@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_9",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_9",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_9"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_9",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>在士兵手上救下报社记者。</p><p>来到报社顶层时会有士兵威胁报社记者，<b>等待士兵拔出剑</b>后击晕或者击杀士兵，再与报社记者对话即可。</p><p>一周目不杀人，所以这里要击晕。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_9",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_9",
+      "field": "note",
+      "operation": "add",
+      "after": "在士兵手上救下报社记者。等士兵拔剑后击晕或击杀，再与记者对话。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_9",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}
