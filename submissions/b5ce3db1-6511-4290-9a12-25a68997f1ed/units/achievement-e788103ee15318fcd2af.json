@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "d2",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "d2",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "d2"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "d2",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "d2",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "d2",
+      "field": "note",
+      "operation": "add",
+      "after": "达米尔留在队中，如果不留队他会跟盖尔一起去解放他的同胞。里海可以获得的道德点：1.整章节都不要杀奴隶2.开局拿车前不杀索尔3.去盖尔家路上遇到的断船把土匪杀了奴隶不要杀4.找到盖尔母亲照片5.废船监狱解救奴隶6.偷水不被发现不杀奴隶7.潜入男爵下水道不杀奴隶不被发现8.前往男爵顶楼救下被土匪拽进屋子的奴隶（最高难度别救，无论如何都会被发现然后被集火）。里海关卡最保险的方式就是不要杀奴隶，把地图全清了。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "d2",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}
