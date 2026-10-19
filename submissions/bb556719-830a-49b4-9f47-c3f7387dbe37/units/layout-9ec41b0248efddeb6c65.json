@@ -1,0 +1,23 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umve6n24df",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umve6n24df",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "PARANATURAL_POWERHOUSE_ACHIEVEMENT",
+        "EMPOWERED_ACHIEVEMENT",
+        "SHIFTING_POSITIONS_ACHIEVEMENT",
+        "INSULAR_TELEKINESIS_ACHIEVEMENT",
+        "RISING_THOUGHT_ACHIEVEMENT",
+        "TRINARY_ACHIEVEMENT",
+        "PSYCHIC_OCCUPATION_ACHIEVEMENT",
+        "UNRIVALED_ACHIEVEMENT",
+        "UNLIMITED_ACHIEVEMENT"
+      ]
+    }
+  ]
+}
