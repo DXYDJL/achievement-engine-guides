@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "last_minute_man",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "last_minute_man",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "last_minute_man"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "last_minute_man",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "last_minute_man",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "last_minute_man",
+      "field": "note",
+      "operation": "add",
+      "after": "在危险区域中，当滤毒罐耗尽并开始窒息时，现场制作一个新的滤毒罐。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "last_minute_man",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}
