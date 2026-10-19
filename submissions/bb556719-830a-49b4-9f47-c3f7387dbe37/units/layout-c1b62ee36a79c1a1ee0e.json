@@ -1,0 +1,24 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umve6n24d1w",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umve6n24d1w",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "PHANTOM_POOP_ACHIEVEMENT",
+        "CREATE_DESTROY_ACHIEVEMENT",
+        "X_RAYS_ACHIEVEMENT",
+        "BATTERING_RAM_ACHIEVEMENT",
+        "RECRUITMENT_OFFICER_ACHIEVEMENT",
+        "URBAN_SPELUNKER_ACHIEVEMENT",
+        "TICKET_TO_RIDE_ACHIEVEMENT",
+        "MASTER_OF_TARTARUS_ACHIEVEMENT",
+        "FEELING_LUCKY_ACHIEVEMENT",
+        "DIGGING_FOR_CLUES_ACHIEVEMENT"
+      ]
+    }
+  ]
+}
