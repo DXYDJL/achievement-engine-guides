@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-gorko",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-gorko",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "gorko"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-gorko",
+      "field": "chapter",
+      "operation": "add",
+      "after": "夏季"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-gorko",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-gorko",
+      "field": "description",
+      "operation": "add",
+      "after": "在关卡夏季中参加婚礼"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-gorko",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
