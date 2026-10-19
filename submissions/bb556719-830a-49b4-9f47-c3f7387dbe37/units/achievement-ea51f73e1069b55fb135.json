@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "PROBLEM_SOLVER_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "PROBLEM_SOLVER_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "PROBLEM_SOLVER_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PROBLEM_SOLVER_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PROBLEM_SOLVER_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PROBLEM_SOLVER_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "完成5个联邦控制局警报"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PROBLEM_SOLVER_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "累计"
+    }
+  ]
+}
