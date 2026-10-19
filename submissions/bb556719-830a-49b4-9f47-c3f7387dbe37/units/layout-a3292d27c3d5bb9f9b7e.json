@@ -1,0 +1,16 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umve6n24dx",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umve6n24dx",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "TRIAL_LEWOUS_ACHIEVEMENT",
+        "FIRST_CLASS_DIRECTOR_ACHIEVEMENT"
+      ]
+    }
+  ]
+}
