@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "UNLIMITED_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "UNLIMITED_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "UNLIMITED_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "UNLIMITED_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "UNLIMITED_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "UNLIMITED_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "花费 100 个技能点\n技能全解锁除了需要主线和支线的技能点奖励外，还需要发现隐藏区来获得技能点，这里我给一个本体隐藏地点的b站链接：BV11i4y177uC，有全收集需要的hy可以看看。该成就在打完dlc之后容易解"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "UNLIMITED_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "技能"
+    }
+  ]
+}
