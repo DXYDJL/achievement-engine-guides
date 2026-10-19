@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-exodus",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-exodus",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "exodus"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-exodus",
+      "field": "chapter",
+      "operation": "add",
+      "after": "莫斯科"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-exodus",
+      "field": "content",
+      "operation": "add",
+      "after": "<h1><br></h1>"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-exodus",
+      "field": "description",
+      "operation": "add",
+      "after": "完成关卡莫斯科"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-exodus",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
