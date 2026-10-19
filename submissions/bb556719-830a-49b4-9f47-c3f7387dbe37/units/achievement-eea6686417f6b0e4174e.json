@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ORDINARY_WORLD_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ORDINARY_WORLD_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ORDINARY_WORLD_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ORDINARY_WORLD_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ORDINARY_WORLD_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ORDINARY_WORLD_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "完成任务7"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ORDINARY_WORLD_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "主线"
+    }
+  ]
+}
