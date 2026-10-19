@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "SILENCE_IS_GOLDEN_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "SILENCE_IS_GOLDEN_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "SILENCE_IS_GOLDEN_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SILENCE_IS_GOLDEN_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SILENCE_IS_GOLDEN_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SILENCE_IS_GOLDEN_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "击败托马西\n艾米丽的任务：托马西先生。建议是在上层打。这里提供一个简单的打法思路：进场跳到进门右手边架子上，开盾挡两次投掷，然后再飞上高台，直接上中间横梁红色网上站着，隐形怪瞬移不到上面，而且boss也不会上来攻击你，唯一需要注意的是手榴弹和自爆怪，你就拿着穿刺和投掷丢他就行了。 刚刚打死的时候先别跳下来，地上还有一只隐形怪，打死boss门还是不会开的，小怪还会刷几波。b站完整任务的链接：BV1u8411A7TT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SILENCE_IS_GOLDEN_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "boss"
+    }
+  ]
+}
