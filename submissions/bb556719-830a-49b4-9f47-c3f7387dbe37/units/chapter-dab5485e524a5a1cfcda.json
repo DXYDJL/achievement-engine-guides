@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umve6n24d0",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d0",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d0",
+      "field": "chapter",
+      "operation": "add",
+      "after": "主线成就（本体）"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d0",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d0",
+      "field": "description",
+      "operation": "add",
+      "after": "主线流程成就。不建议先推主线，再来清支线，建议玩家按区域清理主线/支线任务"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d0",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
