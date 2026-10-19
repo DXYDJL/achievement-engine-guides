@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "WERE_GOING_SHOPPING_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "WERE_GOING_SHOPPING_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "WERE_GOING_SHOPPING_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "WERE_GOING_SHOPPING_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "WERE_GOING_SHOPPING_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "WERE_GOING_SHOPPING_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "制作一个武器形态或模块\n制作一个武器形态或模块，只要升级枪都会做的"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "WERE_GOING_SHOPPING_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "武器"
+    }
+  ]
+}
