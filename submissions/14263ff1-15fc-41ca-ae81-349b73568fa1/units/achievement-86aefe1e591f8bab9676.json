@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_41",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_41",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_41"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_41",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>在不使用超能力的情况下完成游戏。</p><p><b>第一章中拒绝界外魔的印记</b> —— 一旦接受，这条就作废了，而且没有回头路。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_41",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_41",
+      "field": "note",
+      "operation": "add",
+      "after": "不使用超能力通关。第一章拒绝界外魔的印记。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_41",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}
