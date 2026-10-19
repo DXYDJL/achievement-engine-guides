@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ROCK_OUT_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ROCK_OUT_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ROCK_OUT_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ROCK_OUT_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ROCK_OUT_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ROCK_OUT_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "完成任务5"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ROCK_OUT_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "主线"
+    }
+  ]
+}
