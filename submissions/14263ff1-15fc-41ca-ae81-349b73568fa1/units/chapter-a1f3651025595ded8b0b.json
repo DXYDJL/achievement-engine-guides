@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umukk87nw84",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw84",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw84",
+      "field": "chapter",
+      "operation": "add",
+      "after": "第六章 · 沙尘区"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw84",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw84",
+      "field": "description",
+      "operation": "add",
+      "after": "画：3 幅，护符：8 个，符文：5 个，设计图：2 个，收集品：2 个，日志：5 个。本关有两个互斥的阵营成就，需分两次或读档完成。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw84",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
