@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "dlc_01_father_and_son",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_father_and_son",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_01_father_and_son"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_father_and_son",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_father_and_son",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_father_and_son",
+      "field": "note",
+      "operation": "add",
+      "after": "在两个上校章节中为基里尔提供指引。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_father_and_son",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}
