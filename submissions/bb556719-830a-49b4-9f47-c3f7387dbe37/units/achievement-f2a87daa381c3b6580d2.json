@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "THREEFOLD_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "THREEFOLD_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "THREEFOLD_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "THREEFOLD_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "THREEFOLD_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "THREEFOLD_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "将任意武器形态升至3级\n将任意一种枪升至三级，可解锁等级会随着游戏主线进程开放，这里我建议建议升穿刺和旋转"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "THREEFOLD_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "武器"
+    }
+  ]
+}
