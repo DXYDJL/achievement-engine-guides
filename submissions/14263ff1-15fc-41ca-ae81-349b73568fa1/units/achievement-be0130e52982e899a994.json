@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_27",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_27",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_27"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_27",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>在不到 1.5 秒内消灭 6 个敌人。</p><p>和一代那条思路差不多：先把六个人晕好聚在一起，再一发手榴弹解决。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_27",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_27",
+      "field": "note",
+      "operation": "add",
+      "after": "在不到 1.5 秒内消灭 6 个敌人。先晕六个人，再一发手榴弹。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_27",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}
