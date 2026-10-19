@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "SHIFTING_POSITIONS_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "SHIFTING_POSITIONS_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "SHIFTING_POSITIONS_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SHIFTING_POSITIONS_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SHIFTING_POSITIONS_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SHIFTING_POSITIONS_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "获得闪避技能\n完成任务2后，坐电梯下楼去维护区，在清洁工办公室附近可接到任务“快乐追逐战”，净化红色木马并通过挑战后可获得“闪避”技能"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SHIFTING_POSITIONS_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "技能"
+    }
+  ]
+}
