@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_12",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_12",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_12"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_12",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>从艾德迈尔（第三章）的最高处收拾下方敌人。</p><p>如果下方敌人没刷出来，就用弩箭吸引一名敌人过来。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_12",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_12",
+      "field": "note",
+      "operation": "add",
+      "after": "从艾德迈尔最高处落下击杀下方敌人。下方没刷敌人就用弩箭引一个。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_12",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}
