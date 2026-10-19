@@ -1,0 +1,37 @@
+{
+  "submissionId": "3f423491-927a-4826-aafa-cf500c128f36",
+  "guideId": "53a5c747-2503-47ab-807e-775992b40a93",
+  "version": "1.0.0",
+  "packageSha256": "20b295a1bbc55deefa052c0a64d57f7aa22addab70902785e3c8f8c6dda48b40",
+  "draftReleaseId": 416986162,
+  "assetId": 655474219,
+  "manifest": {
+    "format": "aeguide",
+    "schemaVersion": 1,
+    "guideId": "53a5c747-2503-47ab-807e-775992b40a93",
+    "version": "1.0.0",
+    "game": {
+      "platform": "steam",
+      "platformGameId": "3669870",
+      "title": "CONTROL Resonant"
+    },
+    "guide": {
+      "title": "《CONTROL Resonant 控制：共振》全成就攻略",
+      "type": "topic",
+      "language": "zh-CN",
+      "summary": "初始版本，仅整理了成就类型及成就描述。"
+    },
+    "compatibility": {
+      "minAppVersion": "0.8.4"
+    },
+    "author": {
+      "displayName": "dxydjl0521-maker",
+      "githubLogin": "dxydjl0521-maker"
+    },
+    "license": "CC-BY-NC-SA-4.0",
+    "contentFile": "guide.json",
+    "contentSha256": "57b4eb39ba9f0f62fa250231a15513f9f969d2e19579b78355d1d18a863585be",
+    "assets": []
+  },
+  "submittedAt": "2026-10-19T06:45:54.494Z"
+}
