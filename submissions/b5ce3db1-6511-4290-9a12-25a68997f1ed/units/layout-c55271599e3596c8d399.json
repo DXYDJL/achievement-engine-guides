@@ -1,0 +1,13 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-hardcore",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-hardcore",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": []
+    }
+  ]
+}
