@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "a3",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "a3",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "a3"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "a3",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "a3",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "a3",
+      "field": "note",
+      "operation": "add",
+      "after": "阿廖沙不负伤，无论好坏结局阿廖沙都会留队。好结局阿廖沙与救我们的女人相爱，最后阿廖沙说一定会找到她随阿囧离去；坏结局那个女的大骂阿廖沙骗子（因为他跟她说我们是路过，但是一路杀了她不少人），最后原住民对我们发起攻击阿廖沙负伤，疑似瘫痪。针叶林可以获得的道德点：1.开头救下被狼卫公的海盗2.不被发现潜入塔楼滑绳索走3.不被发现穿过原住民的据点4.不被发现划船逃离5.不杀任何中立阵营的人。判断条件较为宽裕，酌情选择。如果做了森林之子成就这个成就也会跳。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "a3",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}
