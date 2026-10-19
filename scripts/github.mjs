@@ -1,4 +1,9 @@
 import { checkCommunitySubmissionPolicy } from '../lib/validate.mjs';
+import { createHash } from 'node:crypto';
+import { createWriteStream } from 'node:fs';
+import { rm } from 'node:fs/promises';
+import { Readable, Transform } from 'node:stream';
+import { pipeline } from 'node:stream/promises';
 
 export const repository = process.env.GH_REPO;
 const token = process.env.GH_TOKEN;
@@ -14,6 +19,29 @@ export async function gh(method, pathname, body, accept = 'application/vnd.githu
   if (response.status === 404) return null;
   if (!response.ok) throw new Error(`GitHub ${method} ${pathname}: ${response.status}`);
   return accept === 'application/octet-stream' ? new Uint8Array(await response.arrayBuffer()) : response.json();
+}
+
+export async function ghDownloadToFile(pathname, filePath, maxBytes) {
+  const response = await fetch(`https://api.github.com/repos/${repository}${pathname}`, {
+    headers: { Accept: 'application/octet-stream', Authorization: `Bearer ${token}`,
+      'X-GitHub-Api-Version': '2022-11-28' },
+  });
+  if (!response.ok || !response.body) throw new Error(`GitHub download ${pathname}: ${response.status}`);
+  const hash = createHash('sha256');
+  let size = 0;
+  const digest = new Transform({ transform(chunk, _encoding, callback) {
+    size += chunk.length;
+    if (size > maxBytes) return callback(new Error('Release asset exceeds package limit'));
+    hash.update(chunk);
+    callback(null, chunk);
+  } });
+  try {
+    await pipeline(Readable.fromWeb(response.body), digest, createWriteStream(filePath, { flags: 'wx' }));
+    return { size, sha256: hash.digest('hex') };
+  } catch (error) {
+    await rm(filePath, { force: true }).catch(() => undefined);
+    throw error;
+  }
 }
 
 export function validateSubmission(record) {
