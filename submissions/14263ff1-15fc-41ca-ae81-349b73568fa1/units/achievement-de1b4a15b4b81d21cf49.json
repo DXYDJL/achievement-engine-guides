@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_11",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_11",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_11"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_11",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>阻止士兵将市民推进光幕。</p><p>第二章光幕那里会有两名士兵威胁市民，<b>在士兵把市民推进光幕之前</b>阻止守卫即可 —— 麻醉或者射向士兵上面吊着的装置都行。</p><p>时机是一次性的，走过就没了。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_11",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_11",
+      "field": "note",
+      "operation": "add",
+      "after": "阻止士兵将市民推进光幕。在士兵动手前阻止守卫。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_11",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}
