@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "LOCK_DOWN_WITH_YOUR_SOCKS_ON_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "LOCK_DOWN_WITH_YOUR_SOCKS_ON_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "LOCK_DOWN_WITH_YOUR_SOCKS_ON_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "LOCK_DOWN_WITH_YOUR_SOCKS_ON_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "LOCK_DOWN_WITH_YOUR_SOCKS_ON_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "LOCK_DOWN_WITH_YOUR_SOCKS_ON_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "完成任务3"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "LOCK_DOWN_WITH_YOUR_SOCKS_ON_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "主线"
+    }
+  ]
+}
