@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umukk87nw7x",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw7x",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw7x",
+      "field": "chapter",
+      "operation": "add",
+      "after": "第四章 · 机关宅邸"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw7x",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw7x",
+      "field": "description",
+      "operation": "add",
+      "after": "画：6 幅，护符：8 个，符文：5 个，设计图：4 个，收集品：1 个，日志：5 个"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw7x",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

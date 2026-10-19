@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_33",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_33",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_33"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_33",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_33",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_33",
+      "field": "note",
+      "operation": "add",
+      "after": "收集恐怖鞭痕号上的全部收集品。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_33",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}

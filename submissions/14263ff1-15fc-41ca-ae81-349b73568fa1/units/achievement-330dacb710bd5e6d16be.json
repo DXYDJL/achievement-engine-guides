@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_32",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_32",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_32"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_32",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_32",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_32",
+      "field": "note",
+      "operation": "add",
+      "after": "抢劫一次黑市。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_32",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

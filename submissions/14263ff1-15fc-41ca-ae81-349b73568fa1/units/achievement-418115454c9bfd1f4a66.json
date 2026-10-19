@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_16",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_16",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_16"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_16",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>聆听神谕团妹妹的声音，大概要听三次。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_16",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_16",
+      "field": "note",
+      "operation": "add",
+      "after": "聆听神谕团妹妹的声音，大概要听三次。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_16",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

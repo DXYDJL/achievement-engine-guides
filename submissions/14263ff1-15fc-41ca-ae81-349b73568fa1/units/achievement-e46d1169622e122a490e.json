@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_18",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_18",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_18"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_18",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>选择支持沙尘区的<b>督军（Overseers）</b>势力。</p><p>与「Howlers 'til the End」<b>互斥</b>，同一周目只能拿一个。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_18",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_18",
+      "field": "note",
+      "operation": "add",
+      "after": "选择支持沙尘区的督军势力。与「战嚎」路线互斥。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_18",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

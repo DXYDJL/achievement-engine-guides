@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umukk87nw7d",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw7d",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw7d",
+      "field": "chapter",
+      "operation": "add",
+      "after": "一周目 · 全流程成就"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw7d",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw7d",
+      "field": "description",
+      "operation": "add",
+      "after": "一周目的通关目标：不杀人、低混乱、无超能力、不潜行。角色建议选艾米丽。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw7d",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

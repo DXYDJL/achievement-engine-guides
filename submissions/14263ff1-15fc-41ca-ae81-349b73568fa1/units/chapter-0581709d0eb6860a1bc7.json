@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umukk87nw7p",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw7p",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw7p",
+      "field": "chapter",
+      "operation": "add",
+      "after": "第二章 · 世界边缘"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw7p",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw7p",
+      "field": "description",
+      "operation": "add",
+      "after": "画：4 幅，护符：6 个，符文：9 个，设计图：2 个，收集品：1 个，日志：8 个"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw7p",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_30",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_30",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_30"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_30",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>在不被发现的情况下完成一章。</p><p>攻略的建议是<b>第一章跳火车速通</b> —— 流程短，容易做到全程不被发现。</p><p>这条是全程级别的判定，二周目的「Shadow」是同一个要求放大到整局。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_30",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_30",
+      "field": "note",
+      "operation": "add",
+      "after": "不被发现的情况下完成一章。攻略建议在第一章跳火车速通。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_30",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

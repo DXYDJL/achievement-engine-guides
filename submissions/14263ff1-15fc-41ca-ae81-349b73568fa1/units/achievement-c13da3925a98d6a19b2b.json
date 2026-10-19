@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_20",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_20",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_20"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_20",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>在不惊动及杀死守卫的情况下，取得大厅钥匙。</p><p><b>餐桌左边的椅子上</b>就是目标钥匙。守卫必须保持警觉度为未惊动状态。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_20",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_20",
+      "field": "note",
+      "operation": "add",
+      "after": "在不惊动及杀死守卫的情况下取得大厅钥匙。钥匙在餐桌左边的椅子上。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_20",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

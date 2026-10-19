@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umukk87nw8g",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8g",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8g",
+      "field": "chapter",
+      "operation": "add",
+      "after": "第九章 · 女皇之死"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8g",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8g",
+      "field": "description",
+      "operation": "add",
+      "after": "画：1 幅，护符：9 个，符文：4 个，设计图：2 个，收集品：1 个，日志：4 个"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8g",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

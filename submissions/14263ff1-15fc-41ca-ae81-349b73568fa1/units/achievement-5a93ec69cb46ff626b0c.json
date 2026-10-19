@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_25",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_25",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_25"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_25",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>搜刮贾法尼医生的保险箱。</p><p><b>第一章和第九章各一次</b>，两次都要做才解锁。密码都是 <b>451</b>。</p><p>第九章还会再遇到一次，别漏了。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_25",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_25",
+      "field": "note",
+      "operation": "add",
+      "after": "搜刮贾法尼医生的保险箱。第一章和第九章各一次，密码都是 451。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_25",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umukk87nw82",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw82",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw82",
+      "field": "chapter",
+      "operation": "add",
+      "after": "第五章 · 皇家美术馆"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw82",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw82",
+      "field": "description",
+      "operation": "add",
+      "after": "画：3 幅，护符：9 个，符文：5 个，设计图：3 个，收集品：1 个，日志：4 个"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw82",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

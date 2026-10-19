@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_39",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_39",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_39"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_39",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_39",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_39",
+      "field": "note",
+      "operation": "add",
+      "after": "以坠落击杀的方式杀死 10 个敌人。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_39",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umukk87nw8k",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8k",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8k",
+      "field": "chapter",
+      "operation": "add",
+      "after": "二周目 · 全流程成就"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8k",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8k",
+      "field": "description",
+      "operation": "add",
+      "after": "二周目的通关目标：杀人、高混乱、用超能力、潜行。角色建议选科尔沃。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8k",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

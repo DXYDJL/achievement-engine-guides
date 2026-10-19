@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_19",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_19",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_19"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_19",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>在不提前拿到密码的情况下破解金朵希锁。</p><p><b>省事的做法：</b>先在门口存档，去杜兰特办公室桌子上拿到密码 —— 这一步只是为了看答案，不要真的用它开门 —— 再读档回来自己输入。</p><p>也可以自己解，网上有教程。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_19",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_19",
+      "field": "note",
+      "operation": "add",
+      "after": "在不提前拿到密码的情况下破解金朵希锁。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_19",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

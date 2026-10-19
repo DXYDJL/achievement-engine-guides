@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_3",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_3",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_3"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_3",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_3",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_3",
+      "field": "note",
+      "operation": "add",
+      "after": "处理海芭夏医生。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_3",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_37",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_37",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_37"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_37",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_37",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_37",
+      "field": "note",
+      "operation": "add",
+      "after": "收集三个发条战士的匾额。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_37",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}

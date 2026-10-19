@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umukk87nw8d",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8d",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8d",
+      "field": "chapter",
+      "operation": "add",
+      "after": "第八章 · 大皇宫"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8d",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8d",
+      "field": "description",
+      "operation": "add",
+      "after": "画：3 幅，护符：7 个，符文：5 个，设计图：3 个，收集品：1 个，日志：2 个"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8d",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

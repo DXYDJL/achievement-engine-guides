@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_22",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_22",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_22"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_22",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>找到隐藏的阳台通道。</p><p>需要在<b>「过去」</b>时间线里，将阳台下端的两个连接物打断。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_22",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_22",
+      "field": "note",
+      "operation": "add",
+      "after": "找到隐藏的阳台通道。在「过去」将阳台下端的两个连接物打断。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_22",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}
