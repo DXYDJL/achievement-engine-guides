@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "CUSTOM_BUILT_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "CUSTOM_BUILT_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "CUSTOM_BUILT_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CUSTOM_BUILT_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CUSTOM_BUILT_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CUSTOM_BUILT_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "将冲击枪升级至最高级别\n最后一次升级需要主线推进到后期拿到相关素材才行，可能会比较缺隐藏趋势这个材料，只有有名字的敌人会掉落，主要目标这一类的控制局警报一定会有，平时也可能遇到随机刷新的"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CUSTOM_BUILT_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}
