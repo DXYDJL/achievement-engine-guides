@@ -1,0 +1,27 @@
+{
+  "entityType": "layout",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "guide",
+      "field": "chapterOrder",
+      "operation": "add",
+      "after": [
+        "chapter-exodus",
+        "chapter-lower_the_b",
+        "chapter-spoiled_dinner",
+        "chapter-new_order",
+        "chapter-gorko",
+        "chapter-sword_of_damocles",
+        "chapter-putrification",
+        "chapter-all_good",
+        "chapter-hardcore",
+        "chapter-mutation_1",
+        "chapter-umvdv9tvf14",
+        "chapter-dlc_01_new_year",
+        "chapter-dlc_02_the_last_hero"
+      ]
+    }
+  ]
+}
