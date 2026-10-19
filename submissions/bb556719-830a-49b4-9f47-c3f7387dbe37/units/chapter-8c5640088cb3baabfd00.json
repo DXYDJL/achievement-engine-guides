@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umve6n24d10",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d10",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d10",
+      "field": "chapter",
+      "operation": "add",
+      "after": "联邦控制局警报"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d10",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d10",
+      "field": "description",
+      "operation": "add",
+      "after": "这两个成就比较恶心的是隔固定一段时间刷新（通关后大概是半小时），遇到的时候顺手做了比较好，当然如果通关后没做完的话，可以看看是不是点唱机支线的问题，有两个解决方案，第一个是不要捡行政区传送点旁边柜子上的硬币，第二个是如果捡了就赶紧去跟旁边的npc讲话然后去点唱机进去，到有很多环的地方走闪绿灯的那个，往前互动一个录音机触发战斗一会就自动传回去了，任务完成后退出游戏重新进就能正常刷警报。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24d10",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
