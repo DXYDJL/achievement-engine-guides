@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "DIGGING_FOR_CLUES_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "DIGGING_FOR_CLUES_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "DIGGING_FOR_CLUES_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "DIGGING_FOR_CLUES_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": "<p><span>BV1v7411D7Dv</span><br></p><p>这里给出一份名单，方便hym对照：</p><p>研究与记录：1.洞穴绘画</p><p>2.地基支柱</p><p>3.地脉</p><p>4.美国一夜宿命/美国一夜结果（简中翻译纰漏）</p><p>5.天才看门人/天才清洁工（同）</p><p>6.太古屋的历史</p><p>7.金字塔几何结构</p><p>8.电源内核</p><p>9.地基蚀刻画</p><p>案件卷宗：1.招财猫程序</p><p>2.流星山概要/流星山补充说明（主要内容为概要，区别于另一篇流星山补充说明）</p><p>3.流行山补充说明</p><p>4.基辅概要</p><p>5.基辅补充说明</p><p>6.电影摄影机补充说明</p><p>7.VHS录像带补充说明</p><p>通信：1.搬迁令</p><p>2.地基事故</p><p>3.不可接受行为备忘录</p><p>4.冒险已接受</p><p>5.一切皆类人</p><p>6.绿色</p><p>7.位移说明第1点</p><p>8.位移说明第2点</p><p>9.位移说明第3点</p><p>10.阿什：请求遭到拒绝</p><p>11.诺斯莫尔：最终警告</p><p>12.诺斯莫尔：医疗结果/检查结果（同）</p><p>13.计算机程序</p><p>14.新语言</p><p>多媒体：1.日志1：发现</p><p>2.日志2：地基</p><p>3.日志3：工作</p><p>4.日志4：通行证</p><p>5.日志5：金字塔</p><p>6.日志6：出发</p><p>7.日志7：变化</p><p>8.日志8：目的</p><p>9.FBC提醒：窗户</p><p>10.被拒绝的剧集</p><p>11.《美国一夜》系列集382</p><p>12.《美国一夜》系列集367</p><p>13.布莱恩的电影剧本3/布赖恩的电影巢穴3（同）</p><p>缺什么hym对照着视频找就好。注意全收集必须要dlc通关后才能找齐。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "DIGGING_FOR_CLUES_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "DIGGING_FOR_CLUES_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "收集基础看的所有收藏品\n还是给上链接，毕竟实在不好说。BV1v7411D7Dv"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "DIGGING_FOR_CLUES_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}
