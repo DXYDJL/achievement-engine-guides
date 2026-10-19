@@ -1,0 +1,24 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umve6n24d0",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umve6n24d0",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "ITS_A_SHIFTING_PLACE_ACHIEVEMENT",
+        "HOTLINE_RING_ACHIEVEMENT",
+        "LOCK_DOWN_WITH_YOUR_SOCKS_ON_ACHIEVEMENT",
+        "MARSHALL_MARSHALL_MARSHALL_ACHIEVEMENT",
+        "ROCK_OUT_ACHIEVEMENT",
+        "BROTHERS_KEEPER_ACHIEVEMENT",
+        "ORDINARY_WORLD_ACHIEVEMENT",
+        "THE_FISHER_KING_ACHIEVEMENT",
+        "LARGE_HEDRON_COLLIDER_ACHIEVEMENT",
+        "WAKE_ACHIEVEMENT"
+      ]
+    }
+  ]
+}
