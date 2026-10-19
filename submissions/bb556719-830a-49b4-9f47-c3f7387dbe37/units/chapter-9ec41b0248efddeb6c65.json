@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umve6n24df",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24df",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24df",
+      "field": "chapter",
+      "operation": "add",
+      "after": "技能（本体）"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24df",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24df",
+      "field": "description",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24df",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
