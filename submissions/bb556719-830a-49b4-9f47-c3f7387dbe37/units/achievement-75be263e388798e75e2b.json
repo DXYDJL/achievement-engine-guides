@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "THE_MOLD_ONE_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "THE_MOLD_ONE_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "THE_MOLD_ONE_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "THE_MOLD_ONE_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "THE_MOLD_ONE_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "THE_MOLD_ONE_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "击败霉菌-1\n行政区艾米丽可以接到任务：古老生长，需要许可等级4以上。这里给上一个b站链接：BV1y14y1T7H7以帮助不懂的hy"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "THE_MOLD_ONE_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "boss"
+    }
+  ]
+}
