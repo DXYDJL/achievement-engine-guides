@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "dlc_01_the_whole_picture",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_the_whole_picture",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_01_the_whole_picture"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_the_whole_picture",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_the_whole_picture",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_the_whole_picture",
+      "field": "note",
+      "operation": "add",
+      "after": "找到两个上校章节中全部9页隐藏日记。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_the_whole_picture",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}
