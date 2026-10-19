@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_10",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_10",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_10"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_10",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>为明蒂窃取尸体。任务地点在<b>黑市商人的房子后面</b>。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_10",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_10",
+      "field": "note",
+      "operation": "add",
+      "after": "为明蒂窃取尸体。任务地点在黑市商人的房子后面。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_10",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}
