@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "THE_FISHER_KING_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "THE_FISHER_KING_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "THE_FISHER_KING_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "THE_FISHER_KING_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "THE_FISHER_KING_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "THE_FISHER_KING_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "完成任务8"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "THE_FISHER_KING_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "主线"
+    }
+  ]
+}
