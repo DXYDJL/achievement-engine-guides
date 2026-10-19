@@ -1,0 +1,15 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-ACCEPTANCE_001",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-ACCEPTANCE_001",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "ACCEPTANCE_002"
+      ]
+    }
+  ]
+}
