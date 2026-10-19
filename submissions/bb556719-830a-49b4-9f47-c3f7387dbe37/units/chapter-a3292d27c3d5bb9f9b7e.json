@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umve6n24dx",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24dx",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24dx",
+      "field": "chapter",
+      "operation": "add",
+      "after": "委员会对策"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24dx",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24dx",
+      "field": "description",
+      "operation": "add",
+      "after": "这两个成就注意要在通关前完成，比较好做，怪的刷新频率很高，但是通关之后就会很低，就会非常难做了。不好完成的可以先接受再放弃，建议从一开始就留意这些对策，在推主线时一并完成，减少后期刷的数量。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24dx",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
