@@ -1,0 +1,75 @@
+{
+  "submissionId": "11332825-4ffe-4d4e-ba14-9df978570ec3",
+  "guideId": "6d1907d1-c5bd-4fd0-a4f0-4de0d4266e4b",
+  "version": "1.0.0",
+  "packageSha256": "326a3645f7719298bc683b4ff22aa4a47972d7065c4abaada723cce89d4c8fb2",
+  "draftReleaseId": 417344646,
+  "assetId": 656405298,
+  "manifest": {
+    "format": "aeguide",
+    "schemaVersion": 1,
+    "guideId": "6d1907d1-c5bd-4fd0-a4f0-4de0d4266e4b",
+    "version": "1.0.0",
+    "game": {
+      "platform": "steam",
+      "platformGameId": "999999999",
+      "title": "社区投稿验收样本（合成）"
+    },
+    "guide": {
+      "title": "社区投稿流程验收样本",
+      "type": "workflow",
+      "language": "zh-CN",
+      "summary": "仅用于验证新版真实投稿、独立审核及发布流程；不含真实游戏攻略。"
+    },
+    "compatibility": {
+      "minAppVersion": "0.8.5"
+    },
+    "author": {
+      "displayName": "社区投稿验收样本",
+      "githubLogin": "dxydjl0521-maker"
+    },
+    "license": "CC-BY-NC-SA-4.0",
+    "contentFile": "guide.json",
+    "contentSha256": "25c268fae120e52b874b147d69b03a8c0756fe2f684163b6e8c38ffacfc7dd6d",
+    "assets": [
+      {
+        "path": "assets/692d2ae2f30c861ff6b2cd91e28089e502ab37f71da6d7ec1a610d0cd3b6d607.png",
+        "mimeType": "image/png",
+        "size": 95,
+        "sha256": "692d2ae2f30c861ff6b2cd91e28089e502ab37f71da6d7ec1a610d0cd3b6d607"
+      }
+    ]
+  },
+  "submittedAt": "2026-10-19T13:46:52.391Z",
+  "baseRevision": null,
+  "contributor": {
+    "userId": 284279708,
+    "githubLogin": "dxydjl0521-maker"
+  },
+  "changeFiles": [
+    {
+      "path": "submissions/11332825-4ffe-4d4e-ba14-9df978570ec3/units/achievement-5e85f3851f7d2d2d00b3.json",
+      "sha256": "652d910af0a36946011cb119098fa55d1e5e8012b71a487fe4f21ef8d8d81e56"
+    },
+    {
+      "path": "submissions/11332825-4ffe-4d4e-ba14-9df978570ec3/units/categories-83ca68be6227af2feb15.json",
+      "sha256": "88041938a5a5b8aa0c017aaf1cef5f7dddee781c41f1ff434f94b5d41795e3c2"
+    },
+    {
+      "path": "submissions/11332825-4ffe-4d4e-ba14-9df978570ec3/units/chapter-c0986d90241494ed4d8e.json",
+      "sha256": "f240a01e96a2ba7bab8fe966e9f108884cbd735c47f551644c51a3b692bdece8"
+    },
+    {
+      "path": "submissions/11332825-4ffe-4d4e-ba14-9df978570ec3/units/layout-c0986d90241494ed4d8e.json",
+      "sha256": "bde0828d2eb28b801d5fe844410ca31ef2c9f378fa24487aec2c821b6e7053b7"
+    },
+    {
+      "path": "submissions/11332825-4ffe-4d4e-ba14-9df978570ec3/units/layout-83ca68be6227af2feb15.json",
+      "sha256": "0e5616cb8f11f9ebbe19b338a58f8a5a4af6552f2eba8f46f4282edb5217f216"
+    },
+    {
+      "path": "submissions/11332825-4ffe-4d4e-ba14-9df978570ec3/units/notes-83ca68be6227af2feb15.json",
+      "sha256": "21a14e6cc99b296e376c1f427ed5ba9118cbde7368cd0e7b242321df5f1eb015"
+    }
+  ]
+}
