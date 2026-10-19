@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_28",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_28",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_28"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_28",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_28",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_28",
+      "field": "note",
+      "operation": "add",
+      "after": "用敌人自己的子弹杀死他们。必须是精英守卫。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_28",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}
