@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "tidyman",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "tidyman",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "tidyman"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "tidyman",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "tidyman",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "tidyman",
+      "field": "note",
+      "operation": "add",
+      "after": "消耗500化学资源用于清洁武器。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "tidyman",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}
