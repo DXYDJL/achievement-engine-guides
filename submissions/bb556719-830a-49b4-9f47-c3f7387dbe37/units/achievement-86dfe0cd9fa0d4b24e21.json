@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "LARGE_HEDRON_COLLIDER_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "LARGE_HEDRON_COLLIDER_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "LARGE_HEDRON_COLLIDER_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "LARGE_HEDRON_COLLIDER_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "LARGE_HEDRON_COLLIDER_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "LARGE_HEDRON_COLLIDER_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "完成任务9"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "LARGE_HEDRON_COLLIDER_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "主线"
+    }
+  ]
+}
