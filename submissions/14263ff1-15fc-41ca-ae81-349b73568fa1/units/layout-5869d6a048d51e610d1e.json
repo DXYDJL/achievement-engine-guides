@@ -1,0 +1,18 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umukk87nw8w",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umukk87nw8w",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "ACH_38",
+        "ACH_39",
+        "ACH_35",
+        "ACH_27"
+      ]
+    }
+  ]
+}
