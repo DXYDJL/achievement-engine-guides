@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "EXPLOSIONS_WITH_FRIENDS_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "EXPLOSIONS_WITH_FRIENDS_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "EXPLOSIONS_WITH_FRIENDS_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "EXPLOSIONS_WITH_FRIENDS_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "EXPLOSIONS_WITH_FRIENDS_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "EXPLOSIONS_WITH_FRIENDS_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "使用冲击枪杀死50个敌人\n多留意一下就行，可以在街机的限时里面刷，里面基本都是小怪"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "EXPLOSIONS_WITH_FRIENDS_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "累计"
+    }
+  ]
+}
