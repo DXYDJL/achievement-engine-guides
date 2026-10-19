@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "WAKE_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "WAKE_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "WAKE_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "WAKE_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "WAKE_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "WAKE_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "完成任务10"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "WAKE_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "主线"
+    }
+  ]
+}
