@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "decommunization",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "decommunization",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "decommunization"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "decommunization",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "decommunization",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "decommunization",
+      "field": "note",
+      "operation": "add",
+      "after": "在关卡针叶林中，摧毁儿童营地前最大的雕像（主线必经之路）。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "decommunization",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}
