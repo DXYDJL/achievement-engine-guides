@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "HERES_MUD_IN_YOUR_EYE_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "HERES_MUD_IN_YOUR_EYE_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "HERES_MUD_IN_YOUR_EYE_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HERES_MUD_IN_YOUR_EYE_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HERES_MUD_IN_YOUR_EYE_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HERES_MUD_IN_YOUR_EYE_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "击败前任\n隔离区4楼冰箱任务，这里还是给上一个b站链接：BV1ae4y1F78D，帮助hy找到方位和了解打法思路"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HERES_MUD_IN_YOUR_EYE_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "boss"
+    }
+  ]
+}
