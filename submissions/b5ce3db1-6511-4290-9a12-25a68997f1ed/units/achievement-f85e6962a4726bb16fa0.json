@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "iron_man_1",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "iron_man_1",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "iron_man_1"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "iron_man_1",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "iron_man_1",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "iron_man_1",
+      "field": "note",
+      "operation": "add",
+      "after": "通关钢铁模式。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "iron_man_1",
+      "field": "type",
+      "operation": "add",
+      "after": "difficulty"
+    }
+  ]
+}
