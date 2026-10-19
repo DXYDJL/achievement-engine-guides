@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "long_distance_passenger",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "long_distance_passenger",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "long_distance_passenger"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "long_distance_passenger",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "long_distance_passenger",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "long_distance_passenger",
+      "field": "note",
+      "operation": "add",
+      "after": "在关卡伏尔加河中找到客运列车车厢。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "long_distance_passenger",
+      "field": "type",
+      "operation": "add",
+      "after": "流程"
+    }
+  ]
+}
