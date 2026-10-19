@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umve6n24dt",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24dt",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24dt",
+      "field": "chapter",
+      "operation": "add",
+      "after": "支线任务"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24dt",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24dt",
+      "field": "description",
+      "operation": "add",
+      "after": "本游戏基本所有支线都需要完成，因为支线会奖励技能点，为了达成100技能点的成就，除了奖励探险币的支线任务，其他支线支线都会奖励技能点，而这还不够，所以要都做。但是因为dlc的支线任务也算，所以这三个成就完成难度不高。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umve6n24dt",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
