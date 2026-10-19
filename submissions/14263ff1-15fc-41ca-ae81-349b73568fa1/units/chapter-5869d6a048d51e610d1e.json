@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umukk87nw8w",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8w",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8w",
+      "field": "chapter",
+      "operation": "add",
+      "after": "其他成就"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8w",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8w",
+      "field": "description",
+      "operation": "add",
+      "after": "任选周目、任意章节均可完成，顺手做就行。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw8w",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
