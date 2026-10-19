@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_35",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_35",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_35"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_35",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>用心脏窃听 40 个不同的人。</p><p>看到人就右键，攒起来很快。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_35",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_35",
+      "field": "note",
+      "operation": "add",
+      "after": "用心脏窃听 40 个不同的人。看到人就右键，很快。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_35",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}
