@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "X_RAYS_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "X_RAYS_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "X_RAYS_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "X_RAYS_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "X_RAYS_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "X_RAYS_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "杀死 50 个希斯·夏普\n指地面上那种移动速度很快、拿着把锤子近战的怪。有的话杀掉就行。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "X_RAYS_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "累计"
+    }
+  ]
+}
