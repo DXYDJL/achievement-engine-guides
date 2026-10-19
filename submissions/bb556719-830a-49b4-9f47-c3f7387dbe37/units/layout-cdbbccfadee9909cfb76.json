@@ -1,0 +1,17 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umve6n24dp",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umve6n24dp",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "BUREAU_ACQUAINTANCE_ACHIEVEMENT",
+        "BUREAU_BUDDY_ACHIEVEMENT",
+        "BUREAU_HERO_ACHIEVEMENT"
+      ]
+    }
+  ]
+}
