@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "full_band",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "full_band",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "full_band"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "full_band",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "full_band",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "full_band",
+      "field": "note",
+      "operation": "add",
+      "after": "好结局：杜克、达米尔、阿廖沙全部留在队伍中。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "full_band",
+      "field": "type",
+      "operation": "add",
+      "after": "结局"
+    }
+  ]
+}
