@@ -1,0 +1,25 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umve6n24d1k",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umve6n24d1k",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "TAKING_THE_HISS_ACHIEVEMENT",
+        "RETRO_GAMER_ACHIEVEMENT",
+        "DLC2_LORE_ACHIEVEMENT",
+        "HARTFELT_ACHIEVEMENT",
+        "AIR_SUPERIORITY_ACHIEVEMENT",
+        "EXPLOSIONS_WITH_FRIENDS_ACHIEVEMENT",
+        "CUSTOM_BUILT_ACHIEVEMENT",
+        "SPECIAL_DELIVERY_ACHIEVEMENT",
+        "MULTI_LAUNCH_ACHIEVEMENT",
+        "URBAN_SPELUNKER_AGAIN_ACHIEVEMENT",
+        "VIVA_PINATA_ACHIEVEMENT"
+      ]
+    }
+  ]
+}
