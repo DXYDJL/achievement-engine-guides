@@ -1,0 +1,20 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umve6n24d19",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umve6n24d19",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "INTERCEPT_TRAJECTORY_ACHIEVEMENT",
+        "PERSONAL_WEALTH_ACHIEVEMENT",
+        "RETURN_TO_SENDER_ACHIEVEMENT",
+        "HISSTERICAL_ACHIEVEMENT",
+        "PUPPET_MASTER_ACHIEVEMENT",
+        "SHIELD_BASH_ACHIEVEMENT"
+      ]
+    }
+  ]
+}
