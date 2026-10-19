@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_50",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_50",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_50"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_50",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>在不杀人的情况下完成游戏。</p><p><b>机器人和狗除外</b> —— 发条战士和猎犬击杀都不影响。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_50",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_50",
+      "field": "note",
+      "operation": "add",
+      "after": "不杀人完成游戏。机器人和狗不算。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_50",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}
