@@ -1,9 +1,8 @@
-name: Publish reviewed guide
+name: Publish validated guide
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'submissions/*.json'
+  workflow_run:
+    workflows: ['Validate guide submission']
+    types: [completed]
   workflow_dispatch:
     inputs:
       submissionId:
@@ -11,12 +10,13 @@ on:
         required: true
         type: string
 permissions:
+  actions: read
   contents: write
   pull-requests: read
 jobs:
   publish:
     runs-on: ubuntu-latest
-    environment: guide-publishing
+    if: ${{ github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'pull_request') }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -25,13 +25,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Revalidate asset, review and publish
+      - name: Revalidate asset and publish
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
           GH_SHA: ${{ github.sha }}
           GH_BEFORE: ${{ github.event.before }}
           SUBMISSION_ID: ${{ inputs.submissionId }}
-          REVIEWER_LOGINS: ${{ vars.GUIDE_REVIEWER_LOGINS }}
+          WORKFLOW_RUN_ID: ${{ github.event.workflow_run.id }}
           APP_VERSION: ${{ vars.GUIDE_APP_VERSION }}
         run: node scripts/publish-submission.mjs
+
