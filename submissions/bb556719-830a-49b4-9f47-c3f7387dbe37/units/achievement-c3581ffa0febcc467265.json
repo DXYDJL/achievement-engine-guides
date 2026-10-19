@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "FIRST_RESPONDER_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "FIRST_RESPONDER_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "FIRST_RESPONDER_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "FIRST_RESPONDER_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "FIRST_RESPONDER_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "FIRST_RESPONDER_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "完成1个联邦控制局警报"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "FIRST_RESPONDER_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "累计"
+    }
+  ]
+}
