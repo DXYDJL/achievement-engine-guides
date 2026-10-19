@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_8",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_8",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_8"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_8",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>拯救你最后的已知家人。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_8",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_8",
+      "field": "note",
+      "operation": "add",
+      "after": "拯救你最后的已知家人。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_8",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}
