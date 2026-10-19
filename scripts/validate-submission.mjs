@@ -18,16 +18,17 @@ validateSubmission(record);
 assertAeguideSchema('manifest', record.manifest);
 if (files[0].filename !== `submissions/${record.submissionId}.json`) throw new Error('Submission ID mismatch');
 const summary = [
-  '### 攻略投稿元数据检查通过',
+  '### 攻略投稿自动检查通过',
   `- 游戏：${record.manifest.game.title}`,
   `- 攻略：${record.manifest.guide.title} v${record.version}`,
   `- 图片：${record.manifest.assets.length} 张`,
   `- 包 SHA-256：\`${record.packageSha256}\``,
   '',
-  '攻略包已由服务端在接收时校验；发布工作流会重新下载草稿资产并运行完整校验。内容仍需维护者审核。',
+  '服务端已校验包结构、作者身份、许可证、HTML 与净化后的图片。自动检查通过后，工作流会合并此 PR 并运行发布校验。',
 ].join('\n');
 if (process.env.GITHUB_STEP_SUMMARY) {
   const { appendFileSync } = await import('node:fs');
   appendFileSync(process.env.GITHUB_STEP_SUMMARY, summary + '\n');
 }
 console.log('Submission metadata passed');
+
