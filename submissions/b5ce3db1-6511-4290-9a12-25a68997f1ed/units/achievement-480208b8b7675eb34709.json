@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "roller_coaster",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "roller_coaster",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "roller_coaster"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "roller_coaster",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "roller_coaster",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "roller_coaster",
+      "field": "note",
+      "operation": "add",
+      "after": "在关卡里海中，使用水桶升降机到达绿洲。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "roller_coaster",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}
