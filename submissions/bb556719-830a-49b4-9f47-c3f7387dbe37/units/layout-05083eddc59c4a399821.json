@@ -1,0 +1,17 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umve6n24db",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umve6n24db",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "HILT_OF_CALIBURN_ACHIEVEMENT",
+        "WERE_GOING_SHOPPING_ACHIEVEMENT",
+        "THREEFOLD_ACHIEVEMENT"
+      ]
+    }
+  ]
+}
