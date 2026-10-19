@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_14",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_14",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_14"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_14",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>杀死帕欧罗三次。</p><p>帕欧罗会复活，<b>第四章和第六章</b>各能杀他，累计三次即可。</p><p>注意这是一周目「不杀人」路线上唯一要破例的地方 —— 想做 Clean Hands 的话，这条留到二周目。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_14",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_14",
+      "field": "note",
+      "operation": "add",
+      "after": "杀死帕欧罗三次。第四、六章各能杀一次，累计三次。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_14",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}
