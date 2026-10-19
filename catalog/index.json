@@ -50,6 +50,31 @@
       "releaseId": 417514480,
       "assetId": 656821009,
       "publishedAt": "2026-10-19T16:48:19.349Z"
+    },
+    {
+      "guideId": "1930998b-f960-48fe-9a5c-51a40b7b264d",
+      "version": "1.0.0",
+      "game": {
+        "platform": "steam",
+        "platformGameId": "403640",
+        "title": "Dishonored 2"
+      },
+      "guide": {
+        "title": "Dishonored 2-全成就攻略（章节流程）",
+        "type": "workflow",
+        "language": "zh-CN",
+        "summary": ""
+      },
+      "author": {
+        "displayName": "dxydjl0521-maker",
+        "githubLogin": "dxydjl0521-maker"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "minAppVersion": "0.8.5",
+      "sha256": "3a32d3f389226ee6e02043e6bbcc0783c650457720bff6f6e8ad8ca5af1b335e",
+      "releaseId": 417522361,
+      "assetId": 656840582,
+      "publishedAt": "2026-10-19T16:55:13.063Z"
     }
   ]
 }
