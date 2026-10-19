@@ -1,0 +1,93 @@
+{
+  "entityType": "notes",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "missable",
+      "operation": "add",
+      "after": [
+        {
+          "achievement_id": "ACH_41",
+          "chapter": "一周目 · 全流程成就",
+          "reason": "第一章拒绝界外魔印记。接受之后这条就作废，没有回头路。"
+        },
+        {
+          "achievement_id": "ACH_9",
+          "chapter": "第一章 · 一项紧急任务",
+          "reason": "报社顶层的营救时机一次性，必须等士兵拔剑后再动手。"
+        },
+        {
+          "achievement_id": "ACH_25",
+          "chapter": "第一章 · 一项紧急任务",
+          "reason": "第一章和第九章的保险箱都要搜刮，漏掉任意一次就解锁不了。"
+        },
+        {
+          "achievement_id": "ACH_11",
+          "chapter": "第二章 · 世界边缘",
+          "reason": "必须在士兵把市民推进光幕之前阻止，走过这个场面就没了。"
+        },
+        {
+          "achievement_id": "ACH_47",
+          "chapter": "第二章 · 世界边缘",
+          "reason": "第二、六、八章各一对二重奏。抢劫黑市次数太多会导致第八章那对不出现。"
+        },
+        {
+          "achievement_id": "ACH_14",
+          "chapter": "第四章 · 机关宅邸",
+          "reason": "第四、六章各能杀帕欧罗一次，错过一章就凑不满三次。"
+        },
+        {
+          "achievement_id": "ACH_17",
+          "chapter": "第六章 · 沙尘区",
+          "reason": "与「Faithful to the Abbey」互斥，同一周目只能拿一个。"
+        },
+        {
+          "achievement_id": "ACH_18",
+          "chapter": "第六章 · 沙尘区",
+          "reason": "与「Howlers 'til the End」互斥，同一周目只能拿一个。"
+        },
+        {
+          "achievement_id": "ACH_19",
+          "chapter": "第六章 · 沙尘区",
+          "reason": "一旦提前拿到并使用密码，这条就作废。"
+        },
+        {
+          "achievement_id": "ACH_20",
+          "chapter": "第七章 · 石板上的裂缝",
+          "reason": "取钥匙时守卫必须保持未惊动，被发现就不算。"
+        },
+        {
+          "achievement_id": "ACH_22",
+          "chapter": "第七章 · 石板上的裂缝",
+          "reason": "只在「过去」时间线里能打断连接物，回到现在就没机会了。"
+        },
+        {
+          "achievement_id": "ACH_23",
+          "chapter": "第九章 · 女皇之死",
+          "reason": "要求低混乱度；高混乱度要额外去梅根的船舱才能听到。"
+        },
+        {
+          "achievement_id": "ACH_36",
+          "chapter": "收集成就",
+          "reason": "必须一周目内集齐全部画作，二周目要重新全收集而不是补缺。"
+        }
+      ]
+    },
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "new_game_plus",
+      "operation": "add",
+      "after": "建议两个周目完成。\n一周目：不杀人、低混乱、无超能力、不潜行 —— 拿掉绝大部分成就，角色选艾米丽。\n二周目：杀人、高混乱、用超能力、潜行 —— 收掉需要超能力的 7 条，角色选科尔沃。"
+    },
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "tips",
+      "operation": "add",
+      "after": "每章的画、护符、符文、设计图、收集品、日志数量都写在章节描述里，可以用来核对有没有漏收集。\n参考文献：\n[1]《耻辱2全成就》 https://www.bilibili.com/read/cv27500738/\n[2]《耻辱2全成就50个（按照章节分）》https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?h_camp=link&h_src=YXBwX3NoYXJl&link_id=1629717fab98&new_post_share_style=true"
+    }
+  ]
+}
