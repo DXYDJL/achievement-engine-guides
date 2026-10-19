@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "TRINARY_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "TRINARY_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "TRINARY_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TRINARY_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TRINARY_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TRINARY_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "解除锁定全部3个个人模块栏位\n推进主线后会解锁"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TRINARY_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "技能"
+    }
+  ]
+}
