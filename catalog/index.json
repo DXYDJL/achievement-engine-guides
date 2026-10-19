@@ -1,4 +1,30 @@
 {
   "schemaVersion": 1,
-  "entries": []
+  "entries": [
+    {
+      "guideId": "6d1907d1-c5bd-4fd0-a4f0-4de0d4266e4b",
+      "version": "1.0.0",
+      "game": {
+        "platform": "steam",
+        "platformGameId": "999999999",
+        "title": "社区投稿验收样本（合成）"
+      },
+      "guide": {
+        "title": "社区投稿流程验收样本",
+        "type": "workflow",
+        "language": "zh-CN",
+        "summary": "仅用于验证新版真实投稿、独立审核及发布流程；不含真实游戏攻略。"
+      },
+      "author": {
+        "displayName": "社区投稿验收样本",
+        "githubLogin": "dxydjl0521-maker"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "minAppVersion": "0.8.5",
+      "sha256": "326a3645f7719298bc683b4ff22aa4a47972d7065c4abaada723cce89d4c8fb2",
+      "releaseId": 417344646,
+      "assetId": 656405298,
+      "publishedAt": "2026-10-19T14:01:14.010Z"
+    }
+  ]
 }
