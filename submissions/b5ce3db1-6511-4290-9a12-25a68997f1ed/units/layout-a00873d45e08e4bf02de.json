@@ -1,0 +1,24 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-lower_the_b",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-lower_the_b",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "regatta",
+        "firebird",
+        "crew_friend",
+        "silent_marksman",
+        "kaleidoscope",
+        "fisherman",
+        "railwayman",
+        "long_distance_passenger",
+        "d1",
+        "full_armor_set"
+      ]
+    }
+  ]
+}
