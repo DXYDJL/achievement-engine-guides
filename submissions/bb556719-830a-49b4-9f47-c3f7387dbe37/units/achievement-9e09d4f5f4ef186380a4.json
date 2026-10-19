@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "BUREAU_BUDDY_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "BUREAU_BUDDY_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "BUREAU_BUDDY_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "BUREAU_BUDDY_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "BUREAU_BUDDY_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "BUREAU_BUDDY_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "净化10个控制点"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "BUREAU_BUDDY_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "净化点"
+    }
+  ]
+}
