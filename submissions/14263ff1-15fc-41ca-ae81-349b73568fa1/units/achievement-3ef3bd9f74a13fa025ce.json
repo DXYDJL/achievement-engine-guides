@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_21",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_21",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_21"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_21",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_21",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_21",
+      "field": "note",
+      "operation": "add",
+      "after": "排掉地下室的水以获取符文。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_21",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}
