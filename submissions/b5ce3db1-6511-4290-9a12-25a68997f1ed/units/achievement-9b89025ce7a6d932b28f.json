@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "aurora",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "aurora",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "aurora"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "aurora",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "aurora",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "aurora",
+      "field": "note",
+      "operation": "add",
+      "after": "为火车命名曙光号，剧情自动解锁。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "aurora",
+      "field": "type",
+      "operation": "add",
+      "after": "流程"
+    }
+  ]
+}
