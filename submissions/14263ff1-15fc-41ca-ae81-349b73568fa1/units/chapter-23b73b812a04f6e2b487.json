@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umukk87nw88",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw88",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw88",
+      "field": "chapter",
+      "operation": "add",
+      "after": "第七章 · 石板上的裂缝"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw88",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw88",
+      "field": "description",
+      "operation": "add",
+      "after": "画：2 幅，护符：7 个，符文：4 个，设计图：1 个，收集品：1 个，日志：0 个"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umukk87nw88",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
