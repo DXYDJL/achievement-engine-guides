@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "HOTLINE_RING_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "HOTLINE_RING_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "HOTLINE_RING_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HOTLINE_RING_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HOTLINE_RING_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HOTLINE_RING_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "完成任务2"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HOTLINE_RING_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "主线"
+    }
+  ]
+}
