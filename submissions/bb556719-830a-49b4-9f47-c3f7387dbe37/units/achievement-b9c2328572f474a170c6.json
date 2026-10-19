@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "MULTI_LAUNCH_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "MULTI_LAUNCH_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "MULTI_LAUNCH_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MULTI_LAUNCH_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MULTI_LAUNCH_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MULTI_LAUNCH_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "使用多物投掷击打到3个目标\n调查中枢剧情后解锁 走左边学完技能正好出门3个怪，用技能杀掉后跳成就。注意是升起3个物体打3个敌人，不是3个打1个"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MULTI_LAUNCH_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}
