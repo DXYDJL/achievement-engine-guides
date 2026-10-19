@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "dlc_01_dodge_master",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_dodge_master",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_01_dodge_master"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_dodge_master",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_dodge_master",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_dodge_master",
+      "field": "note",
+      "operation": "add",
+      "after": "在两个上校章节中躲避盲者所有投掷攻击。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_dodge_master",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}
