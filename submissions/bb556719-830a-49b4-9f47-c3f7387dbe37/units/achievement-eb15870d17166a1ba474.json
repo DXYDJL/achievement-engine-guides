@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "PILLAR_OF_THE_COMMUNITY_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "PILLAR_OF_THE_COMMUNITY_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "PILLAR_OF_THE_COMMUNITY_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PILLAR_OF_THE_COMMUNITY_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PILLAR_OF_THE_COMMUNITY_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PILLAR_OF_THE_COMMUNITY_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "完成15个支线任务"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PILLAR_OF_THE_COMMUNITY_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}
