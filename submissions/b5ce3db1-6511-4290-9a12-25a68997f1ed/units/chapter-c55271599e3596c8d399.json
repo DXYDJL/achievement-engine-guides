@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-hardcore",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-hardcore",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "hardcore"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-hardcore",
+      "field": "chapter",
+      "operation": "add",
+      "after": "难度"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-hardcore",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-hardcore",
+      "field": "description",
+      "operation": "add",
+      "after": "在困难游骑兵模式下完成游戏"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-hardcore",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
