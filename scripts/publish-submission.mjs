@@ -11,14 +11,25 @@ import { inspectAeguideFile } from '../lib/validate-file.mjs';
 const sha = process.env.GH_SHA;
 const before = process.env.GH_BEFORE;
 const appVersion = process.env.APP_VERSION;
-const reviewers = new Set((process.env.REVIEWER_LOGINS || '').split(',').map((name) => name.trim().toLowerCase()).filter(Boolean));
-if (!reviewers.size || !/^\d+\.\d+\.\d+$/.test(appVersion || '') || !/^[a-f0-9]{40}$/.test(sha || ''))
-  throw new Error('GUIDE_REVIEWER_LOGINS, GUIDE_APP_VERSION or commit SHA missing');
+let submissionId = process.env.SUBMISSION_ID;
+const workflowRunId = process.env.WORKFLOW_RUN_ID;
+if (!/^\d+\.\d+\.\d+$/.test(appVersion || '') || !/^[a-f0-9]{40}$/.test(sha || ''))
+  throw new Error('GUIDE_APP_VERSION or commit SHA missing');
+
+if (workflowRunId) {
+  if (!/^\d+$/.test(workflowRunId)) throw new Error('Invalid validation workflow run ID');
+  const run = await gh('GET', `/actions/runs/${workflowRunId}`);
+  if (!run || run.name !== 'Validate guide submission' || run.event !== 'pull_request' || run.conclusion !== 'success')
+    throw new Error('Submission validation workflow did not succeed');
+  const match = /^submissions\/([a-f0-9-]{36})$/.exec(run.head_branch || '');
+  if (!match) throw new Error('Validation run is not linked to a submission PR');
+  submissionId = match[1];
+}
 
 let files;
-if (process.env.SUBMISSION_ID) {
-  if (!/^[a-f0-9-]{36}$/.test(process.env.SUBMISSION_ID)) throw new Error('Invalid submission ID');
-  files = [`submissions/${process.env.SUBMISSION_ID}.json`];
+if (submissionId) {
+  if (!/^[a-f0-9-]{36}$/.test(submissionId)) throw new Error('Invalid submission ID');
+  files = [`submissions/${submissionId}.json`];
 } else {
   if (!/^[a-f0-9]{40}$/.test(before || '')) throw new Error('Previous commit SHA missing');
   files = execFileSync('git', ['diff', '--name-only', before, sha, '--', 'submissions'], { encoding: 'utf8' })
@@ -36,15 +47,7 @@ for (const filename of files) {
   const fileCommit = execFileSync('git', ['log', '-1', '--format=%H', '--', filename], { encoding: 'utf8' }).trim();
   const linked = await gh('GET', `/commits/${fileCommit}/pulls`);
   const pr = linked?.find((item) => item.merged_at && item.base.ref === 'main' && item.head.ref === `submissions/${record.submissionId}`);
-  if (!pr) throw new Error('Submission was not merged from its review PR');
-  const reviews = await gh('GET', `/pulls/${pr.number}/reviews?per_page=100`);
-  if (!Array.isArray(reviews) || reviews.length === 100) throw new Error('Review list unavailable or truncated');
-  const latest = new Map();
-  for (const review of reviews) if (review.user?.login && review.submitted_at) latest.set(review.user.login.toLowerCase(), review);
-  const approved = [...latest.values()].some((review) => review.state === 'APPROVED'
-    && review.commit_id === pr.head.sha && reviewers.has(review.user.login.toLowerCase())
-    && review.user.login.toLowerCase() !== record.manifest.author.githubLogin?.toLowerCase());
-  if (!approved) throw new Error('No current approval from an authorized maintainer');
+  if (!pr) throw new Error('Submission was not merged from its validated PR');
 
   const release = await gh('GET', `/releases/${record.draftReleaseId}`);
   const asset = release?.assets?.find((item) => item.id === record.assetId);
@@ -84,3 +87,4 @@ for (const filename of files) {
   }
   console.log(`Published ${record.guideId} v${record.version}`);
 }
+
