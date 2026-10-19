@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "STAFF_SUPPORT_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "STAFF_SUPPORT_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "STAFF_SUPPORT_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "STAFF_SUPPORT_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "STAFF_SUPPORT_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "STAFF_SUPPORT_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "完成10个支线任务"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "STAFF_SUPPORT_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}
