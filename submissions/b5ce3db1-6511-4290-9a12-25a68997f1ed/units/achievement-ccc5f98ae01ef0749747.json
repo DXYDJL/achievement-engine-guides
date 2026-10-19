@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "dlc_02_a_man_of_principle",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_a_man_of_principle",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_02_a_man_of_principle"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_a_man_of_principle",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_a_man_of_principle",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_a_man_of_principle",
+      "field": "note",
+      "operation": "add",
+      "after": "获得船长的绝对信任，完成山姆的故事章节。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_a_man_of_principle",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}
