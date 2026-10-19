@@ -1,4 +1,5 @@
 import { Buffer } from 'node:buffer';
+import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import { mkdtemp, rm } from 'node:fs/promises';
 import { execFileSync } from 'node:child_process';
@@ -26,28 +27,54 @@ if (workflowRunId) {
   submissionId = match[1];
 }
 
-let files;
+let changedFiles;
 if (submissionId) {
   if (!/^[a-f0-9-]{36}$/.test(submissionId)) throw new Error('Invalid submission ID');
-  files = [`submissions/${submissionId}.json`];
+  changedFiles = [`submissions/${submissionId}.json`];
 } else {
   if (!/^[a-f0-9]{40}$/.test(before || '')) throw new Error('Previous commit SHA missing');
-  files = execFileSync('git', ['diff', '--name-only', before, sha, '--', 'submissions'], { encoding: 'utf8' })
+  changedFiles = execFileSync('git', ['diff', '--name-only', before, sha, '--', 'submissions'], { encoding: 'utf8' })
     .split(/\r?\n/).filter(Boolean);
 }
-if (!files.length || files.some((name) => !/^submissions\/[a-f0-9-]{36}\.json$/.test(name)))
+const files = changedFiles.filter((name) => /^submissions\/[a-f0-9-]{36}\.json$/.test(name));
+if (!files.length)
   throw new Error('No valid submission metadata to publish');
+const expectedUnits = new Set();
 
-for (const filename of files) {
-  const record = JSON.parse(readFileSync(filename, 'utf8'));
+const records = files.map((filename) => ({ filename, record: JSON.parse(readFileSync(filename, 'utf8')) }));
+for (const { filename, record } of records) {
   validateSubmission(record);
   assertAeguideSchema('manifest', record.manifest);
   if (filename !== `submissions/${record.submissionId}.json`) throw new Error('Submission ID mismatch');
+  for (const unit of record.changeFiles) {
+    expectedUnits.add(unit.path);
+    const bytes = readFileSync(unit.path);
+    if (createHash('sha256').update(bytes).digest('hex') !== unit.sha256)
+      throw new Error(`Contribution unit hash mismatch: ${unit.path}`);
+  }
+}
+if (!submissionId && changedFiles.some((name) => !files.includes(name) && !expectedUnits.has(name)))
+  throw new Error('Merge changed an unexpected submission file');
 
+for (const { filename, record } of records) {
   const fileCommit = execFileSync('git', ['log', '-1', '--format=%H', '--', filename], { encoding: 'utf8' }).trim();
   const linked = await gh('GET', `/commits/${fileCommit}/pulls`);
   const pr = linked?.find((item) => item.merged_at && item.base.ref === 'main' && item.head.ref === `submissions/${record.submissionId}`);
   if (!pr) throw new Error('Submission was not merged from its validated PR');
+  const validation = await gh('GET', `/actions/workflows/validate-guide.yml/runs?event=pull_request&branch=${encodeURIComponent(pr.head.ref)}&per_page=100`);
+  if (!validation?.workflow_runs?.some((run) => run.conclusion === 'success'
+    && run.pull_requests?.some((linkedPr) => linkedPr.number === pr.number && linkedPr.head.sha === pr.head.sha)))
+    throw new Error('Final PR revision has no successful validation run');
+  const maintainers = new Set((process.env.GUIDE_MAINTAINERS || '').split(',').map((login) => login.trim().toLowerCase()).filter(Boolean));
+  if (!maintainers.size) throw new Error('GUIDE_MAINTAINERS must list authorized reviewers');
+  const reviews = await gh('GET', `/pulls/${pr.number}/reviews?per_page=100`);
+  if (!Array.isArray(reviews)) throw new Error('PR reviews unavailable');
+  const latestReviewByUser = new Map();
+  for (const review of reviews) if (review.user?.login) latestReviewByUser.set(review.user.login.toLowerCase(), review);
+  const approved = [...latestReviewByUser].some(([login, review]) => maintainers.has(login)
+    && login !== record.contributor.githubLogin.toLowerCase()
+    && review.state === 'APPROVED' && review.commit_id === pr.head.sha);
+  if (!approved) throw new Error('A separate authorized maintainer must approve the contribution');
 
   const release = await gh('GET', `/releases/${record.draftReleaseId}`);
   const asset = release?.assets?.find((item) => item.id === record.assetId);
@@ -64,13 +91,24 @@ for (const filename of files) {
       throw new Error('Manifest differs from reviewed PR');
   } finally { await rm(tempDirectory, { recursive: true, force: true }); }
 
-  if (release.draft) await gh('PATCH', `/releases/${release.id}`, { draft: false, prerelease: false, make_latest: 'false' });
   const catalogFile = await gh('GET', '/contents/catalog/index.json?ref=main');
   if (!catalogFile || catalogFile.encoding !== 'base64') throw new Error('Catalog unavailable');
   const catalog = JSON.parse(Buffer.from(catalogFile.content.replace(/\s/g, ''), 'base64').toString('utf8'));
   if (catalog.schemaVersion !== 1 || !Array.isArray(catalog.entries)) throw new Error('Catalog schema invalid');
+  const sameScope = catalog.entries.filter((item) => item.game.platform === record.manifest.game.platform
+    && item.game.platformGameId === record.manifest.game.platformGameId
+    && item.guide.language === record.manifest.guide.language);
+  if (sameScope.some((item) => item.guideId !== record.guideId))
+    throw new Error('A different community guide already owns this game and language');
+  const versions = sameScope.filter((item) => item.guideId === record.guideId)
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
   const prior = catalog.entries.find((item) => item.guideId === record.guideId && item.version === record.version);
   if (prior && prior.sha256 !== record.packageSha256) throw new Error('Catalog version conflict');
+  if (!prior && versions.length && versions[0].sha256 !== record.baseRevision)
+    throw new Error('Community guide advanced after this PR was reviewed');
+  if (!prior && !versions.length && record.baseRevision !== null)
+    throw new Error('Community base revision is not published');
+  if (release.draft) await gh('PATCH', `/releases/${release.id}`, { draft: false, prerelease: false, make_latest: 'false' });
   if (!prior) {
     catalog.entries.push({
       guideId: record.guideId, version: record.version, game: record.manifest.game,
@@ -87,4 +125,3 @@ for (const filename of files) {
   }
   console.log(`Published ${record.guideId} v${record.version}`);
 }
-

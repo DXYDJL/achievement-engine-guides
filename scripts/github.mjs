@@ -51,7 +51,17 @@ export function validateSubmission(record) {
     || !Number.isSafeInteger(record.draftReleaseId) || !Number.isSafeInteger(record.assetId)
     || record.manifest?.guideId !== record.guideId || record.manifest?.version !== record.version
     || typeof record.manifest?.license !== 'string' || !Array.isArray(record.manifest?.assets)
-    || checkCommunitySubmissionPolicy(record.manifest)) {
+    || checkCommunitySubmissionPolicy(record.manifest)
+    || !Number.isSafeInteger(record.contributor?.userId) || record.contributor.userId <= 0
+    || !/^[a-z0-9-]{1,39}$/i.test(record.contributor?.githubLogin || '')
+    || record.manifest?.author?.githubLogin?.toLowerCase() !== record.contributor.githubLogin.toLowerCase()
+    || !(record.baseRevision === null || /^[a-f0-9]{64}$/.test(record.baseRevision || ''))
+    || !Array.isArray(record.changeFiles) || record.changeFiles.length < 1 || record.changeFiles.length > 2500
+    || record.changeFiles.some((item) => !item || typeof item.path !== 'string'
+      || !new RegExp(`^submissions/${record.submissionId}/units/(?:chapter|achievement|layout|notes|categories)-[a-f0-9]{20}\\.json$`).test(item.path)
+      || !/^[a-f0-9]{64}$/.test(item.sha256 || ''))) {
     throw new Error('Submission metadata invalid');
   }
+  if (new Set(record.changeFiles.map((item) => item.path)).size !== record.changeFiles.length)
+    throw new Error('Duplicate contribution unit path');
 }

@@ -3,9 +3,10 @@ on:
   pull_request:
     paths:
       - 'submissions/*.json'
+      - 'submissions/**/units/*.json'
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read
+  pull-requests: read
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -26,12 +27,3 @@ jobs:
           PR_NUMBER: ${{ github.event.pull_request.number }}
           PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
         run: node scripts/validate-submission.mjs
-      - name: Merge validated submission
-        env:
-          GH_TOKEN: ${{ github.token }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
-        run: |
-          gh api --method PUT "repos/${GITHUB_REPOSITORY}/pulls/${PR_NUMBER}/merge" \
-            -f sha="${PR_HEAD_SHA}" -f merge_method=squash | jq -e '.merged == true'
-

@@ -1,8 +1,9 @@
 name: Publish validated guide
 on:
-  workflow_run:
-    workflows: ['Validate guide submission']
-    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - 'submissions/*.json'
   workflow_dispatch:
     inputs:
       submissionId:
@@ -16,7 +17,7 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'pull_request') }}
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'push' }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -34,5 +35,5 @@ jobs:
           SUBMISSION_ID: ${{ inputs.submissionId }}
           WORKFLOW_RUN_ID: ${{ github.event.workflow_run.id }}
           APP_VERSION: ${{ vars.GUIDE_APP_VERSION }}
+          GUIDE_MAINTAINERS: ${{ vars.GUIDE_MAINTAINERS }}
         run: node scripts/publish-submission.mjs
-

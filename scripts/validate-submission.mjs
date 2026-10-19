@@ -1,4 +1,5 @@
 import { Buffer } from 'node:buffer';
+import { createHash } from 'node:crypto';
 import { gh, repository, validateSubmission } from './github.mjs';
 import { assertAeguideSchema } from '../lib/validate.mjs';
 
@@ -8,15 +9,36 @@ if (!Number.isSafeInteger(number) || !/^[a-f0-9]{40}$/.test(head || '')) throw n
 const pr = await gh('GET', `/pulls/${number}`);
 if (!pr || pr.head.repo.full_name !== repository || pr.head.sha !== head || !pr.head.ref.startsWith('submissions/'))
   throw new Error('Unexpected PR source');
-const files = await gh('GET', `/pulls/${number}/files?per_page=100`);
-if (!Array.isArray(files) || files.length !== 1 || files[0].status !== 'added'
-  || !/^submissions\/[a-f0-9-]{36}\.json$/.test(files[0].filename)) throw new Error('PR must add exactly one submission metadata file');
-const response = await gh('GET', `/contents/${files[0].filename}?ref=${head}`);
+const files = [];
+for (let page = 1; page <= 30; page++) {
+  const batch = await gh('GET', `/pulls/${number}/files?per_page=100&page=${page}`);
+  if (!Array.isArray(batch)) throw new Error('PR file list unavailable');
+  files.push(...batch);
+  if (batch.length < 100) break;
+}
+const metadata = files.find((item) => /^submissions\/[a-f0-9-]{36}\.json$/.test(item.filename));
+if (!metadata || metadata.status !== 'added') throw new Error('Submission metadata missing');
+const response = await gh('GET', `/contents/${metadata.filename}?ref=${head}`);
 if (!response || response.encoding !== 'base64') throw new Error('Submission file unavailable');
 const record = JSON.parse(Buffer.from(response.content.replace(/\s/g, ''), 'base64').toString('utf8'));
 validateSubmission(record);
 assertAeguideSchema('manifest', record.manifest);
-if (files[0].filename !== `submissions/${record.submissionId}.json`) throw new Error('Submission ID mismatch');
+if (metadata.filename !== `submissions/${record.submissionId}.json`) throw new Error('Submission ID mismatch');
+const expected = new Set([metadata.filename, ...record.changeFiles.map((item) => item.path)]);
+if (files.length !== expected.size || files.some((item) => item.status !== 'added' || !expected.has(item.filename)))
+  throw new Error('PR contains unexpected files');
+for (const unit of record.changeFiles) {
+  const file = await gh('GET', `/contents/${unit.path}?ref=${head}`);
+  if (!file || file.encoding !== 'base64') throw new Error('Contribution unit missing');
+  const bytes = Buffer.from(file.content.replace(/\s/g, ''), 'base64');
+  if (createHash('sha256').update(bytes).digest('hex') !== unit.sha256) throw new Error('Contribution unit hash mismatch');
+  const parsed = JSON.parse(bytes.toString('utf8'));
+  if (!['chapter', 'achievement', 'layout', 'notes', 'categories'].includes(parsed.entityType)
+    || typeof parsed.entityId !== 'string' || !Array.isArray(parsed.changes) || !parsed.changes.length
+    || parsed.changes.some((change) => change.entityType !== parsed.entityType || change.entityId !== parsed.entityId
+      || !['add', 'update', 'delete'].includes(change.operation) || typeof change.field !== 'string'))
+    throw new Error('Contribution unit invalid');
+}
 const summary = [
   '### 攻略投稿自动检查通过',
   `- 游戏：${record.manifest.game.title}`,
@@ -31,4 +53,3 @@ if (process.env.GITHUB_STEP_SUMMARY) {
   appendFileSync(process.env.GITHUB_STEP_SUMMARY, summary + '\n');
 }
 console.log('Submission metadata passed');
-
