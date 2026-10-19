@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "BEGINS_WITH_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "BEGINS_WITH_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "BEGINS_WITH_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "BEGINS_WITH_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "BEGINS_WITH_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "BEGINS_WITH_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "收集80个收藏品"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "BEGINS_WITH_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}
