@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_24",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_24",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_24"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_24",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>在最后的时刻，向逝去的女皇（你的母亲 / 挚爱）表达敬意。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_24",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_24",
+      "field": "note",
+      "operation": "add",
+      "after": "在最后的时刻，向逝去的女皇表达敬意。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_24",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}
