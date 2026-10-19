@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "HARTFELT_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "HARTFELT_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "HARTFELT_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HARTFELT_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HARTFELT_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HARTFELT_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "击败哈特曼\n还是和之前一样的套路，多留意亮光就好"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HARTFELT_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "主线"
+    }
+  ]
+}
