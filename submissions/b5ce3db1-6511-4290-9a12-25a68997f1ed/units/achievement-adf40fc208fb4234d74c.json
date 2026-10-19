@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "kaleidoscope",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "kaleidoscope",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "kaleidoscope"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "kaleidoscope",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "kaleidoscope",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "kaleidoscope",
+      "field": "note",
+      "operation": "add",
+      "after": "在关卡伏尔加河的工厂里，同时装备防毒面具和夜视仪，用高倍瞄准镜击杀3个敌人。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "kaleidoscope",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}
