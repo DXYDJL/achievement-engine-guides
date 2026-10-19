@@ -46,7 +46,7 @@
     "contentFile": { "const": "guide.json" },
     "contentSha256": { "$ref": "#/$defs/hash" },
     "assets": {
-      "type": "array", "maxItems": 117,
+      "type": "array", "maxItems": 497,
       "items": {
         "type": "object", "additionalProperties": false,
         "required": ["path", "mimeType", "size", "sha256"],

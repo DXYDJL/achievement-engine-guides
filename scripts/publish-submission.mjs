@@ -1,9 +1,12 @@
 import { Buffer } from 'node:buffer';
-import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
+import { mkdtemp, rm } from 'node:fs/promises';
 import { execFileSync } from 'node:child_process';
-import { gh, validateSubmission } from './github.mjs';
-import { assertAeguideSchema, unpackAeguide } from '../lib/validate.mjs';
+import { tmpdir } from 'node:os';
+import path from 'node:path';
+import { gh, ghDownloadToFile, validateSubmission } from './github.mjs';
+import { assertAeguideSchema } from '../lib/validate.mjs';
+import { inspectAeguideFile } from '../lib/validate-file.mjs';
 
 const sha = process.env.GH_SHA;
 const before = process.env.GH_BEFORE;
@@ -47,11 +50,16 @@ for (const filename of files) {
   const asset = release?.assets?.find((item) => item.id === record.assetId);
   if (!release || !asset || release.tag_name !== `guide-${record.guideId}-v${record.version}`
     || asset.name !== `${record.guideId}-v${record.version}.aeguide`) throw new Error('Draft release asset mismatch');
-  const bytes = await gh('GET', `/releases/assets/${record.assetId}`, undefined, 'application/octet-stream');
-  if (!(bytes instanceof Uint8Array) || createHash('sha256').update(bytes).digest('hex') !== record.packageSha256)
-    throw new Error('Release asset SHA-256 mismatch');
-  const parsed = await unpackAeguide(bytes, appVersion);
-  if (JSON.stringify(parsed.manifest) !== JSON.stringify(record.manifest)) throw new Error('Manifest differs from reviewed PR');
+  const tempDirectory = await mkdtemp(path.join(tmpdir(), 'ae-publish-'));
+  try {
+    const packagePath = path.join(tempDirectory, 'submission.aeguide');
+    const downloaded = await ghDownloadToFile(`/releases/assets/${record.assetId}`, packagePath, 500_000_000);
+    if (downloaded.size !== asset.size || downloaded.sha256 !== record.packageSha256)
+      throw new Error('Release asset SHA-256 mismatch');
+    const parsed = await inspectAeguideFile(packagePath, appVersion);
+    if (JSON.stringify(parsed.manifest) !== JSON.stringify(record.manifest))
+      throw new Error('Manifest differs from reviewed PR');
+  } finally { await rm(tempDirectory, { recursive: true, force: true }); }
 
   if (release.draft) await gh('PATCH', `/releases/${release.id}`, { draft: false, prerelease: false, make_latest: 'false' });
   const catalogFile = await gh('GET', '/contents/catalog/index.json?ref=main');
