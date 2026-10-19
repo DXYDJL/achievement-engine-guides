@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "PERSONAL_WEALTH_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "PERSONAL_WEALTH_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "PERSONAL_WEALTH_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PERSONAL_WEALTH_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PERSONAL_WEALTH_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PERSONAL_WEALTH_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "至少收集10万单位来源\n多杀怪，多收集，多做任务，基本后期就会跳。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PERSONAL_WEALTH_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "累计"
+    }
+  ]
+}
