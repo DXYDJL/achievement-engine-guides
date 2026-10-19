@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "guide",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "guide"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "guide",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "guide",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "guide",
+      "field": "note",
+      "operation": "add",
+      "after": "在关卡死城的研究设施中不杀任何盲者（盲猩）通过。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "guide",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}
