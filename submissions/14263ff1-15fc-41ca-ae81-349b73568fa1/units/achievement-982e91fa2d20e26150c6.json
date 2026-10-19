@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_49",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_49",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_49"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_49",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_49",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_49",
+      "field": "note",
+      "operation": "add",
+      "after": "阅读梅根与索科洛夫的所有日志与声谱。收集点都在船上。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_49",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}
