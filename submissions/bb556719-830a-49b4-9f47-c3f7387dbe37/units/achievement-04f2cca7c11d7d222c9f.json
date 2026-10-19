@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "RETURN_TO_SENDER_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "RETURN_TO_SENDER_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "RETURN_TO_SENDER_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RETURN_TO_SENDER_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RETURN_TO_SENDER_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RETURN_TO_SENDER_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "使用发射技能投掷一枚手雷或火箭\n前期无法抓取，必须点了技能才能抓"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RETURN_TO_SENDER_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "技能"
+    }
+  ]
+}
