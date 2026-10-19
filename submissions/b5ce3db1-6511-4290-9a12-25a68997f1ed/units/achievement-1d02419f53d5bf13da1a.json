@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "regatta",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "regatta",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "regatta"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "regatta",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "regatta",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "regatta",
+      "field": "note",
+      "operation": "add",
+      "after": "在关卡伏尔加河中进入一艘小船。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "regatta",
+      "field": "type",
+      "operation": "add",
+      "after": "流程"
+    }
+  ]
+}
