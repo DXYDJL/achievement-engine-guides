@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "master_of_the_forest",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "master_of_the_forest",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "master_of_the_forest"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "master_of_the_forest",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "master_of_the_forest",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "master_of_the_forest",
+      "field": "note",
+      "operation": "add",
+      "after": "在关卡针叶林中，第一次遭遇熊时坚持战斗并击退它。硬刚就行了，应该也可以趁熊不注意直接割开绳子上楼梯跑路，但是这样就没法跳这个成就。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "master_of_the_forest",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}
