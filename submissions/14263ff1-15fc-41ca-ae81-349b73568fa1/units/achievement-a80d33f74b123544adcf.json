@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_46",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_46",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_46"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_46",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>在 2 名角色杀掉对方以前用骨牌（Domino）将他们「连接」到一起。</p><p><b>第二章和第六章</b>都有可以下手的场面。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_46",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_46",
+      "field": "note",
+      "operation": "add",
+      "after": "在两名角色互相残杀前用骨牌把他们连接起来。第二、六章都有机会。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_46",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}
