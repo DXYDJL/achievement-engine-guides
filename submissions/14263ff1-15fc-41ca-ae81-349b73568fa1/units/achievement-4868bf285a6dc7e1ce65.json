@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_23",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_23",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_23"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_23",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>聆听梅根的故事。</p><p><b>要求低混乱度。</b>高混乱度下要到梅根的船舱才能听到 —— 一周目走低混乱的话正常就会解锁。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_23",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_23",
+      "field": "note",
+      "operation": "add",
+      "after": "聆听梅根的故事。要求低混乱度；高混乱度要到梅根的船舱才能听。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_23",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}
