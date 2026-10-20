@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "dlc_01_quite_heavy",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_quite_heavy",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_01_quite_heavy"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_quite_heavy",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_quite_heavy",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_quite_heavy",
+      "field": "note",
+      "operation": "add",
+      "after": "用火焰喷射器的近战攻击杀死 3 个诺萨里斯。它们只在上校进入地堡后出现。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_quite_heavy",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}
