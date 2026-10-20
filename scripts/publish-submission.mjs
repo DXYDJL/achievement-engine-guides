@@ -118,7 +118,10 @@ for (const { filename, record } of records) {
     throw new Error('Community guide advanced after this PR was reviewed');
   if (!prior && !versions.length && record.baseRevision !== null)
     throw new Error('Community base revision is not published');
-  if (release.draft) await gh('PATCH', `/releases/${release.id}`, { draft: false, prerelease: false, make_latest: 'false' });
+  const publishedBody = `已审核通过并发布的社区攻略。投稿 ID: ${record.submissionId}\nSHA-256: ${record.packageSha256}`;
+  await gh('PATCH', `/releases/${release.id}`, {
+    draft: false, prerelease: false, make_latest: 'false', body: publishedBody,
+  });
   if (!prior) {
     catalog.entries.push({
       guideId: record.guideId, version: record.version, game: record.manifest.game,
