@@ -1,0 +1,55 @@
+{
+  "submissionId": "3bfe3226-d683-41bc-a5cb-56f283a5850f",
+  "guideId": "5db900d4-89a9-4401-8d3b-e0adf3a50d1f",
+  "version": "1.0.1",
+  "packageSha256": "770a577f3c74c6654272aabc0423efc6f2356fd354a7d3a0524f55c4e3283cdf",
+  "draftReleaseId": 417913689,
+  "assetId": 657946864,
+  "manifest": {
+    "format": "aeguide",
+    "schemaVersion": 1,
+    "guideId": "5db900d4-89a9-4401-8d3b-e0adf3a50d1f",
+    "version": "1.0.1",
+    "game": {
+      "platform": "steam",
+      "platformGameId": "1449560",
+      "title": "Metro Exodus Enhanced Edition"
+    },
+    "guide": {
+      "title": "Metro Exodus Enhanced Edition-全成就攻略（章节流程）",
+      "type": "workflow",
+      "language": "zh-CN",
+      "summary": ""
+    },
+    "compatibility": {
+      "minAppVersion": "0.8.5"
+    },
+    "author": {
+      "displayName": "dxydjl0521-maker",
+      "githubLogin": "dxydjl0521-maker"
+    },
+    "license": "CC-BY-NC-SA-4.0",
+    "contentFile": "guide.json",
+    "contentSha256": "744d57e7368704b5ddcd960eee89646b5fe23d6235f9a9761ee11be688997905",
+    "assets": [
+      {
+        "path": "assets/77cc49b15b9a40f8edaf8d22c0d1fce4c33025569f55b5d8e02a171c7f36cd15.png",
+        "mimeType": "image/png",
+        "size": 6649286,
+        "sha256": "77cc49b15b9a40f8edaf8d22c0d1fce4c33025569f55b5d8e02a171c7f36cd15"
+      }
+    ]
+  },
+  "submittedAt": "2026-10-20T01:34:56.984Z",
+  "baseRevision": "7f69cd952ad980ca98611f2251cfddcab203603d7cc1c3b80d644d66b0af729a",
+  "contributor": {
+    "userId": 284279708,
+    "githubLogin": "dxydjl0521-maker"
+  },
+  "changeFiles": [
+    {
+      "path": "submissions/3bfe3226-d683-41bc-a5cb-56f283a5850f/units/layout-49012ff4f2f5af4dfe9e.json",
+      "sha256": "c1b472cca00e0f61942950f73d9bcc59efb4b6e821e93df5ee1e1d2f27ac19b6"
+    }
+  ]
+}
