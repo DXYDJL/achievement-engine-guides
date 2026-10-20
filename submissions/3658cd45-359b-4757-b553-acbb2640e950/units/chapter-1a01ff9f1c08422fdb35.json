@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvg0ltb0bc",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0bc",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0bc",
+      "field": "chapter",
+      "operation": "add",
+      "after": "DLC · 两个上校"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0bc",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0bc",
+      "field": "description",
+      "operation": "add",
+      "after": "可以一周目完成，普通难度 + 全收集。这个 DLC 讲述的是死城遇到的基里尔的父亲的视角补全：在绿东西没用完时他的地铁站是什么样，他执行了什么任务，以及为什么最终没能回到基里尔身边。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0bc",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
