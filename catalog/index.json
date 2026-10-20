@@ -100,6 +100,31 @@
       "releaseId": 417913689,
       "assetId": 657946864,
       "publishedAt": "2026-10-20T01:36:48.985Z"
+    },
+    {
+      "guideId": "7229c2cb-3255-4b5c-93da-2d92aa52d1cd",
+      "version": "1.0.0",
+      "game": {
+        "platform": "steam",
+        "platformGameId": "870780",
+        "title": "Control Ultimate Edition"
+      },
+      "guide": {
+        "title": "Control Ultimate Edition-全成就攻略（专题攻略）",
+        "type": "workflow",
+        "language": "zh-CN",
+        "summary": ""
+      },
+      "author": {
+        "displayName": "dxydjl0521-maker",
+        "githubLogin": "dxydjl0521-maker"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "minAppVersion": "0.8.5",
+      "sha256": "9f2243c8dd3ac4e4ec396781bc374338b01ea0f9be63f5f1b97485bf11066744",
+      "releaseId": 417525306,
+      "assetId": 656848198,
+      "publishedAt": "2026-10-20T01:37:48.980Z"
     }
   ]
 }
