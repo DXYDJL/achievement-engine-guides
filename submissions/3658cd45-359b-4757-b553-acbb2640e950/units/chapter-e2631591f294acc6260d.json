@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvg0ltb0ay",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ay",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ay",
+      "field": "chapter",
+      "operation": "add",
+      "after": "新游戏+"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ay",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ay",
+      "field": "description",
+      "operation": "add",
+      "after": "需要先通关一次，再开新游戏+模式。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ay",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
