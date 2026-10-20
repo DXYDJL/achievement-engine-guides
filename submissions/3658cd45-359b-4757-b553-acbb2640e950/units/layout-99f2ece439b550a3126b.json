@@ -1,0 +1,15 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umvg0ltb0an",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umvg0ltb0an",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "guide"
+      ]
+    }
+  ]
+}
