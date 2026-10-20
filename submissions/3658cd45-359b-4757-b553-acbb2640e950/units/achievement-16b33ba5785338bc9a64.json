@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "martian",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "martian",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "martian"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "martian",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "martian",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "martian",
+      "field": "note",
+      "operation": "add",
+      "after": "防毒面具漏了按 G 修补。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "martian",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}
