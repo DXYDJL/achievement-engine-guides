@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvg0ltb0ah",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ah",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ah",
+      "field": "chapter",
+      "operation": "add",
+      "after": "章节特定 · 针叶林"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ah",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ah",
+      "field": "description",
+      "operation": "add",
+      "after": "本关有 5 个章节成就，是全部关卡里最密集的。「森林之子」要求全程潜行，做成了「阿廖沙」也会跟着跳。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ah",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
