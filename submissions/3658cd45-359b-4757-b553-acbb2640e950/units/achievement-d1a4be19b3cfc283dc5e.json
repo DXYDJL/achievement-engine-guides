@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "sniper",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "sniper",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "sniper"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "sniper",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "sniper",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "sniper",
+      "field": "note",
+      "operation": "add",
+      "after": "远距离击杀 50 个敌人。建议在里海刷，那里一目了然，还有狙和六倍镜。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "sniper",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}
