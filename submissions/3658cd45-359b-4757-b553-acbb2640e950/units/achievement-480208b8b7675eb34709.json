@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "roller_coaster",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "roller_coaster",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "roller_coaster"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "roller_coaster",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "roller_coaster",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "roller_coaster",
+      "field": "note",
+      "operation": "add",
+      "after": "跟达米尔偷水那个任务中，用升降车抵达绿洲。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "roller_coaster",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}
