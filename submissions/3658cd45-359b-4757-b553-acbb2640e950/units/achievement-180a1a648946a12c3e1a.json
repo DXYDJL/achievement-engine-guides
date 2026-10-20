@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "all_good",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "all_good",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "all_good"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "all_good",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "all_good",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "all_good",
+      "field": "note",
+      "operation": "add",
+      "after": "完成游戏。（好结局时自动解锁）"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "all_good",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}
