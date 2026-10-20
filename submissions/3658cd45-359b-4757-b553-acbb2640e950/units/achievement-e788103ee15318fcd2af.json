@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "d2",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "d2",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "d2"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "d2",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>达米尔留在队中。如果不留队，他会跟盖尔一起去解放他的同胞。</p><p><b>里海可获得的道德点：</b></p><p>1. 整章节都不要杀奴隶<br />2. 开局拿车前不杀索尔<br />3. 去盖尔家路上遇到的断船，把土匪杀了，奴隶不要杀<br />4. 找到盖尔母亲照片<br />5. 废船监狱解救奴隶<br />6. 偷水不被发现、不杀奴隶<br />7. 潜入男爵下水道不杀奴隶、不被发现<br />8. 前往男爵顶楼救下被土匪拽进屋子的奴隶（最高难度别救，无论如何都会被发现然后被集火）</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "d2",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "d2",
+      "field": "note",
+      "operation": "add",
+      "after": "达米尔留在队中。里海的道德点分布见详情。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "d2",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}
