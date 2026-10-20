@@ -1,0 +1,22 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umvg0ltb0ap",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umvg0ltb0ap",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "constructor",
+        "tidyman",
+        "mutant_killer",
+        "silent_marksman",
+        "headhunter",
+        "robin_hood",
+        "polite_saboteur",
+        "sniper"
+      ]
+    }
+  ]
+}
