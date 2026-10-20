@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "last_minute_man",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "last_minute_man",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "last_minute_man"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "last_minute_man",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "last_minute_man",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "last_minute_man",
+      "field": "note",
+      "operation": "add",
+      "after": "全身滤毒罐都用完时（不是当前用完），窒息情况下现场制作一个新滤毒罐。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "last_minute_man",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}
