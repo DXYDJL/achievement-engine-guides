@@ -125,6 +125,31 @@
       "releaseId": 417965798,
       "assetId": 658137234,
       "publishedAt": "2026-10-20T04:26:40.449Z"
+    },
+    {
+      "guideId": "e9645608-74c0-4301-8a3a-3a916af324cc",
+      "version": "1.0.0",
+      "game": {
+        "platform": "steam",
+        "platformGameId": "3669870",
+        "title": "CONTROL Resonant"
+      },
+      "guide": {
+        "title": "CONTROL Resonant-全成就攻略（默认攻略）",
+        "type": "workflow",
+        "language": "zh-CN",
+        "summary": ""
+      },
+      "author": {
+        "displayName": "dxydjl0521-maker",
+        "githubLogin": "dxydjl0521-maker"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "minAppVersion": "0.8.5",
+      "sha256": "f8443bf5c55b87cf1d3cb596bc7dfa9513bd56f0fcd79253920f312a008f4602",
+      "releaseId": 418580005,
+      "assetId": 659750798,
+      "publishedAt": "2026-10-20T15:47:13.224Z"
     }
   ]
 }
