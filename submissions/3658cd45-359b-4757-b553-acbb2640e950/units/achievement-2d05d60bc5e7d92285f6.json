@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "lower_the_b",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "lower_the_b",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "lower_the_b"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "lower_the_b",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "lower_the_b",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "lower_the_b",
+      "field": "note",
+      "operation": "add",
+      "after": "完成关卡「伏尔加河」。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "lower_the_b",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}
