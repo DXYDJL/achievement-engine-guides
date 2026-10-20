@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvg0ltb0a3",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0a3",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0a3",
+      "field": "chapter",
+      "operation": "add",
+      "after": "章节特定 · 莫斯科"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0a3",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0a3",
+      "field": "description",
+      "operation": "add",
+      "after": "关卡内一次性机会的成就，过了就补不回来。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0a3",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
