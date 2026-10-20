@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "UNRIVALED_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "UNRIVALED_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "UNRIVALED_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "UNRIVALED_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "UNRIVALED_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "UNRIVALED_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "花费 50 个技能点\n这个成就可能有bug，加了一半不跳就断网加一项技能即可"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "UNRIVALED_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "技能"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "entityType": "categories",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "categories",
+      "entityId": "guide",
+      "field": "custom",
+      "operation": "add",
+      "after": [
+        {
+          "key": "累计",
+          "label": "累计",
+          "color": "#0fd1eb"
+        },
+        {
+          "key": "boss",
+          "label": "Boss",
+          "color": "#ff0000"
+        },
+        {
+          "key": "净化点",
+          "label": "净化点",
+          "color": "#37f104"
+        },
+        {
+          "key": "技能",
+          "label": "技能",
+          "color": "#c800ff"
+        },
+        {
+          "key": "主线",
+          "label": "主线",
+          "color": "#f09800"
+        },
+        {
+          "key": "武器",
+          "label": "武器",
+          "color": "#004585"
+        },
+        {
+          "key": "挑战",
+          "label": "挑战",
+          "color": "#ff7a45"
+        }
+      ]
+    },
+    {
+      "entityType": "categories",
+      "entityId": "guide",
+      "field": "presets",
+      "operation": "add",
+      "after": {
+        "main": "#ce3009",
+        "misc": "#776e6e"
+      }
+    }
+  ]
+}

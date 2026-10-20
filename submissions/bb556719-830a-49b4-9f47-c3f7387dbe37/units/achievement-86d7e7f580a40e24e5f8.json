@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "SPECIAL_DELIVERY_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "SPECIAL_DELIVERY_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "SPECIAL_DELIVERY_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SPECIAL_DELIVERY_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SPECIAL_DELIVERY_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SPECIAL_DELIVERY_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "将冲击枪的手雷附在某个物体上，然后将该物体扔向敌人\n调查中枢剧情后解锁，制作武器，武器先射物体然后投掷物体。注意要瞄准后再射击，不然会直接爆炸"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SPECIAL_DELIVERY_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

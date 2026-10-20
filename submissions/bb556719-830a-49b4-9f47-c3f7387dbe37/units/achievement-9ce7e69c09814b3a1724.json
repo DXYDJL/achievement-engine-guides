@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ITS_A_SHIFTING_PLACE_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ITS_A_SHIFTING_PLACE_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ITS_A_SHIFTING_PLACE_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ITS_A_SHIFTING_PLACE_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ITS_A_SHIFTING_PLACE_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ITS_A_SHIFTING_PLACE_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "完成任务1"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ITS_A_SHIFTING_PLACE_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "主线"
+    }
+  ]
+}

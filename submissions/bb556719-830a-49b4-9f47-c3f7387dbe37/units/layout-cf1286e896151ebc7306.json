@@ -1,0 +1,19 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umve6n24d13",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umve6n24d13",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "FRAMED_ACHIEVEMENT",
+        "HERES_MUD_IN_YOUR_EYE_ACHIEVEMENT",
+        "SILENCE_IS_GOLDEN_ACHIEVEMENT",
+        "TIME_TO_DIE_ACHIEVEMENT",
+        "THE_MOLD_ONE_ACHIEVEMENT"
+      ]
+    }
+  ]
+}

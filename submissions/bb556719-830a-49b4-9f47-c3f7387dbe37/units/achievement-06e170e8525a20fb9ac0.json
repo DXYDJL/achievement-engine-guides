@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "EMPOWERED_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "EMPOWERED_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "EMPOWERED_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "EMPOWERED_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "EMPOWERED_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "EMPOWERED_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "解除锁定1项技能升级\n主线推进解锁，不必过于留意"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "EMPOWERED_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "技能"
+    }
+  ]
+}

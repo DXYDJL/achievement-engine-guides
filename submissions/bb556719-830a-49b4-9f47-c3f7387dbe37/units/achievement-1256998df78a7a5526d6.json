@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "HISSTERICAL_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "HISSTERICAL_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "HISSTERICAL_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HISSTERICAL_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HISSTERICAL_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HISSTERICAL_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "击杀1000个希斯\n流程杯，甚至都不需要你经过的怪就杀，正常做支线，也不需要全做完，最后的主线任务基本能跳成就。如果没跳，多刷就好了"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HISSTERICAL_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "累计"
+    }
+  ]
+}

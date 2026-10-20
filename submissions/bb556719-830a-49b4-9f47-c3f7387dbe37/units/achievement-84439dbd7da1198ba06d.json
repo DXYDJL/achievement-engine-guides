@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "RETRO_GAMER_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "RETRO_GAMER_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "RETRO_GAMER_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RETRO_GAMER_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RETRO_GAMER_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RETRO_GAMER_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "在街机模式中打一场游戏\n在调查中枢游玩街机，注意必须完成1个"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RETRO_GAMER_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

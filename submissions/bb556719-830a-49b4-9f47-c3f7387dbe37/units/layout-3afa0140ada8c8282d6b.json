@@ -1,0 +1,17 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umve6n24dt",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umve6n24dt",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "HELPING_HAND_ACHIEVEMENT",
+        "STAFF_SUPPORT_ACHIEVEMENT",
+        "PILLAR_OF_THE_COMMUNITY_ACHIEVEMENT"
+      ]
+    }
+  ]
+}

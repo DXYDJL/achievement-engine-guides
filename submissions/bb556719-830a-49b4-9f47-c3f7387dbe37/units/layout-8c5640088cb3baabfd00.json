@@ -1,0 +1,16 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umve6n24d10",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umve6n24d10",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "FIRST_RESPONDER_ACHIEVEMENT",
+        "PROBLEM_SOLVER_ACHIEVEMENT"
+      ]
+    }
+  ]
+}

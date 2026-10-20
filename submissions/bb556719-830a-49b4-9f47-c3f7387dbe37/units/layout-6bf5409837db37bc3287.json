@@ -1,0 +1,17 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umve6n24d1g",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umve6n24d1g",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "THE_JOURNEY_OF_1000_MILES_ACHIEVEMENT",
+        "BEGINS_WITH_ACHIEVEMENT",
+        "ONE_STEP_ACHIEVEMENT"
+      ]
+    }
+  ]
+}

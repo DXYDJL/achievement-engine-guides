@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "PARANATURAL_POWERHOUSE_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "PARANATURAL_POWERHOUSE_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "PARANATURAL_POWERHOUSE_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PARANATURAL_POWERHOUSE_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PARANATURAL_POWERHOUSE_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PARANATURAL_POWERHOUSE_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "获得发射技能\n主线解锁，不会错过"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PARANATURAL_POWERHOUSE_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "技能"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "TICKET_TO_RIDE_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "TICKET_TO_RIDE_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "TICKET_TO_RIDE_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TICKET_TO_RIDE_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TICKET_TO_RIDE_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TICKET_TO_RIDE_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "完成旁支任务\n运输通道净化点，处理完一系列谜题后，有一波冲突战。打完后上最高处，看见指示牌Transit Access 下楼梯进电梯。打法视频链接：BV1sA411b7Te"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TICKET_TO_RIDE_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

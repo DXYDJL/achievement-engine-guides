@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "INTERCEPT_TRAJECTORY_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "INTERCEPT_TRAJECTORY_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "INTERCEPT_TRAJECTORY_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "INTERCEPT_TRAJECTORY_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "INTERCEPT_TRAJECTORY_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "INTERCEPT_TRAJECTORY_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "使用发射技能击杀50个敌人\n主线解锁技能，同样多留意就会解"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "INTERCEPT_TRAJECTORY_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "累计"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "PSYCHIC_OCCUPATION_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "PSYCHIC_OCCUPATION_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "PSYCHIC_OCCUPATION_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PSYCHIC_OCCUPATION_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PSYCHIC_OCCUPATION_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PSYCHIC_OCCUPATION_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "获得支配技能\n支线被俘虏的观众，在催眠实验室，开x光门图形的密码依次按上下左右上下左右上"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PSYCHIC_OCCUPATION_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "技能"
+    }
+  ]
+}

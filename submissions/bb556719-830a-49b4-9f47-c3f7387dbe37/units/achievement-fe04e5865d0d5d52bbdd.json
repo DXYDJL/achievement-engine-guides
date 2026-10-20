@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "VIVA_PINATA_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "VIVA_PINATA_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "VIVA_PINATA_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "VIVA_PINATA_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "VIVA_PINATA_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "VIVA_PINATA_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "队徽80%的异化自动贩卖机\n就是贩卖机，必须攻击才会有反映 。三个刷新地点：封锁的防火线： 2个贩卖机；  废弃的办公室：4个贩卖机 ； 行动中心：3个贩卖机。三个地点看过之后快速移动去其他区域再回来，也可以退出到主页面重进来刷新。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "VIVA_PINATA_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

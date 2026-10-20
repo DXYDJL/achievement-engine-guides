@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "DLC2_LORE_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "DLC2_LORE_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "DLC2_LORE_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "DLC2_LORE_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "DLC2_LORE_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "DLC2_LORE_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "在调查部找到80%的收藏品\n在主线过程中多留意就行，还是给上一个b站链接：BV1dh41197D9给全收集的hy"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "DLC2_LORE_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}

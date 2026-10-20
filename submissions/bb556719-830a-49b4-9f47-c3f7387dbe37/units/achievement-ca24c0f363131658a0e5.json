@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "RISING_THOUGHT_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "RISING_THOUGHT_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "RISING_THOUGHT_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RISING_THOUGHT_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RISING_THOUGHT_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RISING_THOUGHT_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "获得飘浮技能\n主线解锁，不会错过"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RISING_THOUGHT_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "技能"
+    }
+  ]
+}

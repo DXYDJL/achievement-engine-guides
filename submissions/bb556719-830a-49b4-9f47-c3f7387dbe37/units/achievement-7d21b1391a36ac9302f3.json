@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "URBAN_SPELUNKER_AGAIN_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "URBAN_SPELUNKER_AGAIN_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "URBAN_SPELUNKER_AGAIN_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "URBAN_SPELUNKER_AGAIN_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "URBAN_SPELUNKER_AGAIN_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "URBAN_SPELUNKER_AGAIN_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "在调查部找到80%的隐藏地点\n共5个，只需4个即可，这里给上一个b站链接：BV1Z54y1e7TC"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "URBAN_SPELUNKER_AGAIN_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}

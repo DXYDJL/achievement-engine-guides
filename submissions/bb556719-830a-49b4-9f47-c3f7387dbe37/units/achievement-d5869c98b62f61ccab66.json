@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "SHIELD_BASH_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "SHIELD_BASH_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "SHIELD_BASH_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SHIELD_BASH_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SHIELD_BASH_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SHIELD_BASH_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "使用护盾爆裂技能击杀10个敌人\n后期升级护盾有个护盾破裂时瞬间对怪造成伤害的技能"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SHIELD_BASH_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "累计"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "TRIAL_LEWOUS_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "TRIAL_LEWOUS_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "TRIAL_LEWOUS_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TRIAL_LEWOUS_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TRIAL_LEWOUS_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TRIAL_LEWOUS_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "完成5个委员会对策"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TRIAL_LEWOUS_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "挑战"
+    }
+  ]
+}

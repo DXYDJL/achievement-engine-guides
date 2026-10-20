@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "FIRST_CLASS_DIRECTOR_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "FIRST_CLASS_DIRECTOR_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "FIRST_CLASS_DIRECTOR_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "FIRST_CLASS_DIRECTOR_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "FIRST_CLASS_DIRECTOR_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "FIRST_CLASS_DIRECTOR_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "完成25个委员会对策"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "FIRST_CLASS_DIRECTOR_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "挑战"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "AIR_SUPERIORITY_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "AIR_SUPERIORITY_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "AIR_SUPERIORITY_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AIR_SUPERIORITY_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AIR_SUPERIORITY_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AIR_SUPERIORITY_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "杀死25名空中的特别行动队士兵\n快捷刷法：跟着流程走在第一次打败哈克曼跳杯后往左走，到第二个隐藏地点处，这里固定会刷怪，其中包括两个飞的目标怪，杀完后进入隐藏点，往里直走到底然后出来，会发现这波怪又刷新了。一直重复即可。也可以在街机里面刷。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AIR_SUPERIORITY_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "累计"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "TIME_TO_DIE_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "TIME_TO_DIE_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "TIME_TO_DIE_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TIME_TO_DIE_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TIME_TO_DIE_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TIME_TO_DIE_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "击败船锚\n物流控制点左侧遇见个NPC可以接到前置任务——争分夺秒，完成后会出现任务——内在的敌人。完整任务b站链接：BV1fW4y137mk"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TIME_TO_DIE_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "boss"
+    }
+  ]
+}

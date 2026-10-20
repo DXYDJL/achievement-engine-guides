@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "PHANTOM_POOP_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "PHANTOM_POOP_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "PHANTOM_POOP_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PHANTOM_POOP_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PHANTOM_POOP_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PHANTOM_POOP_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "找到灵界洗手间\n倒塌洞室门口可以叫增援的地方，进去飞到最高处往里拐就能看到男厕了，进去之后发现不是厕所是灵界，还有一个收集品可以拿。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PHANTOM_POOP_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

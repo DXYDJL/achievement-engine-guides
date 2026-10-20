@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "BATTERING_RAM_ACHIEVEMENT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "BATTERING_RAM_ACHIEVEMENT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "BATTERING_RAM_ACHIEVEMENT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "BATTERING_RAM_ACHIEVEMENT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "BATTERING_RAM_ACHIEVEMENT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "BATTERING_RAM_ACHIEVEMENT",
+      "field": "note",
+      "operation": "add",
+      "after": "用盾击杀死 100 个敌人\n这个技能建议早点学，地面怪通常两下可以冲死(精英怪除外).平时多注意.就不用收集完后再找怪打"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "BATTERING_RAM_ACHIEVEMENT",
+      "field": "type",
+      "operation": "add",
+      "after": "累计"
+    }
+  ]
+}
