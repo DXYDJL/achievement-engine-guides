@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "new_order",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "new_order",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "new_order"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "new_order",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "new_order",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "new_order",
+      "field": "note",
+      "operation": "add",
+      "after": "完成关卡「里海」。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "new_order",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}
