@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "gorko",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "gorko",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "gorko"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "gorko",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "gorko",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "gorko",
+      "field": "note",
+      "operation": "add",
+      "after": "完成关卡「夏季」。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "gorko",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}
