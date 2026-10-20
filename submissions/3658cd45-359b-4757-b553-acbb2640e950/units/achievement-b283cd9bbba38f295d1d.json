@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "crew_friend",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "crew_friend",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "crew_friend"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "crew_friend",
+      "field": "content",
+      "operation": "add",
+      "after": "<p><b>吉他</b>：在去工厂必经之路的一座土匪高塔，塔底救一个本地人还可以获得道德点。</p><p><b>泰迪熊</b>：在去找乘客车厢的路上，左侧化工储油罐顶部。</p><p>拿泰迪熊的时候可以顺便做「火鸟」成就——后期很多地方都找不到恶魔，这里是现成的巢穴，两个燃烧瓶搞定。</p><p>（原攻略此处有位置截图，未能导入）</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "crew_friend",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "crew_friend",
+      "field": "note",
+      "operation": "add",
+      "after": "吉他在土匪高塔（塔底救本地人有道德点），泰迪熊在去乘客车厢路上左侧化工储油罐顶部。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "crew_friend",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}
