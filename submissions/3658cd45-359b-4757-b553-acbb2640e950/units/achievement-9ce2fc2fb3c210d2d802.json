@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "dlc_02_the_last_hero",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_the_last_hero",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_02_the_last_hero"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_the_last_hero",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_the_last_hero",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_the_last_hero",
+      "field": "note",
+      "operation": "add",
+      "after": "完成「SAM'S STORY」章节。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_the_last_hero",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}
