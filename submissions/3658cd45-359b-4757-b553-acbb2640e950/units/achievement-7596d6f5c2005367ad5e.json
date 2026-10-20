@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "dlc_02_lord_of_war",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_lord_of_war",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_02_lord_of_war"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_lord_of_war",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_lord_of_war",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_lord_of_war",
+      "field": "note",
+      "operation": "add",
+      "after": "收集所有萨米步枪和公马手枪的升级部件，多探图即可。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_lord_of_war",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}
