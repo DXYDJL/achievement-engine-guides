@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "all_road_map",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "all_road_map",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "all_road_map"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "all_road_map",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "all_road_map",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "all_road_map",
+      "field": "note",
+      "operation": "add",
+      "after": "里海主线任务。有个道德点：找到盖尔母亲的照片，在进入档案室前左手房间。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "all_road_map",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}
