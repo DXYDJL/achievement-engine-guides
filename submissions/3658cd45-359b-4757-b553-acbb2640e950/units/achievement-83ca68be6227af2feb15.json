@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "guide",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "guide"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "guide",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "guide",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "guide",
+      "field": "note",
+      "operation": "add",
+      "after": "不击杀任何一个盲人，通过研究设施。没难度，盲人就是盲猩。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "guide",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}
