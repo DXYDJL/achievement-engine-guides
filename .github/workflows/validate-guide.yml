@@ -20,10 +20,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
       - name: Validate PR metadata
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
           PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          APP_VERSION: ${{ vars.GUIDE_APP_VERSION }}
         run: node scripts/validate-submission.mjs

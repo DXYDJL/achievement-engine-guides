@@ -9,8 +9,9 @@ export const repository = process.env.GH_REPO;
 const token = process.env.GH_TOKEN;
 if (!repository || !/^[\w.-]+\/[\w.-]+$/.test(repository) || !token) throw new Error('GH_REPO / GH_TOKEN missing');
 
-export async function gh(method, pathname, body, accept = 'application/vnd.github+json') {
-  const response = await fetch(`https://api.github.com/repos/${repository}${pathname}`, {
+export async function ghRepo(targetRepository, method, pathname, body, accept = 'application/vnd.github+json') {
+  if (!/^[\w.-]+\/[\w.-]+$/.test(targetRepository)) throw new Error('Invalid asset repository');
+  const response = await fetch(`https://api.github.com/repos/${targetRepository}${pathname}`, {
     method,
     headers: { Accept: accept, Authorization: `Bearer ${token}`, 'X-GitHub-Api-Version': '2022-11-28',
       ...(body !== undefined ? { 'Content-Type': 'application/json' } : {}) },
@@ -21,8 +22,11 @@ export async function gh(method, pathname, body, accept = 'application/vnd.githu
   return accept === 'application/octet-stream' ? new Uint8Array(await response.arrayBuffer()) : response.json();
 }
 
-export async function ghDownloadToFile(pathname, filePath, maxBytes) {
-  const response = await fetch(`https://api.github.com/repos/${repository}${pathname}`, {
+export const gh = (method, pathname, body, accept) => ghRepo(repository, method, pathname, body, accept);
+
+export async function ghDownloadToFile(pathname, filePath, maxBytes, targetRepository = repository) {
+  if (!/^[\w.-]+\/[\w.-]+$/.test(targetRepository)) throw new Error('Invalid asset repository');
+  const response = await fetch(`https://api.github.com/repos/${targetRepository}${pathname}`, {
     headers: { Accept: 'application/octet-stream', Authorization: `Bearer ${token}`,
       'X-GitHub-Api-Version': '2022-11-28' },
   });
@@ -49,6 +53,8 @@ export function validateSubmission(record) {
     || !/^[a-f0-9-]{36}$/.test(record.guideId) || !/^\d+\.\d+\.\d+$/.test(record.version)
     || !/^[a-f0-9]{64}$/.test(record.packageSha256)
     || !Number.isSafeInteger(record.draftReleaseId) || !Number.isSafeInteger(record.assetId)
+    || record.assetRepository !== undefined && !/^[\w.-]+\/[\w.-]+$/.test(record.assetRepository)
+    || record.assetName !== undefined && record.assetName !== `${record.submissionId}.aeguide`
     || record.manifest?.guideId !== record.guideId || record.manifest?.version !== record.version
     || typeof record.manifest?.license !== 'string' || !Array.isArray(record.manifest?.assets)
     || checkCommunitySubmissionPolicy(record.manifest)

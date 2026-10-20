@@ -26,6 +26,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
       - name: Revalidate asset and publish
         env:
           GH_TOKEN: ${{ github.token }}
