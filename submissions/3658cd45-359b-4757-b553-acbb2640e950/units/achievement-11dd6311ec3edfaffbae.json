@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "master_of_the_forest",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "master_of_the_forest",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "master_of_the_forest"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "master_of_the_forest",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>硬刚就行了。也可以趁熊不注意直接割开绳子上楼梯跑路，但这样就没法跳这个成就了——估计很多人都不知道可以直接跑路。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "master_of_the_forest",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "master_of_the_forest",
+      "field": "note",
+      "operation": "add",
+      "after": "初次遭遇熊时毫不退缩，硬刚即可。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "master_of_the_forest",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}
