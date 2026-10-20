@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "5oclock",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "5oclock",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "5oclock"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "5oclock",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "5oclock",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "5oclock",
+      "field": "note",
+      "operation": "add",
+      "after": "上校让你坐下的时候就坐下，一直听到上校睡着为止。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "5oclock",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}
