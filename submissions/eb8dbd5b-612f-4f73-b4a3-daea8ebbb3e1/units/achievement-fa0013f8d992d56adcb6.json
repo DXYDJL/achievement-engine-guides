@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_ALL",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_ALL",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_ALL"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_ALL",
+      "field": "content",
+      "operation": "add",
+      "after": "集齐7张塔罗牌卡片，去储物间，按照塔罗牌罗马数字顺序转动转盘，打开后，拿到硬币游玩街机，打败BOSS进入下次循环，回到过去。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_ALL",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_ALL",
+      "field": "note",
+      "operation": "add",
+      "after": "Best ending\n隐藏结局（需要集齐7张塔罗牌卡片）"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_ALL",
+      "field": "type",
+      "operation": "add",
+      "after": "隐藏"
+    }
+  ]
+}

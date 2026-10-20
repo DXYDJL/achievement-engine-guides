@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umus6fx4q7",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q7",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q7",
+      "field": "chapter",
+      "operation": "add",
+      "after": "收集（图像）"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q7",
+      "field": "content",
+      "operation": "add",
+      "after": "<div data-img-block=\"\"><img src=\"assets/c2aea1141a516123fb481b157f30f9ffc6b79673a5f64e5b7b5b16855f9821b1.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center;\">K9系统使用说明<br></div></div><div data-img-block=\"\"><img src=\"assets/b48320caf23ab3f3e2db389daa499b7ef9c60957bbfa7a9e65df72293dd74d88.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center;\">太阳能板.PIC</div></div><div><div data-img-block=\"\"><img src=\"assets/5066c47a54091c154b7a0922d7a2c0b51524f06e2afc4d114f635a9d49280245.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center;\">立体镜.PIC</div></div><div data-img-block=\"\"><img src=\"assets/3e7a50e827d212227f14c5dc69ad0f57c13b68493dfb3107f022a4913d57abf1.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center;\">蓝图调节器</div></div></div>"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q7",
+      "field": "description",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q7",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

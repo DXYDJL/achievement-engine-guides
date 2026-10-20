@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_GARDENER",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_GARDENER",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_GARDENER"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_GARDENER",
+      "field": "content",
+      "operation": "add",
+      "after": "<h2><b style=\"margin: 0px\">首次前往连接器的实验室（左岔路）</b></h2><h2><div></div><div><div data-img-block=\"\"><img src=\"assets/843003fc9b7e83bffe0eb4aba5550dc2d9f4b3b07a05c032e715564f2de9602f.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">实验室密码提示：AION属于什么纲（之后获取）</div></div></div></h2><h2>首次前往连接器的观测站（右岔路）</h2><h2><div></div><div><img src=\"assets/837b8487108e64cb6c0a7feaf4516dcc1d50ebd319de456755071e64ad70c76d.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></div><div><div><div data-img-block=\"\"><img src=\"assets/dd1cf32b9bfd62dd73230901ca0889125341b8d33d1d8360a1f297b6ba19c854.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">Planta中心密码，AMAAN的可托（德）西林药物处方<br></div></div></div><div><img src=\"assets/c22991803ff55a27ad63398aa2684f10d1a7dd3e3526c2b9d06daed7d58c6f43.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-img-block=\"\"><img src=\"assets/3f374eccd9c31cddd2dc0094a0c0673594b354bf6c43865bc688ef32d032337a.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></div><img src=\"assets/3e6e930645e0aee417e8d2d5345a8c98c4180303f42bf3e5112596cf84e3f38c.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/6a2751ad2c3fb350357f3a7b10b3ec9374f48f5e7228493dddef032360357f10.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/7de439537a6a4873a8ecd33dd21c7fa74c1611370fd40d9f88617326311154c8.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-img-block=\"\"><img src=\"assets/942aef19c59c96e1c75311f4aa985abc7e6e53b5f536687588efc9dfae72235e.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">用于合成可托（德）西林药片，在AMAAN房间浴室</div></div><img src=\"assets/c9e4c7de499ab1c5b49b1f9a476d5d7f4f6b6dcb20c94d2814f6d2566475fbb1.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-img-block=\"\"><img src=\"assets/a0f39fca2df22f9146b2945ab148ac785f5800eecdc3be4c84aebbb5d3a8092d.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">可托（德）药物提取于Mavors</div></div><img src=\"assets/1a1f23c49af39b2a4e88dfdc8444ca41cb66a61cfdac022971ed4befa64de025.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></div></div><div><img src=\"assets/6ce47557319614bc52988a8ca3103a4802cd761e07515a738c7907b3a02ed09e.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/405c7ad8feece64ab0aca09a3b7508bdeb1942b37a771a756d921366223714a7.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-img-block=\"\"><img src=\"assets/3404a684348129e0a7accb6c6099676b217065b73541767605c67c97e0be493d.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">CHRONOSERVUS</div></div></div></h2>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_GARDENER",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_GARDENER",
+      "field": "note",
+      "operation": "add",
+      "after": "找到 Aion 的学名"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_GARDENER",
+      "field": "type",
+      "operation": "add",
+      "after": "流程"
+    }
+  ]
+}

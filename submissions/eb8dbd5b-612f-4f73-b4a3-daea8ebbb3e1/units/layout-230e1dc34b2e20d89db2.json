@@ -1,0 +1,32 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umus6fx4qc",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umus6fx4qc",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "ACH_ESCAPER",
+        "ACH_WATCHMAKER",
+        "ACH_SLOW_MOTION",
+        "ACH_SEER",
+        "ACH_PROMOTER",
+        "ACH_VOYAGER",
+        "ACH_MAN_OF_POWER",
+        "ACH_GARDENER",
+        "ACH_NEWTON",
+        "ACH_DAZZLED",
+        "ACH_DOPPELGANGER",
+        "ACH_DEVELOPER",
+        "ACH_MASTER_OF_PICKLOCK",
+        "ACH_SABOTEUR",
+        "ACH_ASTRONOMER",
+        "ACH_PRINTER",
+        "ACH_ASSEMBLER",
+        "ACH_TRAVELLER"
+      ]
+    }
+  ]
+}

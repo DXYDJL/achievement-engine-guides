@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_DAZZLED",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_DAZZLED",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_DAZZLED"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_DAZZLED",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_DAZZLED",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_DAZZLED",
+      "field": "note",
+      "operation": "add",
+      "after": "观察恒星"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_DAZZLED",
+      "field": "type",
+      "operation": "add",
+      "after": "流程"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umus6fx4qa",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4qa",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4qa",
+      "field": "chapter",
+      "operation": "add",
+      "after": "收集（视频）"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4qa",
+      "field": "content",
+      "operation": "add",
+      "after": "<div data-img-block=\"\"><img src=\"assets/cfa73150cbe0f7d6065d7845f76e0e14d73d3e016a12126709025545c0396f53.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center;\">天文台视频.MP4<br></div></div><div><div data-img-block=\"\"><img src=\"assets/ab521fcd682821f914b8a6dfc8d03abe328e7f8197039c0d4f5930caf61f6935.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center;\">ARES演示.MP4</div></div></div>"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4qa",
+      "field": "description",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4qa",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

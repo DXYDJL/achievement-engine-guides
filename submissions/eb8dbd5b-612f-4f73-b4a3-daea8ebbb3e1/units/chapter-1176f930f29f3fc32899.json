@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umus6fx4q17",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q17",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q17",
+      "field": "chapter",
+      "operation": "add",
+      "after": "通关"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q17",
+      "field": "content",
+      "operation": "add",
+      "after": "<br>"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q17",
+      "field": "description",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q17",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

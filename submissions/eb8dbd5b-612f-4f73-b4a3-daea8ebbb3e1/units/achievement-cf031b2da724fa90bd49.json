@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_SCIENTIST",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_SCIENTIST",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_SCIENTIST"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_SCIENTIST",
+      "field": "content",
+      "operation": "add",
+      "after": "<div>还原魔方6个面，穿越至车库二楼，拿到卡片3</div><img src=\"assets/10169a8a76195af19b025cab7e592f7b997479ff1ae59690912ac9d36a639816.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\">"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_SCIENTIST",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_SCIENTIST",
+      "field": "note",
+      "operation": "add",
+      "after": "Tarot Card 3"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_SCIENTIST",
+      "field": "type",
+      "operation": "add",
+      "after": "隐藏"
+    }
+  ]
+}

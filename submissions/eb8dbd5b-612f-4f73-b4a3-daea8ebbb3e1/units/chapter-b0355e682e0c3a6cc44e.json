@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umus6fx4q1",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q1",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q1",
+      "field": "chapter",
+      "operation": "add",
+      "after": "关卡01"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q1",
+      "field": "content",
+      "operation": "add",
+      "after": "<div><h1>室内地图</h1><img src=\"assets/b011b73afad66392f7464cb12150b82af0875c57691b91390ec98e7e53b3c05a.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></div><div><h1>循环开始</h1></div><div><img src=\"assets/44aae81417d0583507ed5e26c017319d7f73ede75753e57c7751a87e06f369a1.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-img-block=\"\"><img src=\"assets/5914633dab42864762c9ff7b76f08379aef50310bda14d16aee39a8f5dfcc4cb.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center;\">线索在MIRANDA电脑</div><img src=\"assets/b6cb51d0d36c0488e82b66468ba84b868dd98ffb84d915ea3e304fb34ae0bf84.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center;\">密码随机</div></div></div><h1><div data-img-block=\"\"><img src=\"assets/835b3564aaf9d0011708803c3447553a1b8b2bc7fa05dbec4b7d78cec92ba929.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\"><b>保险库密码输入方式</b></div></div><div><img src=\"assets/cdafeefa14e4e8a2de9c88535fd4da2196158f5382c711e99278694bdd6c2e46.webp\" alt=\"\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></div><div><div style=\"\">密码：先输入/000/，然后22/06/2435（随机）</div></div><div data-img-block=\"\"><img src=\"assets/9ca2d67a20211cb601b69cbf7dc0bdb874d5d8d924d3a76f5eceea1af7b87cc0.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\"><b>MIRANDA的门禁卡</b></div></div></h1><h1>关卡01 首次进入厨房</h1><h1><div><img src=\"assets/28ce240f5f98c9e5bd78e5da07c598bd59047ca0fa147174b961a8f6e9b044e7.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></div><img src=\"assets/41073df638eb4fede1a164ca47b00d9e4eb3e7fb1ce02a0189ecfa2aab6fec95.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-img-block=\"\"><img src=\"assets/850b91222a20abab209303c1a16ead85a05a382c27a3b78af4758c792a4c910b.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">对接口PIN密码<br></div></div><div data-img-block=\"\"><img src=\"assets/13dd333fc526c4fdd91b54d7fe6a7be41d246aff329ff32bcef1bba9b0a3aa15.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">先不要点停靠系统</div></div><div data-img-block=\"\"><img src=\"assets/0706cc44f887bccae343e43ab6b95a4c650ffe79d15e193c7e424c123b77e57e.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">先在1楼休息室区域拿电池1，然后去机器人区域</div></div><div data-img-block=\"\"><img src=\"assets/6585b20b9d65290dbccbda086799a40a8cdec8ab58c49958295891e8cd84e1f7.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">机器人区域，插入电池1、电池2<br></div></div><div data-img-block=\"\"><img src=\"assets/23956ce15be52e2c48d2898049e038a3fcd525b8c390a1152f30f2d434218349.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">去培育区，拿电池3，再返回机器人区域，插入电池3</div></div><div><div data-img-block=\"\"><img src=\"assets/0631d191c93c1b6c5fce4ede4792a2b710fc3c8317af9e36bbcf6e6d929e46df.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\"><span>打开药箱，获取船舱通行权限</span></div></div></div></h1><h2>首次进入舱段</h2><h1><div></div><div data-img-block=\"\"><img src=\"assets/b08b7fc6495b6b55bd76e0cdce1f8af8a3d95171492e555a3b8887a331b43073.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">前往舱段</div></div><div><div data-img-block=\"\"><img src=\"assets/1d37c0ec4785c1f7c79c4ebdd34871094cf7011045a0c9c9f59b3579ecccbda8.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">右拐找到玩家储物罐，找到钥匙</div></div></div><div><div data-img-block=\"\"><img src=\"assets/b3001c0a01f4202cb5a5ec68bcc2e77e6cce8e3ec64580e1caac321ef66c0438.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">停靠系统培育区，调整钥匙打开箱子，获取关卡02门禁卡（残缺）</div></div></div><div><div data-img-block=\"\"><img src=\"assets/87d9d9dfea1a809fa0f6f019062b430642e7d17117fb6e4439e3ca2155f67059.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">标识符：2621967</div></div></div><div><div data-img-block=\"\"><img src=\"assets/f83d08b6dab1848272524aef6ebb430ef26d77c2ecbf3296948c67129adcba9c.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">部分条码及数字，残缺的可以根据玩家的门禁卡补充</div></div></div><div><div data-img-block=\"\"><img src=\"assets/101dd49c57af870f828187ca793ee719a09c55bb692bbb34e0f2223609d3bd35.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">前往舱段门禁卡制作器，制作关卡02门禁卡</div></div></div></h1>"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q1",
+      "field": "description",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q1",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

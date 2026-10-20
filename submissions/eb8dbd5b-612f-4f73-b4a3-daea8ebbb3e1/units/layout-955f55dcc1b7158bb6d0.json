@@ -1,0 +1,21 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-ACH_ACE",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-ACH_ACE",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "ACH_SCIENTIST",
+        "ACH_MUSICIAN",
+        "ACH_THIEF",
+        "ACH_COOKER",
+        "ACH_MASTERMIND",
+        "ACH_PITCHER",
+        "ACH_RESOLVER"
+      ]
+    }
+  ]
+}

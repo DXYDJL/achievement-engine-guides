@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_SLOW_MOTION",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_SLOW_MOTION",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_SLOW_MOTION"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_SLOW_MOTION",
+      "field": "content",
+      "operation": "add",
+      "after": "<h1>关卡02 首次进入大厅</h1><h1><div><div data-img-block=\"\"><img src=\"assets/4663ce8e3f4018ed0bd96ec8fd6e519761ad58359d4e912645897d0cf80e7a34.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">前往大厅<br></div></div><div data-img-block=\"\"><img src=\"assets/96751f8760cbeae00a7ee2274db844d01bbaff232f02a0b405a32a99b2ae8b7a.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">电箱谜题：每个引脚颜色对应一次加减，合计为+12即可解锁音频【拼图】</div></div></div><div></div><div><div data-img-block=\"\"><img src=\"assets/68ce51dcb71239baad3b2848d7c4c56906a987759630e0e6c25160a1544157a8.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">【视界探测器】音频听取到Igor</div></div></div><div><div data-img-block=\"\"><img src=\"assets/62e80a604ff6be00fc8e5321563c82b0ca41b5a3a339a681c669e4aee18d3f7e.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">在黄圈内播放【拼图】音频，听取到Petrov</div></div><div><div data-img-block=\"\"><img src=\"assets/b388202cd79e4009ee5e04aa6529aff0a144672fd7c246fa83fe47e9453e05f8.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">大厅电脑：Igor Petrov</div></div></div></div></h1>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_SLOW_MOTION",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_SLOW_MOTION",
+      "field": "note",
+      "operation": "add",
+      "after": "解锁大厅电脑"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_SLOW_MOTION",
+      "field": "type",
+      "operation": "add",
+      "after": "流程"
+    }
+  ]
+}

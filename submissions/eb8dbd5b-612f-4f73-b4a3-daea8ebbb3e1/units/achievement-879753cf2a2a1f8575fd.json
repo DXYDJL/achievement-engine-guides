@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_ASTRONOMER",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_ASTRONOMER",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_ASTRONOMER"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_ASTRONOMER",
+      "field": "content",
+      "operation": "add",
+      "after": "<div><h2><span style=\"margin: 0px\">新一循环，坐列车（用电池）前往实验室，进入温室</span></h2><h2><div data-img-block=\"\"></div><div data-img-block=\"\"><img src=\"assets/5bfa7be6d52b8ccc481a7b8f6a05b045e63e238d45bab74c79aa5965724208ae.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">按住1，打开2，查阅星座列表，截图保存，按3切换黑夜，再次按1（变蓝），抬头看星座符号及颜色，，查阅星座手册，得到3组图案</div></div><div><img src=\"assets/9e6ce7f8c3a1a4c13b4ccc8f9f1ad101e9630406f74f6d1570b2fe002163f619.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/03f2c17320b9a99a69707ae22bb635f477dc35d00c626ec5b5d259f0aa29498b.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/368fc397fb549c97d25e392cfd64b2936e36003a3a3e1355326da236ee54f7ea.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/6ddbe8c507d7fd02d33d78ab0ae1ed51e278e6c023f86eabc0569fe248716490.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-img-block=\"\"><img src=\"assets/02b12ecfb29b7f5449e56909056f97f0f7a8de4070e15acc6274120a38de5cc5.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">棚屋左侧输入3组符号</div></div><div data-img-block=\"\"><img src=\"assets/9d8fa2c573fe0af707d7545cc0b7e2edc8e65207d28e1f3ab18bbd09963655bd.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\"><span>打开密码箱，拿到【把手】，前往JAHI房间</span></div></div></div></h2></div><div data-img-block=\"\"></div>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_ASTRONOMER",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_ASTRONOMER",
+      "field": "note",
+      "operation": "add",
+      "after": "解开星座谜题"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_ASTRONOMER",
+      "field": "type",
+      "operation": "add",
+      "after": "流程"
+    }
+  ]
+}

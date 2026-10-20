@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-ACH_ACE",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-ACH_ACE",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_ACE"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-ACH_ACE",
+      "field": "chapter",
+      "operation": "add",
+      "after": "塔罗牌"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-ACH_ACE",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-ACH_ACE",
+      "field": "description",
+      "operation": "add",
+      "after": "Find the Seven Cards\n集齐7张塔罗牌\n全部都可以通关后继续循环完成"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-ACH_ACE",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

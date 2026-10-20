@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_NEWTON",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_NEWTON",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_NEWTON"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_NEWTON",
+      "field": "content",
+      "operation": "add",
+      "after": "<h2>新一循环直奔连接器——实验室，提前插入量子电池（进入需要剩余2格电）</h2><h2><div></div><div><img src=\"assets/61f5c8d1dc6ac58904ba5ed7a998e292cdd51f0d7fc00655e49e7c5e6f313029.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></div></h2><h2>集齐4个JK指纹</h2><h2><div></div><div><img src=\"assets/f08398bb22edfbbcbe7487e059eaff653a713fb3b9cf2d24c00974caf9c45d4d.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/a75c85b358bb1cb2381db50375e213b7e8af8e25ccd113c79e0fcb2bdc0c09c9.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/967bcef15cf025e5a54e481a8eaa1b257a463ff9ee3da23aa0589653f562eb87.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/5dde8c8b0e2f08893eecdd4c137048f29e15cf847978cf88599619efcdedd890.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/7861ab6a8b8964fd71fa8cd4b5270951470be5a9cb9341a336cdc444cba8f42d.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/ae980c91a124ae0f2e250358bc7786e7c9de93376bf15311c2faca07bfdde15f.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/f8fe2561390e10d41cc474acbb4871a32f145a7335d7d8f0df09330d7cb689fa.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-img-block=\"\"><img src=\"assets/aa756bf99b60297ace50fa59fed360022f307843a58409c1963a85853387671a.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">集齐JK指纹，用于观测站解锁太阳能板</div></div></div></h2><h2>新一循环，不要使用量子电池，直奔连接器——<span style=\"text-align: center\">观测站</span></h2><h2><div></div><div><div data-img-block=\"\"><img src=\"assets/3d1c2712db9d16e2066494ed5ebae69ab01941c4ab9be16ad5a98d99223eee8f.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">插入量子电池，验证指纹</div></div><div><div data-img-block=\"\"><img src=\"assets/ef6b76c05e6c10412a884aa24f02162ac52e9b538ac23b278e09606c2b2354a5.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">谜题随机，连接电路，使得电源达到+2</div></div></div></div></h2>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_NEWTON",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_NEWTON",
+      "field": "note",
+      "operation": "add",
+      "after": "解开光影谜题"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_NEWTON",
+      "field": "type",
+      "operation": "add",
+      "after": "流程"
+    }
+  ]
+}
