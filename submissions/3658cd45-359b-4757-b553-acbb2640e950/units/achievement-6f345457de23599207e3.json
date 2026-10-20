@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "sword_of_damocles",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "sword_of_damocles",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "sword_of_damocles"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "sword_of_damocles",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "sword_of_damocles",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "sword_of_damocles",
+      "field": "note",
+      "operation": "add",
+      "after": "完成关卡「针叶林」。在此关不被发现、不杀人，可同时获得成就「森林之子」。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "sword_of_damocles",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}
