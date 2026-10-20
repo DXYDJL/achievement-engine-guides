@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvg0ltb0bl",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0bl",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0bl",
+      "field": "chapter",
+      "operation": "add",
+      "after": "DLC · 山姆的故事"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0bl",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0bl",
+      "field": "description",
+      "operation": "add",
+      "after": "可以一周目完成，普通难度 + 全收集 + 恶魔 boss 战不死亡。这个 DLC 讲述山姆离开贝加尔湖后前往海参崴寻找回圣地亚哥的方法，途中碰到同为美国人的汤姆与老船长的故事。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0bl",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
