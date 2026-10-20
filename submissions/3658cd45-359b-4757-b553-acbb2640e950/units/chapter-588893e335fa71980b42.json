@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvg0ltb0ab",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ab",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ab",
+      "field": "chapter",
+      "operation": "add",
+      "after": "章节特定 · 亚曼托"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ab",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ab",
+      "field": "description",
+      "operation": "add",
+      "after": "食人族只在本关出现，必须在关内杀满 90 个。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ab",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
