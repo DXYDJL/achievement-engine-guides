@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "toy_seller",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "toy_seller",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "toy_seller"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "toy_seller",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>普通版疑似有 bug：作者一周目收集三个玩具后只统计两个，删档重开一周目结果还是只统计两个——里海的「太阳」一直不纳入统计，同一张地图不同位置都会刷新玩具，把里海的全部收集才纳入统计。</p><p><b>位置：</b></p><p>· 伏尔加河：杜克藏身处桥下<br />· 里海：奴隶监狱厨房<br />· 里海：达米尔偷水前废弃营地左侧废船（作者反馈这个不纳入统计）<br />· 针叶林：教室进门右拐窗边</p><p>（原攻略此处有位置截图，未能导入）</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "toy_seller",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "toy_seller",
+      "field": "note",
+      "operation": "add",
+      "after": "在新游戏+模式中找到 3 个玩具：泰迪熊、太阳、鱼。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "toy_seller",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}
