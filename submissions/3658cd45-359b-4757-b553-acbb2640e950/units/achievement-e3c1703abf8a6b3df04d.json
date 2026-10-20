@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "constructor",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "constructor",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "constructor"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "constructor",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "constructor",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "constructor",
+      "field": "note",
+      "operation": "add",
+      "after": "投入 500 消耗品资源用于制作。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "constructor",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}
