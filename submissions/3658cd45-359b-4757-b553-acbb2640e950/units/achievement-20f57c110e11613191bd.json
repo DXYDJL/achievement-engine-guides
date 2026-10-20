@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "decommunization",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "decommunization",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "decommunization"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "decommunization",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>位置在主线必经之路上，摧毁儿童营地前最大的雕像。</p><p>（原攻略此处有位置截图，未能导入）</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "decommunization",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "decommunization",
+      "field": "note",
+      "operation": "add",
+      "after": "摧毁儿童营地前最大的雕像，在主线必经之路上。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "decommunization",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

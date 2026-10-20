@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvg0ltb0a7",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0a7",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0a7",
+      "field": "chapter",
+      "operation": "add",
+      "after": "章节特定 · 伏尔加河"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0a7",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0a7",
+      "field": "description",
+      "operation": "add",
+      "after": "本关有 3 个章节成就，其中「杜克」由道德点决定，错过会影响好结局。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0a7",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "dlc_02_music_lover",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_music_lover",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_02_music_lover"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_music_lover",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_music_lover",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_music_lover",
+      "field": "note",
+      "operation": "add",
+      "after": "找到所有口琴乐曲（共 9 个），不同周目累计。收集视频：https://b23.tv/jGcq7eF"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_music_lover",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}

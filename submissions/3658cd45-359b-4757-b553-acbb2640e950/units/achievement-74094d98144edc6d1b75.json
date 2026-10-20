@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "mutation_1",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "mutation_1",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "mutation_1"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "mutation_1",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "mutation_1",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "mutation_1",
+      "field": "note",
+      "operation": "add",
+      "after": "一周目打完后：新游戏 → 新游戏+ → 选择存档 → 选择变异，建议选「钢铁」。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "mutation_1",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

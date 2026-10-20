@@ -1,0 +1,34 @@
+{
+  "entityType": "categories",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "categories",
+      "entityId": "guide",
+      "field": "custom",
+      "operation": "add",
+      "after": [
+        {
+          "key": "流程",
+          "label": "流程",
+          "color": "#00fabb"
+        },
+        {
+          "key": "结局",
+          "label": "结局",
+          "color": "#036fd3"
+        }
+      ]
+    },
+    {
+      "entityType": "categories",
+      "entityId": "guide",
+      "field": "presets",
+      "operation": "add",
+      "after": {
+        "condition": "#c076e5",
+        "main": "#07d3ed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "entityType": "layout",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "guide",
+      "field": "chapterOrder",
+      "operation": "add",
+      "after": [
+        "chapter-umvg0ltb09l",
+        "chapter-umvg0ltb0a3",
+        "chapter-umvg0ltb0a5",
+        "chapter-umvg0ltb0a7",
+        "chapter-umvg0ltb0ab",
+        "chapter-umvg0ltb0ad",
+        "chapter-umvg0ltb0ah",
+        "chapter-umvg0ltb0an",
+        "chapter-umvg0ltb0ap",
+        "chapter-umvg0ltb0ay",
+        "chapter-umvg0ltb0b2",
+        "chapter-umvg0ltb0bc",
+        "chapter-umvg0ltb0bl"
+      ]
+    }
+  ]
+}

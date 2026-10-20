@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "regatta",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "regatta",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "regatta"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "regatta",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "regatta",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "regatta",
+      "field": "note",
+      "operation": "add",
+      "after": "伏尔加河的小船。第一次见是潜入教堂，不被发现、不杀人有道德点。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "regatta",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umvg0ltb0b2",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umvg0ltb0b2",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "martian",
+        "gunsmith",
+        "firebird",
+        "last_minute_man",
+        "professional",
+        "full_armor_set",
+        "old_world_pictures",
+        "librarian",
+        "kaleidoscope"
+      ]
+    }
+  ]
+}

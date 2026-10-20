@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "dlc_01_duty_and_conscience",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_duty_and_conscience",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_01_duty_and_conscience"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_duty_and_conscience",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_duty_and_conscience",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_duty_and_conscience",
+      "field": "note",
+      "operation": "add",
+      "after": "收绿东西的时候帮他隐瞒，选左侧的选项。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_duty_and_conscience",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

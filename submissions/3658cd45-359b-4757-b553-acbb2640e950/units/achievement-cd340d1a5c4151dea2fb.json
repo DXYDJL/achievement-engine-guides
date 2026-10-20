@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "professional",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "professional",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "professional"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "professional",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>一共 10 把武器，死城老丈人给的电磁炮不算。10 把分别是：</p><p>1. 蹒跚怪　2. 左轮　3. 阿舍特　4. 提卡　5. 死神<br />6. 阀门　7. 斗牛犬　8. 加特林　9. 杂种　10. 赫辛</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "professional",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "professional",
+      "field": "note",
+      "operation": "add",
+      "after": "使用所有远程武器完成至少一次击杀。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "professional",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}

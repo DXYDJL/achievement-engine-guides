@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "putrification",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "putrification",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "putrification"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "putrification",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "putrification",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "putrification",
+      "field": "note",
+      "operation": "add",
+      "after": "通过腐烂隧道，关卡「死城」主线。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "putrification",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

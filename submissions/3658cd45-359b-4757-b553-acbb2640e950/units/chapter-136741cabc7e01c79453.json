@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvg0ltb09l",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb09l",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb09l",
+      "field": "chapter",
+      "operation": "add",
+      "after": "流程成就"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb09l",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb09l",
+      "field": "description",
+      "operation": "add",
+      "after": "本体 52 个成就中的 17 个，顺着主线走就会跳。注意「全力」「永恒之旅」是好坏结局两个分支，一周目只能拿一个。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb09l",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

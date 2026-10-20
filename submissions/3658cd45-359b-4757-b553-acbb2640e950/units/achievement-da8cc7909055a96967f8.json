@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "fisherman",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "fisherman",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "fisherman"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "fisherman",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>找火车拖车的时候在工厂里最后拉扳手：</p><p>1. 先把右手的鱼饵放下</p><p><img src=\"assets/f3f92a364c807122666b46b89478e0bd00af657a47a1a28fbcb4859d66882af4.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\">2. 等沙皇鱼（鲶鱼）来的时候，拉下扳手</p><p>（原攻略此处有两张位置截图，未能导入）</p><p><img src=\"assets/4a8d581741907e2574e82725a91979557ca34ea1be5ccea8c7733ef1c7ac4c30.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/258d56d34452f7b33e1639a32b1439b25a86ef73721eeeda51384dc93d965b24.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "fisherman",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "fisherman",
+      "field": "note",
+      "operation": "add",
+      "after": "找火车拖车时在工厂里最后拉扳手：先放鱼饵，等沙皇鱼来了再拉。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "fisherman",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvg0ltb0ad",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ad",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ad",
+      "field": "chapter",
+      "operation": "add",
+      "after": "章节特定 · 里海"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ad",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ad",
+      "field": "description",
+      "operation": "add",
+      "after": "本关有 3 个章节成就，「达米尔」由道德点决定。里海关最保险的玩法就是不杀奴隶、把地图全清。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ad",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

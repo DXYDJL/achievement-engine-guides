@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "railwayman",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "railwayman",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "railwayman"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "railwayman",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "railwayman",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "railwayman",
+      "field": "note",
+      "operation": "add",
+      "after": "伏尔加河主线任务。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "railwayman",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

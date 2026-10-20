@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "iron_man_1",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "iron_man_1",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "iron_man_1"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "iron_man_1",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>只有每章节有保存，也就是说每个章节都不可以死，闪退也会导致重新开始。千万不要用困难游骑兵打这个模式。</p><p>几个注意点：</p><p>1. 没有落脚点的位置千万别落水<br />2. 阿尔乔姆深得猎魔人真传，千万别从高处往下跳<br />3. QTE 直接改成「按下完成」，牢记每一个 QTE 地点<br />4. 可以降低分辨率避免闪退<br />5. 建议与坏结局一起做，避免不必要的风险</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "iron_man_1",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "iron_man_1",
+      "field": "note",
+      "operation": "add",
+      "after": "通关钢铁模式。每章节只有一次保存，任何死亡都要重来。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "iron_man_1",
+      "field": "type",
+      "operation": "add",
+      "after": "difficulty"
+    }
+  ]
+}

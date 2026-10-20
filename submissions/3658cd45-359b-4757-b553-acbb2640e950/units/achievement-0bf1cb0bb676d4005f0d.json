@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "dlc_01_father_and_son",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_father_and_son",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_01_father_and_son"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_father_and_son",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_father_and_son",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_father_and_son",
+      "field": "note",
+      "operation": "add",
+      "after": "流程成就。在「THE TWO COLONELS」章节中指导基里尔。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_father_and_son",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

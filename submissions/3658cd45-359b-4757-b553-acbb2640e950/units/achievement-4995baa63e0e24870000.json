@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "exodus",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "exodus",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "exodus"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "exodus",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "exodus",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "exodus",
+      "field": "note",
+      "operation": "add",
+      "after": "完成关卡「莫斯科」。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "exodus",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

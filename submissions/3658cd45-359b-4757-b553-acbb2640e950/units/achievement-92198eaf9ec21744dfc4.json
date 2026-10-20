@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "silent_marksman",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "silent_marksman",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "silent_marksman"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "silent_marksman",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "silent_marksman",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "silent_marksman",
+      "field": "note",
+      "operation": "add",
+      "after": "使用「提卡」击杀 30 个敌人。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "silent_marksman",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}

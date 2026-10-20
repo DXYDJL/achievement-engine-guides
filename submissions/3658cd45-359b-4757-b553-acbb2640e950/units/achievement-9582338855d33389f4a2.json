@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "dlc_01_the_whole_picture",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_the_whole_picture",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_01_the_whole_picture"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_the_whole_picture",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_the_whole_picture",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_the_whole_picture",
+      "field": "note",
+      "operation": "add",
+      "after": "找到「THE TWO COLONELS」章节中全部 9 页隐藏日记。收集视频：https://b23.tv/vVFv2WF"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_the_whole_picture",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}

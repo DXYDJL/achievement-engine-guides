@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "old_world_pictures",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "old_world_pictures",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "old_world_pictures"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "old_world_pictures",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "old_world_pictures",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "old_world_pictures",
+      "field": "note",
+      "operation": "add",
+      "after": "找到所有 21 张明信片。收集视频：https://b23.tv/x53zaaO"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "old_world_pictures",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}

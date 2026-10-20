@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "on_the_air",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "on_the_air",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "on_the_air"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "on_the_air",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "on_the_air",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "on_the_air",
+      "field": "note",
+      "operation": "add",
+      "after": "安娜展示地图时先别进下一关，坐到收音机旁调试。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "on_the_air",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "aurora",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "aurora",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "aurora"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "aurora",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "aurora",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "aurora",
+      "field": "note",
+      "operation": "add",
+      "after": "完成关卡「冬季」。（Steam 上的描述是「为火车命名」）"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "aurora",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

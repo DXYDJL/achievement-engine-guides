@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "kaleidoscope",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "kaleidoscope",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "kaleidoscope"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "kaleidoscope",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>建议在里海完成。狙击镜就是六倍镜，在完成安娜狙击手支线后会刷新出一车人到远处。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "kaleidoscope",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "kaleidoscope",
+      "field": "note",
+      "operation": "add",
+      "after": "在佩戴防毒面具和夜视镜的情况下，借助狙击镜击杀 3 个敌人。建议在里海完成。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "kaleidoscope",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

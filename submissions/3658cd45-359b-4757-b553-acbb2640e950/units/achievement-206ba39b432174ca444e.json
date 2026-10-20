@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "dlc_02_trapper",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_trapper",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_02_trapper"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_trapper",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_trapper",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_trapper",
+      "field": "note",
+      "operation": "add",
+      "after": "跟船长把酒言欢后下楼，地上画叉的地方就是布置陷阱处，需要 5 个燃烧瓶。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_trapper",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

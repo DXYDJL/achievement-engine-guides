@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvg0ltb0a5",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0a5",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0a5",
+      "field": "chapter",
+      "operation": "add",
+      "after": "章节特定 · 冬季"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0a5",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0a5",
+      "field": "description",
+      "operation": "add",
+      "after": "本章只有这一个成就，且机会稍纵即逝。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0a5",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

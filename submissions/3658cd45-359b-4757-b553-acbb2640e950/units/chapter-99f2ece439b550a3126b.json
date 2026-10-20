@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvg0ltb0an",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0an",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0an",
+      "field": "chapter",
+      "operation": "add",
+      "after": "章节特定 · 死城"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0an",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0an",
+      "field": "description",
+      "operation": "add",
+      "after": "本关只有这一个成就。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0an",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

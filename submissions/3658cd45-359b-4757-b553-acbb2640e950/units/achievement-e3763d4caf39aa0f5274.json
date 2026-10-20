@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "full_band",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "full_band",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "full_band"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "full_band",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>具体达成条件看三个章节成就：「杜克」「达米尔」「阿廖沙」，分别对应伏尔加河、里海、针叶林三关的道德点。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "full_band",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "full_band",
+      "field": "note",
+      "operation": "add",
+      "after": "杜克、达米尔、阿廖沙全部留队，好结局。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "full_band",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

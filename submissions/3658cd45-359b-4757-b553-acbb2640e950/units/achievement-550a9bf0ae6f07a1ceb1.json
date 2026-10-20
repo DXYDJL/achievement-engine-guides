@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "full_armor_set",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "full_armor_set",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "full_armor_set"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "full_armor_set",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>伏尔加河 + 里海就可以全部收集完。都分布在地图的支线，探图必得。</p><p><b>升级品清单：</b>指南针、电池充电控制器、长效滤毒罐、弹药袋、道具袋、夜视仪（针叶林也有）、金属探测器、强化头盔、动作感应器、强光手电、消耗品背包、钢化玻璃、夜视放大器</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "full_armor_set",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "full_armor_set",
+      "field": "note",
+      "operation": "add",
+      "after": "找齐阿尔乔姆服装的所有升级品。伏尔加河 + 里海就能全部收集完。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "full_armor_set",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}

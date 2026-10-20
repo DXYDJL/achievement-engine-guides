@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvg0ltb0ap",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ap",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ap",
+      "field": "chapter",
+      "operation": "add",
+      "after": "累积成就"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ap",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ap",
+      "field": "description",
+      "operation": "add",
+      "after": "不同周目可以累积。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvg0ltb0ap",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

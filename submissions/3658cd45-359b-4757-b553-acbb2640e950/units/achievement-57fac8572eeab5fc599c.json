@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "firebird",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "firebird",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "firebird"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "firebird",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "firebird",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "firebird",
+      "field": "note",
+      "operation": "add",
+      "after": "用火焰杀死恶魔。做法见「章节特定 · 伏尔加河」的团队之友。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "firebird",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}

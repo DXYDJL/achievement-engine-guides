@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "dlc_01_just_scratch",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_just_scratch",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_01_just_scratch"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_just_scratch",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_just_scratch",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_just_scratch",
+      "field": "note",
+      "operation": "add",
+      "after": "普通或更高难度完成本章，且不使用任何医疗包。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_just_scratch",
+      "field": "type",
+      "operation": "add",
+      "after": "difficulty"
+    }
+  ]
+}

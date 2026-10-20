@@ -1,0 +1,31 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umvg0ltb09l",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umvg0ltb09l",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "exodus",
+        "aurora",
+        "regatta",
+        "railwayman",
+        "long_distance_passenger",
+        "lower_the_b",
+        "spoiled_dinner",
+        "driver",
+        "all_road_map",
+        "new_order",
+        "gorko",
+        "sword_of_damocles",
+        "putrification",
+        "full_band",
+        "all_bad",
+        "all_good",
+        "hardcore"
+      ]
+    }
+  ]
+}

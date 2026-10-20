@@ -1,0 +1,22 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umvg0ltb0bc",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umvg0ltb0bc",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "dlc_01_new_year",
+        "dlc_01_duty_and_conscience",
+        "dlc_01_father_and_son",
+        "dlc_01_real_colonel",
+        "dlc_01_the_whole_picture",
+        "dlc_01_quite_heavy",
+        "dlc_01_dodge_master",
+        "dlc_01_just_scratch"
+      ]
+    }
+  ]
+}

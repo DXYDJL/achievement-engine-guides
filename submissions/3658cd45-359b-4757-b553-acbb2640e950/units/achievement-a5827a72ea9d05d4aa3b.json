@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "righteous_vengeance",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "righteous_vengeance",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "righteous_vengeance"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "righteous_vengeance",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "righteous_vengeance",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "righteous_vengeance",
+      "field": "note",
+      "operation": "add",
+      "after": "杀死 90 个食人族。本关限定，出关就没有食人族可打了。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "righteous_vengeance",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}

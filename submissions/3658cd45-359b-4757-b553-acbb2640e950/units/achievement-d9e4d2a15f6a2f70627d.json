@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "coachman",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "coachman",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "coachman"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "coachman",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>在关卡「莫斯科」中最后炸火车的时候，把火车最后两节车厢分离。出去一节车厢后，可以在进入下一节车厢的门左侧看到互动选项。</p><p>机会只有这一次，错过本章就没了。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "coachman",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "coachman",
+      "field": "note",
+      "operation": "add",
+      "after": "炸火车时分离最后两节车厢，门左侧有互动选项。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "coachman",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

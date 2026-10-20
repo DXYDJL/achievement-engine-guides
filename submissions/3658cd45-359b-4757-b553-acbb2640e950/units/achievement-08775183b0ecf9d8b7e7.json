@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "hardcore",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "hardcore",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "hardcore"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "hardcore",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>不建议第一次玩的人上来就选这个难度。敌人 AI 很强，阿尔乔姆跟纸糊的没区别，潜行难度也很大，没有按键提示。</p><p>不过可以打开背包查看武器之类的。前作的游骑兵模式没有任何 UI 与界面，甚至连身上有什么东西都看不到，本作相对宽松。</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "hardcore",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "hardcore",
+      "field": "note",
+      "operation": "add",
+      "after": "在「困难游骑兵」模式下完成游戏。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "hardcore",
+      "field": "type",
+      "operation": "add",
+      "after": "difficulty"
+    }
+  ]
+}
