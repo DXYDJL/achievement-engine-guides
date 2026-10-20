@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "dlc_02_a_man_of_principle",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_a_man_of_principle",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_02_a_man_of_principle"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_a_man_of_principle",
+      "field": "content",
+      "operation": "add",
+      "after": "<p>一共 5 个道德点：</p><p>1. 初次见到船长收枪<br />2. 帮船长抬木头<br />3. 给船长治腿的时候给出罐头<br />4. 帮船长布置 5 个陷阱<br />5. 在开船渡过辐射区的时候找到船长部下的下落：从土匪窝出来后开船进入辐射区，出大门左转有个红旗可以下去，沿着路走可以登上化工储油罐上面</p>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_a_man_of_principle",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_a_man_of_principle",
+      "field": "note",
+      "operation": "add",
+      "after": "获得船长的信任，完成本章。一共 5 个道德点。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_02_a_man_of_principle",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}
