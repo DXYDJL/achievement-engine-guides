@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_THIEF",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_THIEF",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_THIEF"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_THIEF",
+      "field": "content",
+      "operation": "add",
+      "after": "1.将MIRANDA储物柜的钥匙在列车复制一把；<div>2.下一循环，<b>先把AMAAN房间及保险箱打开</b>；</div><div>3.拿上两把钥匙（列车+储物柜）去AMAAN房间保险箱，调整两把钥匙形态，解锁柜子得到卡片7<img src=\"assets/b3b852a66436c1624a45cd54b11a88e0a4d10582fa67fd1ab6b71a0be7c2a3ca.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></div>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_THIEF",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_THIEF",
+      "field": "note",
+      "operation": "add",
+      "after": "Tarot Card 7"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_THIEF",
+      "field": "type",
+      "operation": "add",
+      "after": "隐藏"
+    }
+  ]
+}

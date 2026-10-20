@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_COOKER",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_COOKER",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_COOKER"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_COOKER",
+      "field": "content",
+      "operation": "add",
+      "after": "<div><div>在MIRANDA房间，大屏幕左侧无接触打开锁柜，解开颜色加减法谜题，解锁ARES赞助视频，得到赞助商信息，用于实验室1楼电脑密码</div><div><img src=\"assets/e5631d4b663143774e847581afa7f7c5e4d6235c23df7f5779b6daf49d5fb25e.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/ab521fcd682821f914b8a6dfc8d03abe328e7f8197039c0d4f5930caf61f6935.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></div></div><div data-img-block=\"\"></div><div data-img-block=\"\"><img src=\"assets/873aa9565aa1cf9c812d7484ce2b0476362dd2ddfcec546792dd5b964fbdbc64.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">去Rafael房间床头拿塔罗牌卡盒</div></div><div data-img-block=\"\"><img src=\"assets/0db5d79d9c54d6a2410119f946de1fad2a6bf6ac4fd0fd4156bb670a1dc55c9c.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">大厅二楼电脑使用数据卡，查看Microwave.phm，得到微波炉时间、功率、模式设置</div><img src=\"assets/f62e5bed4598f51b6f45d97f9a24f246018b5943fdad618de2ce8ee1bf91ea58.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></div><div data-img-block=\"\"><img src=\"assets/c461318cb674e1336fadd715a35991213e128fe5d6ee8997957419e1ab830b47.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">卡片2</div></div>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_COOKER",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_COOKER",
+      "field": "note",
+      "operation": "add",
+      "after": "Tarot Card 2"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_COOKER",
+      "field": "type",
+      "operation": "add",
+      "after": "隐藏"
+    }
+  ]
+}

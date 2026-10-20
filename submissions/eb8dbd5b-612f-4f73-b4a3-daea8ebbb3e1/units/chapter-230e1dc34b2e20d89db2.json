@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umus6fx4qc",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4qc",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4qc",
+      "field": "chapter",
+      "operation": "add",
+      "after": "谜题"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4qc",
+      "field": "content",
+      "operation": "add",
+      "after": "<h1><br></h1>"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4qc",
+      "field": "description",
+      "operation": "add",
+      "after": "全是主线流程解锁"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4qc",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_SEER",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_SEER",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_SEER"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_SEER",
+      "field": "content",
+      "operation": "add",
+      "after": "<div data-img-block=\"\"></div><div><div><div data-img-block=\"\"><img src=\"assets/dd756f59b35b18918b363bf0f2c48c8b9724a8e3432eaf86aa7a980c2a6d77ba.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\"><span>大厅电脑：Igor Petrov<br></span>更新K9，升级无接触门禁系统<br>（解锁储物柜、连接器等）</div></div></div><div data-img-block=\"\"></div><div><h3><span>依次前往舱段打开AMAAN储物柜（获取今年生日日期）、厨房冰箱蛋糕蜡烛（获取年龄）、AMAAN房间（打开AMAAN保险库）</span></h3><div><div data-img-block=\"\"><img src=\"assets/d65a4e19b0000113e5e9ac51ce5d9ab6d2f8020de8948bd3952be05b4d8e960c.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">今年生日日期：25/08/2466</div></div></div><div><div data-img-block=\"\"><img src=\"assets/f4f442e89619d0ccf183c07fd9e9121eb869b5c29f21066dc856ed8eecfad111.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">60岁生日</div></div><div data-img-block=\"\"><img src=\"assets/7c70a156215d089c236302e42565274a856fe47c2d0db713dedc04c01175e696.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">AMAAN生日：25/08/2406</div></div></div><div><div data-img-block=\"\"><img src=\"assets/133169bdc8d7b7e6c5aeb649def8a9f60a969df0345bc2584d56e66bf821692b.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">AMAAN保险库饮料：COSMIK!</div></div><div data-img-block=\"\"><img src=\"assets/b232d07f5d5f4ebed52b8aa19a9cde5f0e534b8583d9b88ef4e8b97ca598ddde.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\"><div><span>根据AMAAN卧室3张语法说明，依次输入</span></div><div>LS</div><div>BUILD HYPERVIOLET.QB</div><div>COPY FLASHLIGHT.EXE MIRANDA.V<br></div><div>获取紫外光</div></div></div></div></div></div>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_SEER",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_SEER",
+      "field": "note",
+      "operation": "add",
+      "after": "解开终端谜题"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_SEER",
+      "field": "type",
+      "operation": "add",
+      "after": "流程"
+    }
+  ]
+}

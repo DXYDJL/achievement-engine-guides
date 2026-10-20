@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_MASTERMIND",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_MASTERMIND",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_MASTERMIND"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_MASTERMIND",
+      "field": "content",
+      "operation": "add",
+      "after": "<div data-img-block=\"\"><img src=\"assets/cdd4796553f6c7786966cc60e7930e0cfe1865a41a0d78cde55784cda0845cfe.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center;\">https://intranet-ares.com/rafael/3797723<br></div></div><div data-img-block=\"\"><img src=\"assets/32be2560ad7e2eaf5380de8ece15875b983f14dacc32118e5499d83493ec81c5.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center;\">https://intranet-ares.com/jonny/3797113<br></div></div><img src=\"assets/ba9eeff625e1b11df06f518e88922ab3b8e0cbd50c772572f4278e06fc687258.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\">黑白16进制坐标图及对照表丢给AI，即可解出<br><div><img src=\"assets/ed2c836f1de6b0bea715b42b727da8996879d639f1aa9fec0759886375292c85.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/e0acaa062b79fcd89b594bf2a5d2650cc295f95ec9572e1ff8bccc9f99b53394.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/a84a88b4a4fa6dfdde32cdba1fc12b0889315b274b7bbe65297195a7f339fc62.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div><img src=\"assets/3a084989b4fc51ae47342a1471eb7ee08f50139fae794a90ed8a4eadc4942d33.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-img-block=\"\"><img src=\"assets/cad1388e7602e5c6eee0f17e30eb29172ebf75c97959f4d46dc9d1bf084798c4.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center;\">卡片6</div></div></div></div>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_MASTERMIND",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_MASTERMIND",
+      "field": "note",
+      "operation": "add",
+      "after": "Tarot Card 6"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_MASTERMIND",
+      "field": "type",
+      "operation": "add",
+      "after": "隐藏"
+    }
+  ]
+}

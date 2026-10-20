@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umus6fx4q5",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q5",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q5",
+      "field": "chapter",
+      "operation": "add",
+      "after": "关卡05"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q5",
+      "field": "content",
+      "operation": "add",
+      "after": "<h1>关卡05 通关游戏</h1><h2>新一循环，前往聚变核心</h2><h1><img src=\"assets/53a05e824b069ed85b7bcedf9aaa2a98471667ccb53331fedde863d1e26a87ae.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/f2a10f9f074867b3d80b1d185a209ba459be8007a0541390fdaff521b51dba36.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/4bee9396e7fb9faaf3083604854a318936d18de2b3672abadcd01b86d43234ea.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/093bc0ad75c7cf1e9b246fcadf93d46cefb3fd4461b93136b701947cdb27b49c.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/6b5f36f9b62e14301c450dcb042d6a6cb49a46cf9a970d7d7521ee1262d1eacc.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/c1d407b30d8e1553c975565c7e7a35e9cd055f567109161d6ff88089d7516b47.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/2e8a64ae7a51ec4eaf7fe76c18adf156931c17f712e320ab27da546a0d8c2d58.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-img-block=\"\"><img src=\"assets/bd0952c3e911d4f24234709400591bf1a0988fe3a6b53e0a9ddfb0042e188d77.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">25循环内通关游戏成功（容错次数在5次以内）</div></div></h1>"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q5",
+      "field": "description",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4q5",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

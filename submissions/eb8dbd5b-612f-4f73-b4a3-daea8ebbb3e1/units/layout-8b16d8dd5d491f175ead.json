@@ -1,0 +1,13 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-ACH_COLLECTOR",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-ACH_COLLECTOR",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": []
+    }
+  ]
+}

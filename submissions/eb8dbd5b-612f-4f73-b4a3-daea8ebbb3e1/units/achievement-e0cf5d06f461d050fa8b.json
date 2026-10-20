@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_DOPPELGANGER",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_DOPPELGANGER",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACH_DOPPELGANGER"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_DOPPELGANGER",
+      "field": "content",
+      "operation": "add",
+      "after": "<h2><div data-img-block=\"\"><br></div></h2>"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_DOPPELGANGER",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_DOPPELGANGER",
+      "field": "note",
+      "operation": "add",
+      "after": "复制一件物品"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_DOPPELGANGER",
+      "field": "type",
+      "operation": "add",
+      "after": "流程"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "entityType": "layout",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "guide",
+      "field": "chapterOrder",
+      "operation": "add",
+      "after": [
+        "chapter-umus6fx4q0",
+        "chapter-umus6fx4q1",
+        "chapter-umus6fx4q2",
+        "chapter-umus6fx4q3",
+        "chapter-umus6fx4q4",
+        "chapter-umus6fx4q5",
+        "chapter-ACH_COLLECTOR",
+        "chapter-umus6fx4q7",
+        "chapter-umus6fx4q8",
+        "chapter-umus6fx4q9",
+        "chapter-umus6fx4qa",
+        "chapter-umus6fx4qb",
+        "chapter-umus6fx4qc",
+        "chapter-ACH_ACE",
+        "chapter-umus6fx4q13",
+        "chapter-umus6fx4q17"
+      ]
+    }
+  ]
+}

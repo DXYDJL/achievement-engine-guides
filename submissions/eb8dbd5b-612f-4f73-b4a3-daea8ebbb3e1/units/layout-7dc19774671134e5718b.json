@@ -1,0 +1,17 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umus6fx4q13",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umus6fx4q13",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "ACH_PHOTOGRAPHER",
+        "ACH_HAVE_A_BREAK",
+        "ACH_TRICKSTER"
+      ]
+    }
+  ]
+}

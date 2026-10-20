@@ -1,0 +1,27 @@
+{
+  "entityType": "notes",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "missable",
+      "operation": "add",
+      "after": []
+    },
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "new_game_plus",
+      "operation": "add",
+      "after": "建议2周目（25循环内通关，至少需要熟悉地图，了解谜题解法及顺序）"
+    },
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "tips",
+      "operation": "add",
+      "after": "1.本攻略适用于完成所有谜题流程的玩家，建议二周目使用\n2.本游戏的所有谜题答案随机，因此，本文给出的谜题答案大多无法直接参考，实际答案需根据攻略中提示的解法，结合你游戏里的文本信息解出。\n3.流程按照01～05关卡划分，本人实测24循环通关，由于攻略是我边玩边制作的，中间存在几次失误（浪费了几次循环），估算容错循环为5次以内。\n4.跟着攻略步骤时，由于电量问题无法到达某些区域时（不包含量子电池误用），可另开新一完整循环后直奔目标。"
+    }
+  ]
+}
