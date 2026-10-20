@@ -1,0 +1,334 @@
+{
+  "submissionId": "11eff3d9-c7b2-49fd-8515-d49742436553",
+  "guideId": "e9645608-74c0-4301-8a3a-3a916af324cc",
+  "version": "1.0.0",
+  "packageSha256": "f8443bf5c55b87cf1d3cb596bc7dfa9513bd56f0fcd79253920f312a008f4602",
+  "draftReleaseId": 418552172,
+  "assetId": 659686250,
+  "assetRepository": "dxydjl0521-maker/achievement-engine-guides",
+  "assetName": "11eff3d9-c7b2-49fd-8515-d49742436553.aeguide",
+  "manifest": {
+    "format": "aeguide",
+    "schemaVersion": 1,
+    "guideId": "e9645608-74c0-4301-8a3a-3a916af324cc",
+    "version": "1.0.0",
+    "game": {
+      "platform": "steam",
+      "platformGameId": "3669870",
+      "title": "CONTROL Resonant"
+    },
+    "guide": {
+      "title": "CONTROL Resonant-全成就攻略（默认攻略）",
+      "type": "workflow",
+      "language": "zh-CN",
+      "summary": ""
+    },
+    "compatibility": {
+      "minAppVersion": "0.8.5"
+    },
+    "author": {
+      "displayName": "dxydjl0521-maker",
+      "githubLogin": "dxydjl0521-maker"
+    },
+    "license": "CC-BY-NC-SA-4.0",
+    "contentFile": "guide.json",
+    "contentSha256": "d45d333bdc0cf9e3a0b366e0a79da73e95d9a4c70b4193563be1d586d01b76ad",
+    "assets": []
+  },
+  "submittedAt": "2026-10-20T15:21:47.488Z",
+  "baseRevision": null,
+  "contributor": {
+    "userId": 284279708,
+    "githubLogin": "dxydjl0521-maker"
+  },
+  "changeFiles": [
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-9f9c55013f8b1dad1f80.json",
+      "sha256": "0d67e420f2e708949221b082ac973954576650c5517913f67bb58bfe9caa31a7"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-c1eb3b06ba16cd83d5b7.json",
+      "sha256": "e650e80da586695b666857d87d06e56e847291c67b82db011825a6e19bb2f6a7"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-bd34a86658e4d2fcab2d.json",
+      "sha256": "eec6d694144f4728caa9a0af1e8551669277546c4cb5edc0528064e095c4c395"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-de5ae1a26309f0106cdb.json",
+      "sha256": "a6669dd2c3c916c7f87874567d66cb21bb38c12542f4db14f83d221c653b248b"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-fd0ed078a1f9d9cd487c.json",
+      "sha256": "11e41a3fb1507313f256a9a9fd4e4bb09a06eaae0d7113a05c54b087e3865abe"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-650a4516f2b35016a8c5.json",
+      "sha256": "4b5037d3f5b6fc353682f20364794fbdfdf3f5e8ba40e946e470001af22d96d8"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-515b9e8e8562e20ad794.json",
+      "sha256": "2e0c7d44baa663ca79f19d66e167a9230ba2f323cb6ec77d0a10afc02eab612a"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-b24b69d05d348710c064.json",
+      "sha256": "6c0b364f5b6388273270fcdca46336fce13fdfc55d66e7a5fcd1045b7b50b82d"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-fa19a65af7700791c31c.json",
+      "sha256": "26474689e5abc4bb13379b937576f55f2973ad1530faf8937eb569623ddf8c96"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-0cedfa7e10cc028ec7e1.json",
+      "sha256": "28ea16d26fe813ac376c9d6c1cddd04c11119de0f906af2cbc3ef19276c80843"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-d994751129daabd497ae.json",
+      "sha256": "88d631336db523ec24fee4d4ed887b2877223b3f9fd1737a8bb8c03ec1d2d97b"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-9be29ba365e422a36608.json",
+      "sha256": "84ed391d351786cb932a02104756a338ff44bd7d4e35e4aab148f449ee7a734f"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-16e1e0ec53f05a183f29.json",
+      "sha256": "82b28d98961adfd9e52457e8640436129952a02dbff494d075001237a561153e"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-9f30958f51f50c107ac9.json",
+      "sha256": "5614626f1bc2d660c9aa04047747e5e640af83d4ed7499f69fba9f112fa776e6"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-e8718f4fdd7b308269ea.json",
+      "sha256": "750019f715ec662ab713e860961332f93f0da55b1703498b69436d1737ccd165"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-c2d5203c7ac5b78fbd2d.json",
+      "sha256": "4a6f8a9f58bc9c512156616eed179748114d157e41434e48ad1f8da818be3125"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-0748d35f51fa200e8228.json",
+      "sha256": "ed3783843161c1426391e95f08ff313eb9b96bd5b782fa8632ed6d00154c0b19"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-3044130bb8dcdff20f1f.json",
+      "sha256": "2b0af0929c62ea0d1877a78fe6ce1e5c5edeaf04e88d97a188af8a452b4b064c"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-fbe4aad55efdc046ad77.json",
+      "sha256": "b7a99545cced412bcf9c6bd4916fc02b619f14f8504d9b6242ee39139c05b36c"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-5c6b5001446aefe67a66.json",
+      "sha256": "c6a10eaea6d7d7f52a234faf514240384add9f9e3579fbe833678ed0190c2745"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-60f8a5fca777b1fc5303.json",
+      "sha256": "4b9812fe1637689ef9886a28ca51efaba857aecd93855f37772b0561eaac7d04"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-cfb25da4d799fb95ad7d.json",
+      "sha256": "3e9d4c2cd4e4e15225086a6daecada77c78ceb93e6d24d39c6f03abd460b6b65"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-0ce2ae8599f0e70f74e3.json",
+      "sha256": "d918fafc98d0c12d0e86d6e8f94cea65f36cf3997f6a440f0791d40c87db2adc"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-c56d926840439077f16e.json",
+      "sha256": "9345e503c8754978b1f6e0002dca4f94a464db20939be99286d067293fce69b1"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-f96189343c485ff63f54.json",
+      "sha256": "c976ce0f72332befc3c6d355dd5bea1c5f60971f7233c22b1b7107ce15257e52"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-caeccde1f3dcbd1815d5.json",
+      "sha256": "128255f02827cc326ea62f4ee3f1f80caff1b0faf6fd66f3495becbd8bf25e6b"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-376ea72db58be953d3a2.json",
+      "sha256": "a3c65cdfb27b2ebb1f097d7988af1dcaaa2bf9bf7adde78e0b6073bacf9e4f4c"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-b2b887eb7cdf9a3a1913.json",
+      "sha256": "df957bfe1dc4e6512777a60669e430f57db0b3bb2775580045e38bda91121262"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-dfa18a7ab2b85984ea5a.json",
+      "sha256": "13649268eca32bacdd21b5081851d85f3613ae0e35cf8461a106129d70846010"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-d1a3386b62b010e64e0d.json",
+      "sha256": "b9756860fea077f9c87b46cfaed72fa10aee95ea716430c9f6f810975bd6518b"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-66d8a87f60f094d0b397.json",
+      "sha256": "5e145e13519778d5934878ebecfadbdacdcc417d1c436f81f743691398f268b2"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-fbb8ef9444e14aae0eda.json",
+      "sha256": "16ef6fbc42e89845fb60083565aabb53126f5178d9f9c7237809ca951cf1aaeb"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-ccfa1e12f63afaa3b8e1.json",
+      "sha256": "bd6be31bdcef8200a0cebc0cdf82b8a8a96175c2effaf17fdf928a9cb715ea87"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-1ef06e392b324fd75d14.json",
+      "sha256": "45a7b5c653613311aedf8c2124933536734bc325e34627ce273125f8702316f5"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-4d19264029184782e7ab.json",
+      "sha256": "ca8ddc7184b71be3c5760a1494a15b071c03e9050c95200ea5939529c579b821"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-a2389829843e7a07eb69.json",
+      "sha256": "06f32b7a225a2e8dbe6b106d811b253f40141c70a61cbe7b16073473d13fc5eb"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-81891a83ab7da28beab6.json",
+      "sha256": "a4b3c4c053dc3a82edbe4a71812f37a1645b0fbfc961880db3ce6c63802bc2aa"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-1e96b58b34825955c1e1.json",
+      "sha256": "e28f5aed32322d4d8033d896c3122972274f56b31d1ba76e762d21d610aa3324"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-35cb88eb439cb12deb54.json",
+      "sha256": "07ef456ef8f7cd57b2755ece89fc5fd01107d7e46afd43e75c11fe99ecba4fd2"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-dc3aa82fddf71416cf50.json",
+      "sha256": "3f50f93d5f3e9fbbf68e2f0c1430de005b0fde476b863f162be366655732bc67"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-e64ef0084c4eb463ac94.json",
+      "sha256": "cecb36bf488e3637d1dd1b128f13bde2b4a9b4fc4365ca121862a8a195de6bc0"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-8dfeb461fc1cecb53e2d.json",
+      "sha256": "66dbe7c30be6b7855f4fd186aebf4a202b86441f0aad1541972d84e8e27bcea4"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-f2be1bdb1836f5bcfd58.json",
+      "sha256": "7ce052b10e7455f7cc77c9dc42b4a73111ee12f55ef39c40853951eeca34dfc3"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-b10107f2b0832e239144.json",
+      "sha256": "91c4ee15e45e77b678db3b4019255faecda41334d83d2e01c47b3d16501329d1"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-107fba83ed405fd5a42d.json",
+      "sha256": "7ef837f87e3ab399ca4f30a9acfcfced985075a7ff6e75ecc0a4e5d741a83382"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-5ce612f3ce868856c0c8.json",
+      "sha256": "d3b6e60df9bf288d23fe6d3519e42737c1698fe51115deb41834ba89acd6f77c"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-5130f54c1b0bbb65b83c.json",
+      "sha256": "5ce32eddab638af0834ff39535f77ec69c20f416010fa626524481af3c9ed4a1"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-fb2e82230670b47e3b65.json",
+      "sha256": "a21b3d746f0c9ea79890e15daffb4e556952f2f692d5a2d57e32aa4bda4d68b7"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/achievement-a2e8c4d8a85fd47cd831.json",
+      "sha256": "36b29005951e4ae8732322d7f6a353bf72807bb617c86ad33e45187c7ffcec96"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/categories-83ca68be6227af2feb15.json",
+      "sha256": "cf878a1e64b472de569595ad8df0d9004d3f91cb36fe85c56fa32cda73ef1b45"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/chapter-e576869a8f6d322c0945.json",
+      "sha256": "3063bf9ca479831b55598236c781503efb11330f5fe6e4299e83d32271dd42aa"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/chapter-49d946c3b9fc579e0e9b.json",
+      "sha256": "12ad640a926395c530ca5e0159e5b22c3b143a3af4b276825adf2b47a717e0a6"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/chapter-527640f4bf4532fe4fb9.json",
+      "sha256": "a855b43b079b29269d9400db1543b47102c34a1f540ed2ae2b06d7fc98497981"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/chapter-a4f2db227b89fecdb2f5.json",
+      "sha256": "16e4ff4c13f1aa156b43c2b7d82224fa7d34c4436c5310a531734d046e11a8b0"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/chapter-1f43d4eb39947fbc947b.json",
+      "sha256": "d074c7e6f841b9f9aacca97d29775c5e306f9c07151231f8a69ba8180980426c"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/chapter-e9a8b73f70d69862b985.json",
+      "sha256": "db0cf17bbc2eafba481ff33738b28ccbbc9e71f8326b6b134e5a6705cbb4b149"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/chapter-50b71db5acea7143766d.json",
+      "sha256": "46de8151b88e538f2343e459bb9cfd65df402e3dac8524a83425657d11f91e0c"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/chapter-b54509dd75902910149a.json",
+      "sha256": "86cd7418a9797e5d6ccc83bbb7a3eed99bd2872c9897bd6094b075d9296987ce"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/chapter-aaa3bd094c7bd0cc3351.json",
+      "sha256": "21f858f2f4c8ef8063659a4c8738263439a95885eabb61cd7f327fc7da7bbc1a"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/chapter-4201a94048b03ac08ade.json",
+      "sha256": "5e54a156bc77403e5e2624885ce1cb2120caf2afa51456a973c400f51125a8b5"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/layout-e576869a8f6d322c0945.json",
+      "sha256": "1437db2fa13915036f2a1cc0a57292fb379ff4d77507ae856edb50375a8d53dd"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/layout-49d946c3b9fc579e0e9b.json",
+      "sha256": "905cc7388b2f36d554a35fd0c29d41290e2d9fc4bee4892258c0a1190d262d87"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/layout-527640f4bf4532fe4fb9.json",
+      "sha256": "ac698442396febcebdcff5a79cb71ee574d83276f982c4a873e4b98ff7d32d77"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/layout-a4f2db227b89fecdb2f5.json",
+      "sha256": "2b2306ff11c97e829703c257f4059a2bf083b6b9b810aa595174b76a36e42b7d"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/layout-1f43d4eb39947fbc947b.json",
+      "sha256": "b2f0546bdbd0907044b53d9abddba72432fc204d5ac08b3f39727c8c426c9411"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/layout-e9a8b73f70d69862b985.json",
+      "sha256": "8707749ce841a9b61c795402ccf108469ff1bab5cbe66b4a6ccf21ef11187dad"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/layout-50b71db5acea7143766d.json",
+      "sha256": "6f409b9ff3a772f61db53b7c5e12a15908af51a1ff95cb3c52ddc6b34cfd0acb"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/layout-b54509dd75902910149a.json",
+      "sha256": "3bd72199829bbc455b73ad55fc6b1d69d72af5ae270ef1c7287bcb9d7401fc26"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/layout-aaa3bd094c7bd0cc3351.json",
+      "sha256": "8db2c08b6f05c6c9998a65dd3f141bba95c840e40fde0f98d368ebd8075dfcbd"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/layout-4201a94048b03ac08ade.json",
+      "sha256": "b6854c90aff535397955dc9c60f10e1527aa436375181d7aea286dc68a8b6b6f"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/layout-83ca68be6227af2feb15.json",
+      "sha256": "19d75c352598e8ef5f49d759ba5774e02ebfc37623bd3560b525a0dcacb8ab26"
+    },
+    {
+      "path": "submissions/11eff3d9-c7b2-49fd-8515-d49742436553/units/notes-83ca68be6227af2feb15.json",
+      "sha256": "53e074189027b5c2036801b035f1171dabe4ab2cf556ad9231044288fbcf35c1"
+    }
+  ]
+}

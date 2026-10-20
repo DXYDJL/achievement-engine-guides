@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umuy89xfj19",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umuy89xfj19",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umuy89xfj19",
+      "field": "chapter",
+      "operation": "add",
+      "after": "装备"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umuy89xfj19",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umuy89xfj19",
+      "field": "description",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umuy89xfj19",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

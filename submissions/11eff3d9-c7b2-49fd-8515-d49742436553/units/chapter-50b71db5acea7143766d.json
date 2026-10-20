@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umuy89xfjb",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umuy89xfjb",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umuy89xfjb",
+      "field": "chapter",
+      "operation": "add",
+      "after": "曼哈顿事件"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umuy89xfjb",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umuy89xfjb",
+      "field": "description",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umuy89xfjb",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

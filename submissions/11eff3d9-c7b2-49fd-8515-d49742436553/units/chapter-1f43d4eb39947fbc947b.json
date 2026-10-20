@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umuy89xfj1k",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umuy89xfj1k",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umuy89xfj1k",
+      "field": "chapter",
+      "operation": "add",
+      "after": "收集"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umuy89xfj1k",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umuy89xfj1k",
+      "field": "description",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umuy89xfj1k",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

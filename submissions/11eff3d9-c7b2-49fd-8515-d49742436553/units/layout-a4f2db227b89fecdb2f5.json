@@ -1,0 +1,18 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umuy89xfj1e",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umuy89xfj1e",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "NEW_ACHIEVEMENT_1_35",
+        "NEW_ACHIEVEMENT_1_36",
+        "NEW_ACHIEVEMENT_1_37",
+        "NEW_ACHIEVEMENT_1_34"
+      ]
+    }
+  ]
+}
