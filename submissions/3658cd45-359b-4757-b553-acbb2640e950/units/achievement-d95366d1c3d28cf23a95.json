@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "spoiled_dinner",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "spoiled_dinner",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "spoiled_dinner"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "spoiled_dinner",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "spoiled_dinner",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "spoiled_dinner",
+      "field": "note",
+      "operation": "add",
+      "after": "完成关卡「亚曼托」。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "spoiled_dinner",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}
