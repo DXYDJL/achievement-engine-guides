@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "dlc_01_real_colonel",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_real_colonel",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "dlc_01_real_colonel"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_real_colonel",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_real_colonel",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_real_colonel",
+      "field": "note",
+      "operation": "add",
+      "after": "流程成就。完成「THE TWO COLONELS」章节。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "dlc_01_real_colonel",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}
