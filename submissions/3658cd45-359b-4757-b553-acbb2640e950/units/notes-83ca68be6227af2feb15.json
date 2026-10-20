@@ -1,0 +1,88 @@
+{
+  "entityType": "notes",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "missable",
+      "operation": "add",
+      "after": [
+        {
+          "achievement_id": "coachman",
+          "chapter": "章节特定 · 莫斯科",
+          "reason": "炸火车时才有一次机会，必须在门左侧互动，本章过后无法补。"
+        },
+        {
+          "achievement_id": "on_the_air",
+          "chapter": "章节特定 · 冬季",
+          "reason": "安娜展示地图时才有机会调收音机，进入下一关就没了。"
+        },
+        {
+          "achievement_id": "d1",
+          "chapter": "章节特定 · 伏尔加河",
+          "reason": "由道德点决定，离开伏尔加河时定去留。"
+        },
+        {
+          "achievement_id": "d2",
+          "chapter": "章节特定 · 里海",
+          "reason": "由道德点决定，离开里海时定去留。"
+        },
+        {
+          "achievement_id": "a3",
+          "chapter": "章节特定 · 针叶林",
+          "reason": "由道德点决定，离开针叶林时是否负伤。"
+        },
+        {
+          "achievement_id": "forest_child",
+          "chapter": "章节特定 · 针叶林",
+          "reason": "必须全程潜行、不杀不发现，中途失误就得整章重打。"
+        },
+        {
+          "achievement_id": "5oclock",
+          "chapter": "章节特定 · 针叶林",
+          "reason": "上校让你坐下时必须坐下，只有那一次。"
+        },
+        {
+          "achievement_id": "righteous_vengeance",
+          "chapter": "章节特定 · 亚曼托",
+          "reason": "需要在本关内杀满 90 个食人族，出关后没有食人族可打。"
+        },
+        {
+          "achievement_id": "guide",
+          "chapter": "章节特定 · 死城",
+          "reason": "必须全程不击杀盲人通过研究设施。"
+        },
+        {
+          "achievement_id": "dlc_01_quite_heavy",
+          "chapter": "DLC · 两个上校",
+          "reason": "诺萨里斯只在上校进入地堡后出现。"
+        },
+        {
+          "achievement_id": "dlc_01_just_scratch",
+          "chapter": "DLC · 两个上校",
+          "reason": "整章不能使用任何医疗包。"
+        },
+        {
+          "achievement_id": "dlc_02_untouchable",
+          "chapter": "DLC · 山姆的故事",
+          "reason": "三场恶魔 boss 战都不能死亡。"
+        }
+      ]
+    },
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "new_game_plus",
+      "operation": "add",
+      "after": "本体最少可以 2 周目完成：一周目游骑兵难度 + 好结局全部留队，二周目钢铁模式 + 坏结局 + 新游戏+。中间有一些章节成就不要错过。\n游戏成就部分有 bug，增强版与普通版成就相同。"
+    },
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "tips",
+      "operation": "add",
+      "after": "⚠️ 存档 bug：已有一版全成就、想再打另一版全成就的请注意 —— 此游戏有 bug。增强版没有云存档，如果玩过增强版再玩普通版（反之亦然），会导致部分已解锁成就无法统计（杀敌累计、武器累计）。\n解决办法：下载完成后删除游戏在本地保存路径（把整个 Metro Exodus 保存路径删掉，打开游戏会创建新的）；已经开始游戏的可以备份存档、创建新的再导入。\n归其原因是因为云存档保存路径错误，所以在进行普通版游玩时一定关闭云存档！！！\n\n难度：本作 AI 大幅提升。最高难度下潜行非常难，近距离挨不了一枪、远距离两枪，拿狙的敌人一枪打死你。最低难度速通时，非强制战斗可以直接跑路。"
+    }
+  ]
+}
